@@ -1,0 +1,475 @@
+---
+title: "Lab 1: Introduction and APA Style Review "
+title-slide-attributes:
+  
+  data-background-image: images/Edge_1.png,
+                         images/Edge_1_inverted.png
+                         
+  data-background-size: 15%,
+                        15%
+                        
+  data-background-position: 0% 0%,
+                            100% 100%
+  
+  data-background-opacity: 100%
+  
+  #data-visibility: uncounted
+  
+author: "Fabio Setti"
+date: "Fall 2023"
+format:
+   revealjs:
+      footer: "Lab 1: Introduction and APA Style Review"
+      chalkboard: true
+      theme: Memory_lab_theme.scss
+      navigation-mode: linear
+      controls: false
+      slide-number: c 
+      width: 1280
+      height: 720
+      #parallax-background-image: images/Brain_lightbulb_L.jpg
+      #logo: images/Brain_lightbulb_L.jpg
+
+editor: source
+---
+
+
+
+## A Bit About Myself 👋 {.smaller}
+
+::: {layout-ncol="2"}
+::: col
+::: {.fragment fragment-index="1"}
+Hi there, I am Fabio, an international student from Italy! 🍕 🤌
+:::
+
+::: {.fragment fragment-index="2"}
+**Education:**
+
+1.  Bachelor in psychology at the University of Padua, Italy
+:::
+
+::: {.fragment fragment-index="3"}
+2.  M.S. in quantitative psychology at Illinois State University (Bloomington, IL)
+:::
+
+::: {.fragment fragment-index="4"}
+3.  Currently, I am a 2~nd~ year Ph.D. student in Psychometrics and Quantitative Psychology (PQP) at Fordham
+:::
+:::
+
+::: col
+::: r-stack
+![](images/Italy_map.png){.fragment .fade-in-then-out width="500" fragment-index="1"}
+
+![](images/unipd.png){.fragment .fade-in-then-out width="500" fragment-index="2"}
+
+![](images/ISU_pic.jpg){.fragment .fade-in-then-out width="400" fragment-index="3"}
+
+![](images/Fordham_University_Keating_Hall.jpg){.fragment .fade-in width="500" fragment-index="4"}
+:::
+:::
+:::
+
+## Your Turn!
+
+::: {layout-ncol="2"}
+::: col
+
+<br /> <br />
+
+-   What is your name?
+
+-   Where are you from?
+
+-   Preferred pronouns?
+
+-   What are your plans after you graduate? (grad school, post-bacc, job market, etc...)
+:::
+
+::: col
+![](images/Talking_to_each_other.png)
+:::
+:::
+
+
+<!-- # {background-image="images/Syllabus-2.jpg" background-opacity=".7"} -->
+
+
+# {} 
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<br /> <br />
+<br /> <br />
+
+<p style=" 
+
+  font-size: 2.7em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Lab Syllabus 
+  
+</p>
+
+
+:::
+
+
+:::col
+![](images/Books_stack.png)
+
+:::
+:::
+
+## Lab Information {.scrollable}
+
+::: panel-tabset
+### R01 Section
+
+**Meting time**: Fridays, <ins> 10:00am -- 11:20am <ins>
+
+**Lab Room**: Dealy 326 (Probably)
+
+**Lab instructor**: Fabio Setti
+
+-   Email: fsetti\@fordham.edu
+-   Office: zoom
+-   Office hours: [When to meet (TBD)](https://www.when2meet.com/?20669934-YsXJj){preview-link="true"}
+
+### R02 Section
+
+**Meting time**: Fridays, <ins> 1:00pm - 2:20pm <ins>
+
+**Lab Room**: Dealy 326 (Probably)
+
+**Lab instructor**: Fabio Setti
+
+-   Email: fsetti\@fordham.edu
+-   Office: zoom
+-   Office hours: [When to meet (TBD)](https://www.when2meet.com/?20669934-YsXJj){preview-link="true"}
+:::
+
+## Lab Goals {.smaller}
+
+![](images/Analytics_research.png){.absolute top="200" right="20" width="350" height="300"}
+
+The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research experience*, as such, we will mostly focus on the following aspect of research:
+
+::: {.fragment .fade-in-then-semi-out}
+-   **Data collection:** Classical experiments in the field of memory research.
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+-   **Method:** Identifying variables being measured and experimental design.
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+-   **Results:** Choosing the appropriat data analysis procedure.\
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+-   **Discussion:** Interpreting and evaluating results.
+:::
+
+::: fragment
+<br /> <br />
+
+<p style="text-align: center;">**I will try to make this process as interactive as possible, so as to simulate a real-world research experience where you are the researchers.**</p>
+
+<br /> <br />
+:::
+
+## Lab Materials
+
+We will use the 3 following software for this lab:
+
+::: {.fragment .fade-in fragment-index="1"}
+1.  [Blackboard](https://www.blackboard.com){preview-link="true"}: Lab material, assignments submission.
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
+2.  [Coglab](https://coglab.cengage.com){preview-link="true"}: In cLass experiments and data collection.
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+3.  [SPSS](https://www.fordham.edu/information-technology/standard-software/spss-for-home-use/){target="_blank"}: Data analysis.
+:::
+:::{layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="1"}
+![](images/Blackboard_logo.png){width="235"}
+:::
+::: {.fragment .fade-in fragment-index="2"}
+![](images/Coglab_logo.png){width="300"}
+:::
+::: {.fragment .fade-in fragment-index="3"}
+![](images/SPSS_logo.png){width="235"}
+:::
+:::
+
+
+## Grading
+::: panel-tabset
+
+### Lab Reports (140~pts~)
+
+<p style = "font-size:28px;">There will be **4 lab reports** throughout the semester. Each lab report will focus on a different Coglab experiment.</p>
+
+<p style = "font-size:28px;">Each lab report will progressively include more section, with only the 4~th~ lab report actually being a *full* lab report:</p>
+
+:::{.fragment .fade-in fragment-index="1"}
+
+- <p style = "font-size:28px;"> **Lab Report 1.** Title page, Abstract, Introduction, References (**20~pts~**) </p>
+
+- <p style = "font-size:28px;"> **Lab Report 2.** Title page, Abstract, Introduction, Method, references (**30~pts~**) </p>
+
+- <p style = "font-size:28px;"> **Lab Report 3.** Title page, Abstract, Introduction, Method, Results, References (**40~pts~**) </p>
+
+- <p style = "font-size:28px;"> **Lab Report 4.** Title page, Abstract, Introduction, Method, Results, Discussion, References (**50~pts~**) </p>
+
+:::
+
+### Presentation (60~pts~) 
+
+<p style = "font-size:28px;"> Every student will choose an article from a list of articles and present for 10-15 minutes. </p>
+
+<p style = "font-size:28px;"> The presentation should cover the major points of the article and will follow this grading rubric (more on the presentation during next lab): </p>
+
+
+:::{.fragment fragment-index="2"}
+
+<p style = "font-size:22px;"> Introduction **(10~pts~)** </p>
+<p style = "font-size:22px;">  Results **(15~pts~)** </p>
+<p style = "font-size:22px;"> Method **(15~pts~)**   </p>
+<p style = "font-size:22px;"> Discussion **(10~pts~)** </p>
+<p style = "font-size:22px;"> Delivery **(10~pts~)** </p>
+
+:::
+
+:::{.fragment fragment-index="3"}
+
+<p style="text-align: center; font-size:28px; text-decoration: underline; text-decoration-color: red;"> We will choose presentation articles at the beginning of the next lab, So, by next lab, try to look over the articles and identify some you would like to present. </p>
+
+:::
+
+### Participation (60~pts~) {.smaller}
+
+:::{layout-ncol="2"}
+
+::: col
+<p style = "font-size:22px; "> During the lab following each Coglab experiment, we will collectively identify the experimental design, conduct data analysis in SPSS, and discuss the results. </p>
+
+:::{.fragment .fade-in fragment-index="4"}
+<p style = "font-size:18px; text-align: center; border-width:3px; border-style:solid; border-color:#6971E0; padding: .5em;"> **The idea is to work as a big research team, so everyone should participate.** </p>
+:::
+
+
+::: {.fragment .fade-in fragment-index="5"}
+<p style = "font-size:22px;">  **Attendance** is important both for class participation and for running Coglab experiments. 2 excused/unexcused absences are allowed:</p>
+
+
+> After the 2~nd~ absence, any additional absence will need documentation from your academic Dean, otherwise, 20 points will be deducted from your final lab grade for each additional absence. (Lab Syllabus, p.2)
+:::
+:::
+
+::: col
+![](images/Discussion_business.png){width="535"}
+:::
+
+:::
+
+:::
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# {} 
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<br/> 
+
+<p style=" 
+
+  font-size: 2.7em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Some APA Style Review 😫😴
+  
+</p>
+
+
+:::
+
+
+:::col
+![](images/APA_style.png)
+
+:::
+:::
+
+
+## In-text Citations {.smaller}
+
+According to the American Psychology association (APA), in-text citations must be used when you cite someone's "...ideas, theories, or research..."(APA publication manual, 2019, p. 281). For example:
+
+:::{.fragment}
+
+> Employees experience negative outcomes such as stress and disengagement when their organizational leaders lack emotional and social skills **(Nowack & Zak, 2020)**. 
+
+:::
+
+:::{.fragment}
+
+As you can see, the general form of an In-text citation is the *(author~(s)~ name~(s)~, publication year)*. When the source has *3 or more authors*, you should just cite the first author followed by *et. al*:
+
+> Children with autism spectrum disorder are often very selective about what food they will eat and experience difficulties during mealtimes (Burrell **et al.**, 2019).
+
+:::
+
+:::{.fragment}
+
+Finally, you can also cite someone by using them as the sentence subject:
+
+> **Burrell et al. (2019)** discussed how children with autism spectrum disorder are often very selective about what food they will eat and experience difficulties during mealtimes.
+
+:::
+
+
+## Multiple In-text citations and Direct quotes {.smaller}
+
+:::{.fragment}
+Sometimes, you need to cite multiple sources to back up one of your statements. If so, remember that the sources should be *ordered alphabetically* and separated by a "*;*":
+
+> Several studies have replicated these results (**B**rown, 2009**;** **P**orter, 2004**;** **S**mith, 2015, 2017).
+:::
+
+<br /> <br />
+
+:::{.fragment}
+
+**Direct quotes** from other sources function very similar to in-text citations, but have a few differences; when the quote is *under 40 words*, the only addition necessary is enclosing the sentence within *quotations* and including the *page number*:
+
+> According to a recent paper, “quotes can be useful in academic writing” (Singh et al., 2019**, p. 25**).
+
+:::
+
+:::{.fragment}
+When the quote is *over 40 words*, you need to enclose the sentence within a [block-quote](https://www.scribbr.com/working-with-sources/block-quote/){target="_blank"}. 
+
+However, I don't think that this case should come up in your lab reports.
+:::
+
+## References: Journal Article {.smaller}
+
+At its end, every APA style manuscript should have a "references" section including the full references of all the sources cited in the main text. <u> The format of the reference changes depending on the source </u>(e.g., journal article, [book chapter](https://guides.library.uq.edu.au/referencing/apa7/book-chapter){target="_blank}, poster presentation, etc..). 
+
+By far, the most common type of sources are *journal articles*. The general format for journal article references is:
+
+[Author, A. A., Author, B. B., & Author, C. C.]{.fragment fragment-index="1" style="color: red;"}[(Year of publication).]{.fragment fragment-index="2" style="color: blue;"}[Title of article.]{.fragment fragment-index="3" style="color: orange;"}[*Title of Journal*,]{.fragment fragment-index="4" style="color: magenta;"}[*volume number*]{.fragment fragment-index="5" style="color: grey;"}[(issue number),]{.fragment fragment-index="6" style="color: HotPink;"} [pages.]{.fragment fragment-index="7" style="color: purple;"}
+
+:::{.fragment fragment-index="1"}
+> [Azen, R., & Budescu, D. V.]{.fragment fragment-index="1" style="color: red;"} [(2006).]{.fragment fragment-index="2" style="color: blue;"} [Comparing predictors in multivariate regression models: An extension of dominance analysis.]{.fragment fragment-index="3" style="color: orange;"} [*Journal of Educational and Behavioral Statistics*,]{.fragment fragment-index="4" style="color: magenta;"} [*31*]{.fragment fragment-index="5" style="color: grey;"}[(2),]{.fragment fragment-index="6" style="color: HotPink;"} [157–180.]{.fragment fragment-index="7" style="color: purple;"}
+:::
+
+<br /> <br />
+
+:::{.fragment fragment-index="8"}
+<p style="text-align: center;"> **There are many types of sources, so always make sure you are using the correct reference format.** </p>
+:::
+
+
+## Numbers
+
+:::{.fragment}
+**1.** Always spell out numbers when the number in question is not a statistic, below 10 OR is at the beginning of a line (e.g., "two" instead of "2"). Always use numerals for 10 or above.
+:::
+
+<br/> 
+
+:::{.fragment}
+**2.** Round all numbers to **2 decimal places**. However, always round **p-values** to **3 decimal place**. 
+:::
+
+<br/>
+
+:::{.fragment}
+**3.** Use a leading 0 only for numbers that can be larger than 1. For example, correlations and *p*-values can only range between -1/1 and 0/1 respectively and do no need a leading 0 (e.g., "*r* = .57" instead of "*r* = 0.57") 
+:::
+
+## Abbreviations
+
+Abbreviations are usually employed for words that are repeated multiple times throughout a manuscript (e.g., "APA" in these slides). 
+
+<br/>
+
+:::{.fragment}
+The only rule to remember is to introduce the abbreviation the *1~st~ time the full word is presented*, and then *only* use the abbreviation for the rest of the paper:
+
+> **Response time (RT)** was used as a measure of reaction speed. However, one has to keep in mind that pure **RT** may not fully capture the construct under investigation.
+:::
+
+
+:::{.fragment}
+Finally, Remember that using too many abbreviations may cause confusion. 
+:::
+
+
+## Resources for All Your APA Style Needs 
+
+There are many APA style resources. Some notable ones are...
+
+:::{.fragment}
+- [APA style Handouts and guides](https://apastyle.apa.org/instructional-aids/handouts-guides#mastering){preview-link="true"}: Checklists and examples of common APA style practices.
+:::
+
+:::{.fragment}
+- [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html){preview-link="true"}: Comprehensive and neatly packaged APA style guides. 
+:::
+
+:::{.fragment}
+- [APA Publicartion Manual](https://apastyle.apa.org/products/publication-manual-7th-edition){preview-link="true"}: Goes without saying, but contains everything you need to know about APA. 
+:::
+
+:::{.fragment}
+- [Google](https://www.google.com){target="_blank"}: I know this sounds obvious, but just about all the answers you need can be found by knowing what to look for in Google (maybe even PDFs of certain publication manuals? 🤫). 
+:::
+
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)
+
+
