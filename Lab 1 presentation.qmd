@@ -5,8 +5,8 @@ title-slide-attributes:
   data-background-image: images/Edge_1.png,
                          images/Edge_1_inverted.png
                          
-  data-background-size: 15%,
-                        15%
+  data-background-size: 13%,
+                        13%
                         
   data-background-position: 0% 0%,
                             100% 100%
@@ -16,8 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
-subtitle: "PSYC 2401-Memory Lab"
-date: "Fall 2023"
+date: "PSYC 2401 Lab <br> Fall 2023"
 format:
    revealjs:
       footer: "Lab 1: Introduction and APA Style Review"

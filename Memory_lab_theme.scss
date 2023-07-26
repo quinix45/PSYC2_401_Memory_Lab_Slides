@@ -14,17 +14,16 @@ $presentation-heading-font: "League Gothic", Impact, sans-serif !default;
 
 $presentation-heading-font-weight: 100 !important;
   
-$presentation-heading-color: #383d3d !default;
-
+  
 // title 
 $presentation-h1-font-size: 1.8em !default;
 
 
-
 /*-- scss:rules --*/
 
-// extra font size
 
+
+// extra font size
 
 .reveal a {
   line-height: 1.3em;
@@ -32,9 +31,6 @@ $presentation-h1-font-size: 1.8em !default;
 
 // title slide
 
-//.reveal .title-slide{
-//  
-//}
 
 .reveal .slide blockquote {
   border-left: 3px solid $text-muted;

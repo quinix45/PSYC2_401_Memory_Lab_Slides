@@ -1,0 +1,42 @@
+---
+title: "Lab 2: Presentation and Lab Reports"
+title-slide-attributes:
+  
+  data-background-image: images/Edge_1.png,
+                         images/Edge_1_inverted.png
+                         
+  data-background-size: 13%,
+                        13%
+                        
+  data-background-position: 0% 0%,
+                            100% 100%
+  
+  data-background-opacity: 100%
+  
+  #data-visibility: uncounted
+  
+author: "Fabio Setti"
+date: "PSYC 2401 Lab <br> Fall 2023"
+format:
+   revealjs:
+      footer: "Lab 2: Presentation and Lab Reports"
+      chalkboard: true
+      theme: Memory_lab_theme.scss
+      navigation-mode: linear
+      controls: false
+      slide-number: c 
+      width: 1280
+      height: 720
+      #parallax-background-image: images/Brain_lightbulb_L.jpg
+      #logo: images/Brain_lightbulb_L.jpg
+
+editor: source
+---
+
+
+
+## 
+
+hi there
+
+
