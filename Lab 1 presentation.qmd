@@ -16,6 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
+subtitle: "PSYC 2401-Memory Lab"
 date: "Fall 2023"
 format:
    revealjs:
