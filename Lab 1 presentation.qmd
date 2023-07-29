@@ -27,6 +27,7 @@ format:
       slide-number: c 
       width: 1280
       height: 720
+      transition-speed: slow
       #parallax-background-image: images/Brain_lightbulb_L.jpg
       #logo: images/Brain_lightbulb_L.jpg
 
@@ -96,7 +97,7 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 <!-- # {background-image="images/Syllabus-2.jpg" background-opacity=".7"} -->
 
 
-# {} 
+# {transition="zoom"}
 
 
 ::: {layout-ncol="2"}
@@ -131,7 +132,9 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 :::
 :::
 
-## Lab Information {.scrollable}
+## Lab Information
+
+![](images/Books_stack.png){.absolute top=-50 right=-50 width="80" height="80"}
 
 ::: panel-tabset
 ### R01 Section
@@ -161,9 +164,11 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 ## Lab Goals {.smaller}
 
+![](images/Books_stack.png){.absolute top=-50 right=-50 width="80" height="80"}
+
 ![](images/Analytics_research.png){.absolute top="200" right="20" width="350" height="300"}
 
-The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research experience*, as such, we will mostly focus on the following aspect of research:
+The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research experience*, as such, we will mostly focus on the following aspects of research:
 
 ::: {.fragment .fade-in-then-semi-out}
 -   **Data collection:** Classical experiments in the field of memory research.
@@ -190,6 +195,8 @@ The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research exp
 :::
 
 ## Lab Materials
+
+![](images/Books_stack.png){.absolute top=-50 right=-50 width="80" height="80"}
 
 We will use the 3 following software for this lab:
 
@@ -218,6 +225,9 @@ We will use the 3 following software for this lab:
 
 
 ## Grading
+
+![](images/Books_stack.png){.absolute top=-50 right=-50 width="80" height="80"}
+
 ::: panel-tabset
 
 ### Lab Reports (140~pts~)
@@ -306,7 +316,7 @@ We will use the 3 following software for this lab:
 <!-- empty column to create gap -->
 :::
 
-# {} 
+# {transition="zoom"}
 
 
 ::: {layout-ncol="2"}
@@ -343,6 +353,8 @@ We will use the 3 following software for this lab:
 
 ## In-text Citations {.smaller}
 
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
+
 According to the American Psychology association (APA), in-text citations must be used when you cite someone's "...ideas, theories, or research..."(APA publication manual, 2019, p. 281). For example:
 
 :::{.fragment}
@@ -368,7 +380,9 @@ Finally, you can also cite someone by using them as the sentence subject:
 :::
 
 
-## Multiple In-text citations and Direct quotes {.smaller}
+## Multiple In-text citations and Direct </br> quotes {.smaller}
+
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
 
 :::{.fragment}
 Sometimes, you need to cite multiple sources to back up one of your statements. If so, remember that the sources should be *ordered alphabetically* and separated by a "*;*":
@@ -394,6 +408,8 @@ However, I don't think that this case should come up in your lab reports.
 
 ## References: Journal Article {.smaller}
 
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
+
 At its end, every APA style manuscript should have a "references" section including the full references of all the sources cited in the main text. <u> The format of the reference changes depending on the source </u>(e.g., journal article, [book chapter](https://guides.library.uq.edu.au/referencing/apa7/book-chapter){target="_blank}, poster presentation, etc..). 
 
 By far, the most common type of sources are *journal articles*. The general format for journal article references is:
@@ -407,11 +423,13 @@ By far, the most common type of sources are *journal articles*. The general form
 <br /> <br />
 
 :::{.fragment fragment-index="8"}
-<p style="text-align: center;"> **There are many types of sources, so always make sure you are using the correct reference format.** </p>
+<p style="text-align: center;"> **There are many types of sources, so always make sure you are using the correct reference format given the source.** </p>
 :::
 
 
 ## Numbers
+
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
 
 :::{.fragment}
 **1.** Always spell out numbers when the number in question is not a statistic, below 10 OR is at the beginning of a line (e.g., "two" instead of "2"). Always use numerals for 10 or above.
@@ -426,10 +444,12 @@ By far, the most common type of sources are *journal articles*. The general form
 <br/>
 
 :::{.fragment}
-**3.** Use a leading 0 only for numbers that can be larger than 1. For example, correlations and *p*-values can only range between -1/1 and 0/1 respectively and do no need a leading 0 (e.g., "*r* = .57" instead of "*r* = 0.57") 
+**3.** Use a leading 0 only for numbers that can be larger than 1. For example, correlations and *p*-values can only range between -1/1 and 0/1 respectively, and do not need a leading 0 (e.g., "*r* = .57" instead of "*r* = 0.57") 
 :::
 
 ## Abbreviations
+
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
 
 Abbreviations are usually employed for words that are repeated multiple times throughout a manuscript (e.g., "APA" in these slides). 
 
@@ -448,6 +468,8 @@ Finally, Remember that using too many abbreviations may cause confusion.
 
 
 ## Resources for All Your APA Style Needs 
+
+![](images/APA_style.png){.absolute top=-50 right=-50 width="120" height="80"}
 
 There are many APA style resources. Some notable ones are...
 

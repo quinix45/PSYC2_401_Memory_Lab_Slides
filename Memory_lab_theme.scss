@@ -53,6 +53,24 @@ $presentation-h1-font-size: 1.8em !default;
 }
 
 
+// author
+
+.author {
+font-family: "League Gothic", sans-serif !important;
+font-size: 35px !important;
+font-weight: 500 !important;
+}
+
+
+// author & date: 
+.date {
+font-family: "League Gothic", sans-serif !important;
+font-size: 30px !important;
+font-weight: 500 !important;
+}
+
+
+
 // footer
 
 .reveal .footer {

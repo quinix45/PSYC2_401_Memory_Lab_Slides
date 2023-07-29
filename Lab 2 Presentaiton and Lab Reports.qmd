@@ -27,6 +27,7 @@ format:
       slide-number: c 
       width: 1280
       height: 720
+      transition-speed: slow
       #parallax-background-image: images/Brain_lightbulb_L.jpg
       #logo: images/Brain_lightbulb_L.jpg
 
@@ -35,8 +36,372 @@ editor: source
 
 
 
-## 
+## {}
 
-hi there
+::: {layout-ncol="2"}
+
+::: col
+
+
+<p style=" 
+
+  font-size: 1.3em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; ">  So, what are we up to today?
+  
+</p>
+
+</br>
+
+:::{.fragment fragment-index="1"}
+<p style="font-size: 32px; text-align: center;"> Last time I taught this lab, a good deal of students either asked or suggested to go over what I expect for **presentations** and **lab reports** in more detail...
+</p>
+:::
+
+</br>
+</br>
+
+:::{.fragment fragment-index="2"}
+<center> Today, we are doing just that! </center>
+:::
+
+:::
+
+
+:::col
+
+<center> ![](images/Brain_question.png){width="300"} </center>
+
+</br>
+</br>
+
+:::{.fragment fragment-index="2"}
+<center> ![](images/Brain_thumbsup.png){width="400"} </center>
+:::
+
+:::
+:::
+
+
+
+# {transition="zoom"} 
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<br/> 
+<br/> 
+<br/> 
+
+<p style=" 
+
+  font-size: 2.7em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Presentation
+  
+</p>
+
+
+:::
+
+
+:::col
+
+
+<br/> 
+
+![](images/Presentation_woman.png)
+
+
+:::
+:::
+
+
+## Presentation Grading Rubric{.smaller}
+
+<center> The presentation grading rubric is a divided in 5 sections: </center>
+
+</br>
+
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+
+::: {layout-ncol="3"}
+
+:::{.fragment}
+:::col
+<center> <a href="#/introduction">**Introduction:**</a>
+</br>
+The student presents the topic and background literature in enough detail. The *rationale* as to why the researcher are conducting the *experiment* is *clearly laid out*. (**10pts**) </center>
+:::
+:::
+:::{.fragment}
+:::col
+<center> <a href="#/method">**Method:**</a> 
+</br>
+The *experimental design*, the *variables being measured*, and the *way in which the variables are measured* are presented in a clear but succinct way. (**15pts**)
+</center>
+:::
+:::
+:::{.fragment}
+:::col
+<center> <a href="#/results">**Results:**</a> 
+</br>
+The student understands the *results* and the *statistics* involved with the results and is able to clearly convey this information to the audience.  (**15pts**)
+</center>
+:::
+:::
+:::
+
+
+::: {layout-ncol="2"}
+
+:::{.fragment}
+:::col
+<center> <a href="#/discussion">**Discussion:**</a> 
+</br>
+The results are quickly summarized, and the main discussion points (i.e., possible explanation of results, implications, limitations) are identified and presented.  (**10pts**)
+</center>
+:::
+:::
+:::{.fragment}
+:::col
+<center> <a href="#/delivery">**Delivery:**</a>
+</br>
+The student delivers the presentation in an engaging way, without using any notes. Some notes are fine, but *clearly reading from notes will result in high point deduction*. (**10pts**)
+</center>
+:::
+:::
+:::
+
+
+## Introduction
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+[<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
+
+
+In this part of the presentation, you should focus on the following points of your article:
+
+:::{.fragment}
+
+- **Background about the topic:** What is the topic of the article? What research has been done on it? 
+
+:::
+
+:::{.fragment}
+
+- **Gaps in the literature:** What research is missing? What questions *has not* been explored? 
+:::
+
+:::{.fragment}
+- **The current study:** <strong> Why </strong> is the current study being done? What are the variables involved (IV and DV)? What are the hypotheses (if any)?
+:::
+
+:::{.fragment}
+<center> suggestion: **2/3 slides**  </center> 
+:::
+
+
+## Method
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+[<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
+
+Usually, the method section is divided into the following subsections: 
+
+
+:::{.fragment}
+- **Participants:** What is the demographic composition of the sample? How many participants are there?
+:::
+
+:::{.fragment}
+- **Materials:** How were the variables measured? What are the values of the measured variable (e.g., "the possible values of the IV ranged from 0 to 100")? 
+:::
+
+:::{.fragment}
+- **Procedure:** What was the experimental design? How did the experiment take place?
+:::
+
+:::{.fragment}
+<center> suggestion: **1/2 slides** </center>
+:::
+
+
+## Results 
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+[<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
+
+<center>  This is the part where you present the statistics (😒) </center>
+
+
+<ul style ="font-size:28px; padding-top: 1em;">
+:::{.fragment}
+<li>  Remember that this is supposed to be a short presentation, so you should only report the most important statistics (i.e., the ones directly related to the main hypotheses). </li> 
+:::
+
+:::{.fragment}
+<li>  <u> Make use of figures (e.g., bar charts) as much as possible </u>. This always makes it so much easier to understand the results. Tables can also help. </li> 
+:::
+
+:::{.fragment}
+<li>  Explain what the statistics mean in *plain English*, do not just say "*this results was significant*". Something like "*so, this statistic tells use that group A had significantly better recall than group B*." </li> 
+:::
+
+</ul>
+
+:::{.fragment}
+<center> if you struggle with the statistics in your paper (or statistics in general), please, come to my office hours. </center>
+:::
+
+:::{.fragment}
+ <p style ="padding-top: 15px;"> <center> suggestion: **2/3 slides** </center></p>
+:::
+
+## Discussion
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+[<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
+
+The discussion is usually where the researchers briefly summarize the results and provide personal opinions about the study. The important points to identify are:
+
+
+<ul style = "font-size: 35px">
+
+:::{.fragment}
+<li> **Results Summary:** Briefly recap the main findings. </li>
+:::
+
+:::{.fragment}
+<li> **Interpretation and Implications:** Where the main hypotheses supported? Why were certain results observed? 
+What are the practical implications of the results? </li>
+:::
+
+:::{.fragment}
+<li> **Limitations:** What are some possible issues with the study? </li>
+:::
+
+:::{.fragment}
+<li> **Future directions:** What research should be done next?  </li>
+:::
+</ul>
+
+
+:::{.fragment}
+<p style ="padding-top: 15px;"> <center> suggestion: **2/3 slides** </center></p>
+:::
+
+
+## Delivery
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+[<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
+
+<p style = "font-size: 33px; padding-bottom: 25px;"> How you deliver your presentation is also important. I understand that delivery is hard for some, but you are going to be doing this more and more moving on, so you should take every chance to practice getting more comfortable. </p>
+
+:::{.fragment}
+<center> <p style = "font-size: 35px"> Some personal (others may disagree) advice is: </p> </center>
+:::
+
+<ul style = "font-size: 30px">
+:::{.fragment}
+<li> <u> Do not prepare scripts or read from your notes </u>. Just avoiding doing this should be enough for a good **Delivery** grade. </li>
+:::
+
+:::{.fragment}
+<li> Keep your slides low in word count. Most of the content should be convayed orally. </li>
+:::
+
+:::{.fragment}
+<li> Try to convey to the audience that you are interested in your topic. </li>
+:::
+
+:::{.fragment}
+<li> It is ok to pause to gather your thoughts or read notes in between slides. </li>
+:::  
+  
+</ul>
+
+:::{.fragment}
+<center>  <p style = "font-size: 35px"> Again, I know this is really hard for some, but presenting is a very important skill in our field. </p> </center>
+:::
+
+## A note on the Presentation Structure
+
+![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+The grading rubric follows the classical scientific journal article structure (i.e., Introduction, Method, etc...).
+
+</br>
+
+:::{.fragment} 
+
+Remember that this structure exists because it works well. When you create your presentation, *make sure that your slides follow this structure*:
+
+<strong><center> Introduction &rarr;  Method &rarr; Reuslts &rarr; Discussion </center></strong>
+
+:::
+
+</br>
+
+:::{.fragment}
+
+<center> Every section of the article is necessary for the audience to fully understand the presented material. </center>
+
+:::
+
+## DOs and DON'Ts 
+
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+
+
+
+
+
+
+
+
+
+
 
 
