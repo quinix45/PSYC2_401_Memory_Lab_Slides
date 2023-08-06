@@ -34,7 +34,7 @@ format:
 editor: source
 ---
 
-# {transition="zoom"}
+# {transition="zoom" data-menu-title="Introductions"}
 
 
 ::: {layout-ncol="2"}
@@ -351,7 +351,7 @@ We will use the 3 following software for this lab:
 <!-- empty column to create gap -->
 :::
 
-# {transition="zoom"}
+# {transition="zoom" data-menu-title="APA Style Review"}
 
 
 ::: {layout-ncol="2"}
