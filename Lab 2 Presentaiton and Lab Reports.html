@@ -331,6 +331,12 @@
   <p class="date">PSYC 2401 Lab <br> Fall 2023</p>
 </section>
 
+<section class="slide level2">
+
+<div class="cell">
+
+</div>
+</section>
 <section id="section" class="slide level2" data-menu-title="Today's Lab">
 <h2></h2>
 <div class="quarto-layout-panel">
@@ -393,7 +399,279 @@ Today, we are doing just that!
 </div>
 <div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><br></p>
+<p><img data-src="images/Business-presentation.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="presentation-sign-up" class="slide level2">
+<h2>Presentation Sign-up</h2>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">R01 Section</a></li><li><a href="#tabset-1-2">R02 Section</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<script>
+  let arr = ["Annie B.", 
+             "Vlera B.",
+             "Tenzing C.", 
+             "Pia D.",
+             "Thalia G.",
+             "Taylor G.",
+             "Yu Jin I.",
+             "Jacklyn J.",
+             "Caroline L.",
+             "Elisabeth M.",
+             "Gabriela O.",
+             "Mary S.",
+             "Sara S.",
+             "Katherine S.",
+             "Gabby T."];
+ 
+function GFG_Fun() {
+
+  if (arr.length > 0)
+    
+    { 
+
+      let index = Math.floor(Math.random() * arr.length);
+      
+      let student_name = arr[index];
+      
+      
+      arr.splice(index, 1);
+      
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode(student_name);
+      
+      container.appendChild(text)
+    
+    }
+    
+  else
+
+    {
+     
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode("...and that's everyone!");
+      
+      container.appendChild(text)
+    
+    }
+    
+    
+}
+
+
+</script>
+<style>
+
+.button-1 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: #fff;
+}
+
+.button-1:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+</style>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="1">
+<p style="font-size:28px;">
+For presentations sign-ups, you will have to pick a <strong>date</strong> to present on and an <strong>article</strong> to present.
+</p>
+</div>
+<p><br></p>
+<div class="fragment" data-fragment-index="2">
+<p style="font-size:28px;">
+So, who goes first? Let’s let the button pick for us!
+</p>
+<center>
+<button class="button-1" role="button" onclick="GFG_Fun()">
+<p><span class="text"> Who’s next?<br>
+</span></p>
+</button>
+<p><br></p>
+<div id="student_names">
+
+</div>
+</center>
+</div>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="1">
 <p><img data-src="images/Presentation_woman.png"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<script>
+
+  let arr2 = ["Teagan A.", 
+              "Mary Ann A.",
+              "Devin C.", 
+              "Rachel C.",
+              "Emma G.",
+              "Brianna G.",
+              "Sade H.",
+              "Marjorie M.",
+              "Alison N.",
+              "Sofia N.",
+              "Anastasia P.",
+              "Brooke R.",
+              "Noran S.",
+              "Worokiya T.",
+              "Sarah Z."];
+ 
+function GFG_Fun_2() {
+
+  if (arr2.length > 0)
+    
+    { 
+
+      let index = Math.floor(Math.random() * arr2.length);
+      
+      let student_name_2 = arr2[index];
+      
+      
+      arr2.splice(index, 1);
+      
+      let container = document.getElementById("student_names_2");
+      
+      container.innerHTML = ""
+      
+      let text_2 = document.createTextNode(student_name_2);
+      
+      container.appendChild(text_2)
+    
+    }
+    
+  else
+
+    {
+     
+      let container = document.getElementById("student_names_2");
+      
+      container.innerHTML = ""
+      
+      let text_2 = document.createTextNode("...and that's everyone!");
+      
+      container.appendChild(text_2)
+    
+    }
+    
+    
+}
+
+
+</script>
+<style>
+
+.button-2 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover {
+  background-color: #fff;
+}
+
+.button-2:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-2 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+</style>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="1">
+<p style="font-size:28px;">
+For presentations sign-ups, you will have to pick a <strong>date</strong> to present on and an <strong>article</strong> to present.
+</p>
+</div>
+<p><br></p>
+<div class="fragment" data-fragment-index="2">
+<p style="font-size:28px;">
+So, who goes first? Let’s let the button pick for us!
+</p>
+<center>
+<button class="button-2" role="button" onclick="GFG_Fun_2()">
+<p><span class="text"> Who’s next?<br>
+</span></p>
+</button>
+<p><br></p>
+<div id="student_names_2">
+
+</div>
+</center>
+</div>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="1">
+<p><img data-src="images/Presentation_woman.png"></p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -404,7 +682,7 @@ Today, we are doing just that!
 The presentation grading rubric is a divided in 5 sections:
 </center>
 <p><br></p>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="fragment quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
@@ -451,7 +729,7 @@ The presentation grading rubric is a divided in 5 sections:
 </section>
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p><span class="absolute" style="top: 98%; left: 6%; "><a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a></span></p>
 <p>In this part of the presentation, you should focus on the following points of your article:</p>
 <div class="fragment">
@@ -477,7 +755,7 @@ suggestion: <strong>2/3 slides</strong>
 </section>
 <section id="method" class="slide level2">
 <h2>Method</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p><span class="absolute" style="top: 98%; left: 6%; "><a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a></span></p>
 <p>Usually, the method section is divided into the following subsections:</p>
 <div class="fragment">
@@ -503,7 +781,7 @@ suggestion: <strong>1/2 slides</strong>
 </section>
 <section id="results" class="slide level2">
 <h2>Results</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p><span class="absolute" style="top: 98%; left: 6%; "><a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a></span></p>
 <center>
 This is the part where you present the statistics (😒)
@@ -540,7 +818,7 @@ suggestion: <strong>2/3 slides</strong>
 </section>
 <section id="discussion" class="slide level2">
 <h2>Discussion</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p><span class="absolute" style="top: 98%; left: 6%; "><a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a></span></p>
 <p>The discussion is usually where the researchers briefly summarize the results and provide personal opinions about the study. The important points to identify are:</p>
 <ul style="font-size: 35px">
@@ -575,7 +853,7 @@ suggestion: <strong>2/3 slides</strong>
 </section>
 <section id="delivery" class="slide level2">
 <h2>Delivery</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p><span class="absolute" style="top: 98%; left: 6%; "><a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a></span></p>
 <p style="font-size: 33px; padding-bottom: 25px;">
 How you deliver your presentation is also important. I understand that delivery is hard for some, but you are going to be doing this more and more moving on, so you should take every chance to practice getting more comfortable.
@@ -619,7 +897,7 @@ Again, I know this is really hard for some, but presenting is a very important s
 </section>
 <section id="a-note-on-the-presentation-structure" class="slide level2">
 <h2>A note on the Presentation Structure</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <p>The grading rubric follows the classical scientific journal article structure (i.e., Introduction, Method, etc…).</p>
 <p><br></p>
 <div class="fragment">
@@ -639,7 +917,7 @@ Every section of the article is necessary for the audience to fully understand t
 </section>
 <section id="dos-and-donts" class="slide level2">
 <h2>DOs and DON’Ts</h2>
-<p><img data-src="images/Presentation_woman.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
+<p><img data-src="images/Business-presentation.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 130px; "></p>
 <center>
 <p style="padding-bottom:20px;">
 Finally, Some general advice on what to do and not do when presenting a journal article.
@@ -1557,6 +1835,48 @@ Depending on what analyses you are running, there will be different APA guidelin
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

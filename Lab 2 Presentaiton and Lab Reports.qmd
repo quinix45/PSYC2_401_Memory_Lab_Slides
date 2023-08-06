@@ -34,6 +34,10 @@ format:
 editor: source
 ---
 
+```{r}
+
+```
+
 
 
 ## {data-menu-title="Today's Lab"}
@@ -126,12 +130,329 @@ editor: source
 
 <br/> 
 
+![](images/Business-presentation.png)
+
+
+:::
+:::
+
+
+## Presentation Sign-up
+
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
+
+::: panel-tabset
+
+### R01 Section
+
+<script>
+  let arr = ["Annie B.", 
+             "Vlera B.",
+             "Tenzing C.", 
+             "Pia D.",
+             "Thalia G.",
+             "Taylor G.",
+             "Yu Jin I.",
+             "Jacklyn J.",
+             "Caroline L.",
+             "Elisabeth M.",
+             "Gabriela O.",
+             "Mary S.",
+             "Sara S.",
+             "Katherine S.",
+             "Gabby T."];
+ 
+function GFG_Fun() {
+
+  if (arr.length > 0)
+    
+    { 
+
+      let index = Math.floor(Math.random() * arr.length);
+      
+      let student_name = arr[index];
+      
+      
+      arr.splice(index, 1);
+      
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode(student_name);
+      
+      container.appendChild(text)
+    
+    }
+    
+  else
+
+    {
+     
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode("...and that's everyone!");
+      
+      container.appendChild(text)
+    
+    }
+    
+    
+}
+
+
+</script>
+
+
+<style>
+
+.button-1 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: #fff;
+}
+
+.button-1:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+</style>
+
+:::{layout-ncol="2"}
+
+:::col
+
+:::{.fragment fragment-index="1"}
+
+<p style="font-size:28px;"> For presentations sign-ups, you will have to pick a **date** to present on and an **article** to present. </p>
+
+:::
+
+</br>
+
+:::{.fragment fragment-index="2"}
+
+<p style="font-size:28px;"> So, who goes first? Let's let the button pick for us! </p>
+
+<center>
+
+<button class="button-1" role="button" onclick="GFG_Fun()"> 
+  
+  <span class="text"> 
+  Who's next?  
+  </span>
+  
+</button>
+
+</br>
+
+<div id="student_names">
+
+</div>
+
+</center>
+
+:::
+
+:::
+
+:::col
+
+:::{.fragment fragment-index="1"}
+
 ![](images/Presentation_woman.png)
 
-
-:::
 :::
 
+:::
+
+:::
+
+
+
+### R02 Section 
+
+<script>
+
+  let arr2 = ["Teagan A.", 
+              "Mary Ann A.",
+              "Devin C.", 
+              "Rachel C.",
+              "Emma G.",
+              "Brianna G.",
+              "Sade H.",
+              "Marjorie M.",
+              "Alison N.",
+              "Sofia N.",
+              "Anastasia P.",
+              "Brooke R.",
+              "Noran S.",
+              "Worokiya T.",
+              "Sarah Z."];
+ 
+function GFG_Fun_2() {
+
+  if (arr2.length > 0)
+    
+    { 
+
+      let index = Math.floor(Math.random() * arr2.length);
+      
+      let student_name_2 = arr2[index];
+      
+      
+      arr2.splice(index, 1);
+      
+      let container = document.getElementById("student_names_2");
+      
+      container.innerHTML = ""
+      
+      let text_2 = document.createTextNode(student_name_2);
+      
+      container.appendChild(text_2)
+    
+    }
+    
+  else
+
+    {
+     
+      let container = document.getElementById("student_names_2");
+      
+      container.innerHTML = ""
+      
+      let text_2 = document.createTextNode("...and that's everyone!");
+      
+      container.appendChild(text_2)
+    
+    }
+    
+    
+}
+
+
+</script>
+
+
+<style>
+
+.button-2 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover {
+  background-color: #fff;
+}
+
+.button-2:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-2 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+</style>
+
+:::{layout-ncol="2"}
+
+:::col
+
+:::{.fragment fragment-index="1"}
+
+<p style="font-size:28px;"> For presentations sign-ups, you will have to pick a **date** to present on and an **article** to present. </p>
+
+:::
+
+</br>
+
+:::{.fragment fragment-index="2"}
+
+<p style="font-size:28px;"> So, who goes first? Let's let the button pick for us! </p>
+
+
+<center>
+
+<button class="button-2" role="button" onclick="GFG_Fun_2()"> 
+  
+  <span class="text"> 
+  Who's next?  
+  </span>
+  
+</button>
+
+</br>
+
+<div id="student_names_2">
+
+</div>
+
+
+</center>
+
+:::
+
+:::
+
+:::col
+
+:::{.fragment fragment-index="1"}
+
+
+![](images/Presentation_woman.png)
+:::
+
+:::
+
+:::
+
+:::
 
 ## Presentation Grading Rubric {.smaller}
 
@@ -140,7 +461,7 @@ editor: source
 </br>
 
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 
 ::: {layout-ncol="3"}
@@ -194,7 +515,7 @@ The student delivers the presentation in an engaging way, without using any note
 
 ## Introduction
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 [<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
 
@@ -223,7 +544,7 @@ In this part of the presentation, you should focus on the following points of yo
 
 ## Method
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 [<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
 
@@ -249,7 +570,7 @@ Usually, the method section is divided into the following subsections:
 
 ## Results 
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 [<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
 
@@ -281,7 +602,7 @@ Usually, the method section is divided into the following subsections:
 
 ## Discussion
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 [<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
 
@@ -316,7 +637,7 @@ What are the practical implications of the results? </li>
 
 ## Delivery
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 [<a href="#/presentation-grading-rubric"><i class="fa fa-home" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="98%" left="6%"}
 
@@ -351,7 +672,7 @@ What are the practical implications of the results? </li>
 
 ## A note on the Presentation Structure
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 The grading rubric follows the classical scientific journal article structure (i.e., Introduction, Method, etc...).
 
@@ -375,7 +696,7 @@ Remember that this structure exists because it works well. When you create your 
 
 ## DOs and DON'Ts 
 
-![](images/Presentation_woman.png){.absolute top=-50 right=-50 width="130" height="130"}
+![](images/Business-presentation.png){.absolute top=-50 right=-50 width="130" height="130"}
 
 <center> <p style= "padding-bottom:20px;"> Finally, Some general advice on what to do and not do when presenting a journal article. </p> </center>
 
