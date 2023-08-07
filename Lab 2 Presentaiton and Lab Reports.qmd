@@ -34,11 +34,6 @@ format:
 editor: source
 ---
 
-```{r}
-
-```
-
-
 
 ## {data-menu-title="Today's Lab"}
 
@@ -65,6 +60,7 @@ editor: source
 </br>
 
 :::{.fragment fragment-index="1"}
+
 <p style="font-size: 32px; text-align: center;"> Last time I taught this lab, a good deal of students either asked or suggested to go over what I expect for **presentations** and **lab reports** in more detail...
 </p>
 :::
