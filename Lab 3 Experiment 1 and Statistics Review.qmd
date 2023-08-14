@@ -1,0 +1,446 @@
+---
+title: "Lab 3: Memory Span Experiment and Statistics Review"
+title-slide-attributes:
+  
+  data-background-image: images/Edge_1.png,
+                         images/Edge_1_inverted.png
+                         
+  data-background-size: 13%,
+                        13%
+                        
+  data-background-position: 0% 0%,
+                            100% 100%
+  
+  data-background-opacity: 100%
+  
+  #data-visibility: uncounted
+  
+author: "Fabio Setti"
+date: "PSYC 2401 Lab <br> Fall 2023"
+format:
+   revealjs:
+      footer: "Lab 3: Memory Span Experiment and Statistics Review"
+      chalkboard: true
+      theme: Memory_lab_theme.scss
+      navigation-mode: linear
+      controls: false
+      slide-number: c 
+      width: 1280
+      height: 720
+      transition-speed: slow
+      #parallax-background-image: images/Brain_lightbulb_L.jpg
+      #logo: images/Brain_lightbulb_L.jpg
+
+editor: source
+---
+
+## plots {visibility="hidden"}
+
+```{r echo=FALSE}
+library(spData)
+library(sf)
+library(ggplot2)
+library(magick)
+library(geomtextpath)
+library(extrafont)
+ 
+# data
+
+data <- data.frame( Age = c(11, 12, 13, 13, 14, 15),
+                    Height = c(17, 18, 19, 19, 20, 20))
+
+```
+
+
+```{r echo=FALSE}
+
+# empty plot
+
+empty_plot <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point(alpha = 0) +
+  labs(title = "", x = "Age", y = "Height") +
+  geom_point(alpha = 0) +
+  theme_classic() +
+ # age 11
+  geom_segment(aes(x = 11, 
+                   y = 17, 
+                   xend = 11, 
+                   yend = 17.2),
+                   color = "blue",
+                   linetype = "dotdash",
+                   alpha = 1) +
+ # age 12
+  geom_segment(aes(x = 12, 
+                   y = 17, 
+                   xend = 12, 
+                   yend = 17.2),
+                   color = "blue",
+                   linetype = "dotdash",
+                   alpha = 1) +
+   # age 13
+  geom_segment(aes(x = 13, 
+                   y = 17, 
+                   xend = 13, 
+                   yend = 17.4),
+                   color = "blue",
+                   linetype = "dotdash",
+                   alpha = 1) +
+   # age 14
+  geom_segment(aes(x = 14, 
+                   y = 17, 
+                   xend = 14, 
+                   yend = 17.2),
+                   color = "blue",
+                   linetype = "dotdash",
+                   alpha = 1) +
+   # age 15
+  geom_segment(aes(x = 15, 
+                   y = 17, 
+                   xend = 15, 
+                   yend = 17.2),
+                   color = "blue",
+                   linetype = "dotdash",
+                   alpha = 1) +
+  theme(
+    panel.background = element_rect(fill='transparent'), 
+    plot.background = element_rect(fill='transparent', color=NA), 
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent'),
+    axis.title.y = element_blank(),  # Remove y-axis title
+    axis.text.y = element_blank(),
+    axis.line.y = element_line(color = "transparent"),
+    axis.ticks.y = element_blank())
+
+  
+print(empty_plot)
+
+# Print the scatter plot
+
+ggsave("images/empty_plot.png")
+
+```
+
+
+```{r echo=FALSE}
+
+# mean plot
+
+mean_plot <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point(alpha = 0) +
+  labs(title = "", x = "Age", y = "Height") +
+  geom_vline(xintercept = mean(data$Age),
+             linetype = "dotted",
+             color = "red") +
+  geom_point(alpha = 0) +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), 
+    plot.background = element_rect(fill='transparent', color=NA), 
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent'),
+    axis.title.y = element_blank(),  # Remove y-axis title
+    axis.text.y = element_blank(),
+    axis.line.y = element_line(color = "transparent"),
+    axis.ticks.y = element_blank(),
+    text = element_text(family = "A")) +
+  annotate("text", x = 13.3, y = 19, label = "Mean Age")
+
+
+  
+# print(mean_plot)
+
+# Print the scatter plot
+
+ggsave("images/mean_plot.png")
+
+```
+
+
+```{r echo=FALSE}
+
+# sd plot
+
+sd_plot <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point(alpha = 0) +
+  labs(title = "", x = "Age", y = "Height") +
+  geom_vline(xintercept = mean(data$Age),
+             linetype = "dotted",
+             color = "red",
+             alpha = .5) +
+  geom_segment(aes(x = 13 - sd(Age), 
+                   y = 18 , 
+                   xend = 13 + sd(Age), 
+                   yend = 18),
+                   color = "maroon",
+                   linetype = "dashed",
+                   arrow = arrow( ends = "both"),
+                   alpha = 1) +
+  geom_point(alpha = 0) +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), 
+    plot.background = element_rect(fill='transparent', color=NA), 
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent'),
+    axis.title.y = element_blank(),  # Remove y-axis title
+    axis.text.y = element_blank(),
+    axis.line.y = element_line(color = "transparent"),
+    axis.ticks.y = element_blank()) +
+  annotate("text", x = 13 + sd(data$Age), y = 18.5, label = "1 SD\n above the mean") +
+  annotate("text", x = 13 - sd(data$Age), y = 18.5, label = "- 1 SD\n below the mean")
+
+
+
+  
+
+# print(sd_plot)
+
+# Print the scatter plot
+
+ggsave("images/sd_plot.png")
+
+```
+
+
+# {transition="zoom" data-menu-title="Memory Span Experiment"}
+
+::: {layout-ncol="2"}
+
+::: col
+
+</br>
+
+<p style=" 
+
+  font-size: 2.2em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.7em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Memory Span Experiment 
+  
+</p>
+
+
+:::
+
+
+:::col
+![](images/Experiment_kids.png)
+
+:::
+:::
+
+## Experimental Design Concepts
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="140" height="110"}
+
+
+
+## Experiment Instuctions
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="140" height="110"}
+
+
+
+# {transition="zoom" data-menu-title="Statistics Review"}
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<br /> <br />
+
+<p style=" 
+
+  font-size: 2.4em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Statistics review 
+  
+</p>
+
+
+:::
+
+
+:::col
+![](images/Statistics_review.png)
+
+:::
+:::
+
+## Mean and Standard Deviation
+
+![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<p style = "font-size:26px;"> Although basic, the mean and standard deviation (*SD*) are very important concepts. Let us assume that we recorded the age of 6 people: </p>
+
+:::{.fragment fragment-index="1"}
+<center> <p style = "font-size:26px;"> *Age* </p> </center>
+
+<center> <p style = "font-size:22px;">  11, 12, 13, 13, 14 ,15 </p> </center>
+:::
+
+<ul style = "font-size:20px;
+             margin: 20px;">
+             
+            
+
+:::{.fragment fragment-index="2"}
+<li> 
+$Mean_{Age} = \frac{\sum Age_i}{N_{Age}} = \frac{11 + 12 + 13 + 13 +14 +15}{6} = 13$
+</li>
+:::
+
+</br>
+
+
+:::{.fragment fragment-index="3"}
+<li> 
+$SD_{Age} = \frac{\sqrt{\sum(Mean_{Age} - Age_i)^2}}{N_{Age}- 1} = 1.41$ 
+</li>
+:::
+
+</ul>
+
+</br>
+
+:::{.fragment fragment-index="4"}
+<p style = "font-size:26px;"> The *mean* is a measure of central tendency, and the *SD* measures how spread out the data is. </p>
+:::
+
+
+:::
+
+
+:::col
+
+</br>
+</br>
+
+::: r-stack
+
+
+::: {.fragment .fade-in-then-semi-out fragment-index="1"}
+```{r, echo=FALSE}
+print(
+  image_read("images/empty_plot.png"),
+  info = FALSE
+)
+```
+:::
+
+
+
+::: {.fragment .fade-in-then-semi-out fragment-index="2"}
+```{r, echo=FALSE}
+print(
+  image_read("images/mean_plot.png"),
+  info = FALSE
+)
+```
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+```{r, echo=FALSE}
+print(
+  image_read("images/sd_plot.png"),
+  info = FALSE
+)
+
+```
+:::
+
+
+:::
+
+
+
+:::
+
+:::
+
+
+
+## Regression
+
+![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+Hi there
+
+:::
+
+
+:::col
+
+```{r echo=FALSE}
+# mean plot
+library(tidyverse)
+
+
+library(ggplot2)
+
+set.seed(1997)
+
+# Create example data
+data <- data.frame(
+  x = rnorm(20, mean = 6, sd = 1.5),
+  y = rnorm(20, mean = 6, sd = 1.5)
+)
+
+# Create a scatterplot using ggplot2
+scatter_plot <- ggplot(data, aes(x = x, y = y)) +
+  geom_point() +  # Adding points to the plot
+  labs(title = "", x = "X Variable", y = "Y Variable") +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
+
+# Print the scatterplot
+
+ggsave("images/scatter_plot.png")
+
+```
+
+
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot.png"), 
+  info = FALSE
+)
+
+```
+
+
+
+
+:::
+
+:::
+
