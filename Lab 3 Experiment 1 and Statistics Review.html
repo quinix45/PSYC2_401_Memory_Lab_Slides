@@ -358,11 +358,37 @@
 </section>
 <section id="experimental-design-concepts" class="slide level2">
 <h2>Experimental Design Concepts</h2>
-<p><img data-src="images/Experiment_kids.png" class="absolute" style="top: -50px; right: -50px; width: 140px; height: 110px; "></p>
+<p><img data-src="images/Experiment_kids.png" class="absolute" style="top: -50px; right: -50px; width: 120px; height: 90px; "></p>
 </section>
-<section id="experiment-instuctions" class="slide level2">
-<h2>Experiment Instuctions</h2>
-<p><img data-src="images/Experiment_kids.png" class="absolute" style="top: -50px; right: -50px; width: 140px; height: 110px; "></p>
+<section id="experiment-instructions" class="slide level2">
+<h2>Experiment Instructions</h2>
+<p><img data-src="images/Experiment_kids.png" class="absolute" style="top: -50px; right: -50px; width: 120px; height: 90px; "></p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<center>
+<p style="font-size: 30px;">
+Log into your CogLab account and click on “complete lab”
+</p>
+<p><strong>↓</strong></p>
+<p style="font-size: 30px;">
+Then, select “<strong>24.Memory Span</strong>”
+</p>
+<p><strong>↓</strong></p>
+<p style="font-size: 30px;">
+Please, <em>Do not</em> read the “background” or the “instructions”. Click <a href="">here</a> for the experiment instructions.
+</p>
+<p><strong>↓</strong></p>
+<p style="font-size: 30px;">
+After you are done, you are free to scroll to the top and read the “background” section.
+</p>
+</center>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/Memory_head.png"></p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="section-1" class="title-slide slide level1 center" data-transition="zoom" data-menu-title="Statistics Review">
@@ -378,7 +404,7 @@
   font-family: sans-serif;
   smargin: 0 0 20px 0;
   color: #6971E0;
-  font-family: " league="" gothic",="" impact,="" sans-serif;="" line-height:="" 0.9em;="" letter-spacing:="" 0.04em;="" text-transform:="" capitalize;="" text-shadow:="" none;="" "=""> Statistics review 
+  font-family: " league="" gothic",="" impact,="" sans-serif;="" line-height:="" 0.9em;="" letter-spacing:="" 0.04em;="" text-transform:="" capitalize;="" text-shadow:="" none;="" "=""> Statistics Review 
   
 </p>
 </div>
@@ -436,21 +462,21 @@ The <em>mean</em> is a measure of central tendency, and the <em>SD</em> measures
 <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-5-1.png" width="1500"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-9-1.png" width="1500"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-6-1.png" width="1500"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-10-1.png" width="1500"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in" data-fragment-index="3">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-7-1.png" width="1500"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-11-1.png" width="1500"></p>
 </div>
 </div>
 </div>
@@ -459,30 +485,98 @@ The <em>mean</em> is a measure of central tendency, and the <em>SD</em> measures
 </div>
 </div>
 </section>
-<section id="regression" class="slide level2">
-<h2>Regression</h2>
+<section id="correlation-and-regression" class="slide level2">
+<h2>Correlation and Regression</h2>
 <p><img data-src="images/Statistics_review.png" class="absolute" style="top: -50px; right: -50px; width: 130px; height: 100px; "></p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p>Hi there</p>
+<p style="font-size:24px;">
+It turns out that one cannot calculate many statistics with just one variable 🤷 Let’s also assume that, aside from people’s age, we also measured their <em>height</em>:
+</p>
+<div class="fragment" data-fragment-index="1">
+<p style="font-size:22px;">
+<strong>Age:</strong> 11, 12, 13, 13, 14 ,15
+</p>
+<p style="font-size:22px;">
+<strong>Height:</strong> 17, 18, 19, 19, 20, 20
+</p>
+</div>
+<p style="font-size:24px;padding-top: 25px;">
+<span class="fragment" data-fragment-index="3">Astute observers 🧐 will probably notice a “tiny” upward trend.</span> <span class="fragment" data-fragment-index="4">The Age and Height variables are indeed highly <a href="https://shiny.rit.albany.edu/stat/rectangles/" data-preview-link="true"><em>positively correlated</em></a>, meaning that as age increases, so does height.</span>
+</p>
+<div class="fragment" data-fragment-index="5">
+<p style="font-size:24px;padding-top: 25px;">
+<a href="https://altaf.shinyapps.io/linear-regression/" data-preview-link="true"><em>Regression</em></a> simply plots the line that is closest to all the points. In our case, the line can be defined as <span class="math inline">\(Height_i = a + b\times Age_i\)</span>, were <span class="math inline">\(a\)</span> represents where the line hits the Y-axis (y intercept) and <span class="math inline">\(b\)</span> is the line slope.
+</p>
+</div>
 </div>
 <div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="cell">
-
-</div>
+<p><br> <br></p>
+<div class="r-stack">
+<div class="fragment fade-in-then-out" data-fragment-index="1">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-9-1.png" width="1500"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-12-1.png" width="1500"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="2">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-13-1.png" width="1500"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="3">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-14-1.png" width="1500"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="4">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1500"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-semi-out" data-fragment-index="5">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1500"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="6">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" width="1500"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="7">
+<p style="font-size:18px;">
+<strong>NOTE</strong>: Correlation and regression carry very similar information. For instance, the correlation coefficient and the line slope are equivalent, <span class="math inline">\(R = b\times \frac{SD_{Age}}{SD_{Height}} = 0.8 \times \frac{1.4}{1.17} \approx .97\)</span>
+</p>
+</div>
+</section></section>
+<section id="t-tests" class="title-slide slide level1 center">
+<h1>T-tests</h1>
+<p>T-tests</p>
+</section>
+
+<section id="anova" class="title-slide slide level1 center">
+<h1>ANOVA</h1>
 <div class="footer footer-default">
 <p>Lab 3: Memory Span Experiment and Statistics Review</p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 

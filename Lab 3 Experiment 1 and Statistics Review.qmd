@@ -43,6 +43,7 @@ library(ggplot2)
 library(magick)
 library(geomtextpath)
 library(extrafont)
+library(ggpubr)
  
 # data
 
@@ -112,7 +113,7 @@ empty_plot <- ggplot(data, aes(x = Age, y = Height)) +
     axis.ticks.y = element_blank())
 
   
-print(empty_plot)
+#print(empty_plot)
 
 # Print the scatter plot
 
@@ -202,6 +203,114 @@ ggsave("images/sd_plot.png")
 ```
 
 
+
+```{r echo=FALSE}
+# empty scatterplot
+
+
+empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point(alpha = 0) +  # Adding points to the plot
+  labs(title = "", x = "Age", y = "Height") +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
+
+# Print the scatterplot
+
+print(empty_scatter_plot)
+
+ggsave("images/empty_scatter_plot.png")
+
+```
+
+
+
+```{r echo=FALSE}
+# scatterplot
+
+
+scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point() +  
+  labs(title = "", x = "Age", y = "Height") +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
+
+# Print the scatterplot
+
+print(scatter_plot)
+
+ggsave("images/scatter_plot.png")
+
+```
+
+
+
+```{r echo=FALSE}
+# cor scatterplot
+
+
+scatter_plot_cor <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point() +  
+  stat_cor(aes(label = ..r.label..)) +
+  labs(title = "", x = "Age", y = "Height") +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
+
+# Print the scatterplot
+
+print(scatter_plot_cor)
+
+ggsave("images/scatter_plot_cor.png")
+
+```
+
+
+```{r echo=FALSE}
+# cor scatterplot
+
+
+scatter_plot_reg <- ggplot(data, aes(x = Age, y = Height)) +
+  geom_point() +  
+  stat_smooth(method = "lm",
+            formula = y ~ x,
+            geom = "smooth",
+            se = FALSE,
+            linetype = "dashed",
+            color = "red",
+            linewidth = .5) +
+  stat_regline_equation(label.x = 13, label.y = 17.4) +
+  labs(title = "", x = "Age", y = "Height") +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill='transparent'), 
+    plot.background = element_rect(fill='transparent', color=NA), 
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent')) +
+  ylim(17, 20)
+
+# Print the scatterplot
+
+print(scatter_plot_reg)
+
+ggsave("images/scatter_plot_reg.png")
+
+```
+
+
 # {transition="zoom" data-menu-title="Memory Span Experiment"}
 
 ::: {layout-ncol="2"}
@@ -237,13 +346,53 @@ ggsave("images/sd_plot.png")
 
 ## Experimental Design Concepts
 
-![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="140" height="110"}
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
 
 
 
-## Experiment Instuctions
+## Experiment Instructions
 
-![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="140" height="110"}
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<center>
+
+<p style="font-size: 30px;">
+Log into your CogLab account and click on “complete lab”
+</p>
+
+ **&darr;** 
+
+<p style="font-size: 30px;">
+Then, select “**24.Memory Span**”
+</p>
+
+**&darr;**
+
+<p style="font-size: 30px;">
+Please, *Do not* read the “background” or the “instructions”. Click [here]() for the experiment instructions.
+</p>
+
+**&darr;**
+
+<p style="font-size: 30px;">
+After you are done, you are free to scroll to the top and read the “background” section. 
+</p>
+
+</center>
+
+:::
+
+
+:::col
+![](images/Memory_head.png)
+
+:::
+:::
 
 
 
@@ -267,7 +416,7 @@ ggsave("images/sd_plot.png")
   line-height: 0.9em;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  text-shadow: none; "> Statistics review 
+  text-shadow: none; "> Statistics Review 
   
 </p>
 
@@ -379,7 +528,7 @@ print(
 
 
 
-## Regression
+## Correlation and Regression
 
 ![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
 
@@ -388,59 +537,106 @@ print(
 
 ::: col
 
-Hi there
+<p style = "font-size:24px;"> It turns out that one cannot calculate many statistics with just one variable 🤷 Let's also assume that, aside from people's age, we also measured their *height*: </p>
+
+::: {.fragment fragment-index="1"}
+<p style = "font-size:22px;"> **Age:** 11, 12, 13, 13, 14 ,15 </p> 
+<p style = "font-size:22px;"> **Height:** 17, 18, 19, 19, 20, 20 </p> 
+:::
+
+<p style = "font-size:24px;padding-top: 25px;"> [Astute observers 🧐 will probably notice a "tiny" upward trend.]{.fragment fragment-index="3"} [The Age and Height variables are indeed highly [*positively correlated*](https://shiny.rit.albany.edu/stat/rectangles/){preview-link="true"}, meaning that as age increases, so does height.]{.fragment fragment-index="4"} </p>
+
+::: {.fragment fragment-index="5"}
+<p style = "font-size:24px;padding-top: 25px;"> [*Regression*](https://altaf.shinyapps.io/linear-regression/){preview-link="true"} simply plots the line that is closest to all the points. In our case, the line can be defined as $Height_i = a + b\times Age_i$, were $a$ represents where the line hits the Y-axis (y intercept) and $b$ is the line slope.</p>
+
+
+:::
 
 :::
 
 
 :::col
 
-```{r echo=FALSE}
-# mean plot
-library(tidyverse)
+</br>
+</br>
+
+::: r-stack
 
 
-library(ggplot2)
-
-set.seed(1997)
-
-# Create example data
-data <- data.frame(
-  x = rnorm(20, mean = 6, sd = 1.5),
-  y = rnorm(20, mean = 6, sd = 1.5)
-)
-
-# Create a scatterplot using ggplot2
-scatter_plot <- ggplot(data, aes(x = x, y = y)) +
-  geom_point() +  # Adding points to the plot
-  labs(title = "", x = "X Variable", y = "Y Variable") +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), #transparent panel bg
-    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-    legend.background = element_rect(fill='transparent'), #transparent legend bg
-    legend.box.background = element_rect(fill='transparent') #transparent legend panel
-  )
-
-# Print the scatterplot
-
-ggsave("images/scatter_plot.png")
-
-```
-
-
+::: {.fragment .fade-in-then-out fragment-index="1"}
 ```{r, echo=FALSE}
 print(
-  image_read("images/scatter_plot.png"), 
+  image_read("images/empty_scatter_plot.png"),
+  info = FALSE
+)
+```
+:::
+
+
+
+::: {.fragment .fade-in-then-out fragment-index="2"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot.png"),
+  info = FALSE
+)
+```
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="3"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot.png"),
   info = FALSE
 )
 
 ```
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="4"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot_cor.png"),
+  info = FALSE
+)
+
+```
+:::
+
+::: {.fragment .fade-in-then-semi-out fragment-index="5"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot_cor.png"),
+  info = FALSE
+)
+
+```
+:::
 
 
+::: {.fragment .fade-in fragment-index="6"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatter_plot_reg.png"),
+  info = FALSE
+)
 
+```
+:::
+
+:::
 
 :::
 
 :::
+
+::: {.fragment fragment-index="7"}
+<p style = "font-size:18px;"> **NOTE**: Correlation and regression carry very similar information. For instance, the correlation coefficient and the line slope are equivalent, $R = b\times \frac{SD_{Age}}{SD_{Height}} = 0.8 \times \frac{1.4}{1.17} 	\approx .97$ </p>
+:::
+
+# T-tests
+
+T-tests 
+
+# ANOVA
 

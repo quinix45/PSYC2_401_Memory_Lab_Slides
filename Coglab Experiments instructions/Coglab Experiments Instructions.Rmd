@@ -1,0 +1,142 @@
+---
+title: "PSYC 2401 Coglab Experiments Instructions"
+output: 
+   html_document:
+      theme: cerulean
+      toc: yes
+      toc_float:
+         collapsed: true
+         
+---
+
+</br>
+</br>
+
+
+<center> <p style="font-size:24px;">  Before completing the assigned Coglab experiment, read the relevant information on the experiment procedure below.  </p> </center>
+
+</br>
+</br>
+
+
+# 24. Memory Span
+
+</br>
+
+On each trial, a sequence of **digits**, **letters**, or **words** will appear, with each item presented for one second.
+
+Following this, buttons labeled with a **number**, **letter**, or **word** will appear. 
+
+Click or tap on the buttons in the same order that the stimuli were presented. 
+
+If you are **correct**, the next time you see a list with those items in it, the **list length** will be **increased by 1**. 
+
+If you make a **mistake**, the next time you see a list with those items in it, the **list length** will be **decreased by 1**.
+
+There are 30 trials total, 10 for each type of stimulus.
+
+
+</br>
+</br>
+
+
+# 28. Encoding Specificity
+
+</br>
+
+- **Phase 1:**
+
+You will see a pair of words, one in lowercase and one in UPPERCASE
+
+Read the words silently to yourself and try to **remember** the UPPERCASE word.
+
+There are 48 pairs of words.
+
+- **Phase 2:**
+
+You will again see a pair of words, one in lowercase and one in UPPERCASE. 
+
+There are 96 word pairs shown in Phase 2.
+
+Indicate if the UPPERCASE word was shown in Phase 1, regardless of whether the lowercase is the same/different than the one in Phase 1.
+
+
+</br>
+</br>
+
+# 29. Levels of Processing
+
+</br>
+
+- **Phase 1:**
+
+You will see a word and a judgment task (60 judgment trials in total). There are three types of judgment tasks:
+
+**1) Decide if the word is in UPPERCASE letters.**
+
+E.g., you might see "Is PEN in uppercase?" You should respond *Yes*. You might also see "Is pen in uppercase?" You should respond *No*.
+
+**2) Decide if two words rhyme.** 
+E.g., you might see "Does PEN rhyme with bus?" You should respond *No* because they do not rhyme. You might also see "Does PEN rhyme with hen?" You should respond *Yes*.
+
+**3) Answer a question about a word.**
+
+E.g., you might see "Is PEN a type of vehicle?" You should respond *No*. You might also see "Is PEN a writing implement?" You should respond *Yes*.
+
+Also, if you see "Does PEN rhyme with hen?" You should respond *Yes*.
+
+After these 60 words there is going to be a Phase 2 to the experiment.
+
+
+- **Phase 2:**
+
+In Phase 2, you will be presented with a series of words and asked whether those words were presented in Phase 1 (Yes/No).
+
+</br>
+</br>
+
+# 33. False Memory
+
+</br>
+
+On each trial, a sequence of words will appear, with each word presented for one second.
+
+After the full sequence has been presented, a set of buttons will be shown, each labeled with a word. 
+
+Some of these words were on the list, and some were not. 
+
+Your task is to click or tap on the buttons to indicate which words were in the sequence. 
+
+There are a total of **6 trials**.
+
+
+</br>
+</br>
+
+# 35. Memory Judgment
+
+</br>
+
+- **Phase 1:**
+
+You will see a word in either a small font size or a large font size. 
+
+After about 4 seconds, you will be told whether you will see this word **once** or **twice** later on.
+
+You will be asked to make a judgment about the chance that you will correctly recognize that this word was presented. 
+
+Your response can range from 0 ("No chance that I will recognize this word") to 100 ("I am sure that I will recognize this word").
+
+
+This process will be repeated **32 times**.
+
+
+Then, you will be presented 16 out of those 32 words again, but you will not update your judgment.
+
+
+- **Phase 2:**
+
+In Phase 2, you will be presented with a series of words and asked whether those words were presented in Phase 1 (Yes/No).
+
+
+

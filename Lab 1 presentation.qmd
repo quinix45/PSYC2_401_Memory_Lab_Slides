@@ -240,7 +240,7 @@ We will use the 3 following software for this lab:
 :::
 
 ::: {.fragment .fade-in fragment-index="2"}
-2.  [Coglab](https://coglab.cengage.com){preview-link="true"}: In cLass experiments and data collection.
+2.  [Coglab](https://coglab.cengage.com){preview-link="true"}: In class experiments and data collection.
 :::
 
 ::: {.fragment .fade-in fragment-index="3"}
