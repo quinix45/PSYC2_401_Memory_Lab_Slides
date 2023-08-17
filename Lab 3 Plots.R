@@ -161,14 +161,14 @@ ggsave("images/sd_plot.png",
 
 
 empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
-   geom_point(alpha = 0) +  # Adding points to the plot
+   geom_point(alpha = 0) + 
    labs(title = "", x = "Age", y = "Height") +
    theme_classic() +
    theme(
-      panel.background = element_rect(fill='transparent'), #transparent panel bg
-      plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-      legend.background = element_rect(fill='transparent'), #transparent legend bg
-      legend.box.background = element_rect(fill='transparent') #transparent legend panel
+      panel.background = element_rect(fill='transparent'),
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
    )
 
 # Print the scatterplot
@@ -330,7 +330,7 @@ ggsave("images/scatterplot_t_test.png",
 ##### Scatterplot t-test regression ######
 
 scatterplot_t_test_regression <- ggplot(data, aes(x = Group, y = Age)) +
-                                 geom_point() +  
+                                 geom_point(alpha = 0) +  
                                  stat_smooth(method = "lm",
                                              formula = y ~ x,
                                              geom = "smooth",
@@ -338,19 +338,24 @@ scatterplot_t_test_regression <- ggplot(data, aes(x = Group, y = Age)) +
                                              linetype = "dashed",
                                              color = "red",
                                              linewidth = .5) +
-                                  stat_regline_equation(label.x = 13, label.y = 17.4) +
-                                  labs(title = "", x = "Age", y = "Height") +
+                                  stat_regline_equation(label.x = .5, label.y = 20) +
+                                  labs(title = "", x = "Groups", y = "Age") +
                                   theme_classic() +
                                   theme(
                                         panel.background = element_rect(fill='transparent'), 
                                         plot.background = element_rect(fill='transparent', color=NA), 
                                         legend.background = element_rect(fill='transparent'),
                                         legend.box.background = element_rect(fill='transparent')) +
-                                  ylim(17, 20)
+                                  ylim(14, 33) +
+                                  xlim(0, 1)
 
 
-#print(scatterplot_t_test_regression)
+# print(scatterplot_t_test_regression)
 
 ggsave("images/scatterplot_t_test_regression.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
+
+# t-test results corresponds to significance of regression coefficients significance
+
+#summary(lm(Age ~ Group, data = data))
 
