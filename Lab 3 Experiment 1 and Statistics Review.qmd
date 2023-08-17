@@ -34,280 +34,15 @@ format:
 editor: source
 ---
 
-## plots {visibility="hidden"}
+# Load Magick {visibility="hidden"}
 
 ```{r echo=FALSE}
-library(spData)
-library(sf)
-library(ggplot2)
+
+# for loading png images of plots 
+
 library(magick)
-library(geomtextpath)
-library(extrafont)
-library(ggpubr)
+
  
-# data
-
-data <- data.frame( Age = c(11, 12, 13, 13, 14, 15),
-                    Height = c(17, 18, 19, 19, 20, 20))
-
-```
-
-
-```{r echo=FALSE}
-
-# empty plot
-
-empty_plot <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point(alpha = 0) +
-  labs(title = "", x = "Age", y = "Height") +
-  geom_point(alpha = 0) +
-  theme_classic() +
- # age 11
-  geom_segment(aes(x = 11, 
-                   y = 17, 
-                   xend = 11, 
-                   yend = 17.2),
-                   color = "blue",
-                   linetype = "dotdash",
-                   alpha = 1) +
- # age 12
-  geom_segment(aes(x = 12, 
-                   y = 17, 
-                   xend = 12, 
-                   yend = 17.2),
-                   color = "blue",
-                   linetype = "dotdash",
-                   alpha = 1) +
-   # age 13
-  geom_segment(aes(x = 13, 
-                   y = 17, 
-                   xend = 13, 
-                   yend = 17.4),
-                   color = "blue",
-                   linetype = "dotdash",
-                   alpha = 1) +
-   # age 14
-  geom_segment(aes(x = 14, 
-                   y = 17, 
-                   xend = 14, 
-                   yend = 17.2),
-                   color = "blue",
-                   linetype = "dotdash",
-                   alpha = 1) +
-   # age 15
-  geom_segment(aes(x = 15, 
-                   y = 17, 
-                   xend = 15, 
-                   yend = 17.2),
-                   color = "blue",
-                   linetype = "dotdash",
-                   alpha = 1) +
-  theme(
-    panel.background = element_rect(fill='transparent'), 
-    plot.background = element_rect(fill='transparent', color=NA), 
-    legend.background = element_rect(fill='transparent'),
-    legend.box.background = element_rect(fill='transparent'),
-    axis.title.y = element_blank(),  # Remove y-axis title
-    axis.text.y = element_blank(),
-    axis.line.y = element_line(color = "transparent"),
-    axis.ticks.y = element_blank())
-
-  
-#print(empty_plot)
-
-# Print the scatter plot
-
-ggsave("images/empty_plot.png")
-
-```
-
-
-```{r echo=FALSE}
-
-# mean plot
-
-mean_plot <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point(alpha = 0) +
-  labs(title = "", x = "Age", y = "Height") +
-  geom_vline(xintercept = mean(data$Age),
-             linetype = "dotted",
-             color = "red") +
-  geom_point(alpha = 0) +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), 
-    plot.background = element_rect(fill='transparent', color=NA), 
-    legend.background = element_rect(fill='transparent'),
-    legend.box.background = element_rect(fill='transparent'),
-    axis.title.y = element_blank(),  # Remove y-axis title
-    axis.text.y = element_blank(),
-    axis.line.y = element_line(color = "transparent"),
-    axis.ticks.y = element_blank(),
-    text = element_text(family = "A")) +
-  annotate("text", x = 13.3, y = 19, label = "Mean Age")
-
-
-  
-# print(mean_plot)
-
-# Print the scatter plot
-
-ggsave("images/mean_plot.png")
-
-```
-
-
-```{r echo=FALSE}
-
-# sd plot
-
-sd_plot <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point(alpha = 0) +
-  labs(title = "", x = "Age", y = "Height") +
-  geom_vline(xintercept = mean(data$Age),
-             linetype = "dotted",
-             color = "red",
-             alpha = .5) +
-  geom_segment(aes(x = 13 - sd(Age), 
-                   y = 18 , 
-                   xend = 13 + sd(Age), 
-                   yend = 18),
-                   color = "maroon",
-                   linetype = "dashed",
-                   arrow = arrow( ends = "both"),
-                   alpha = 1) +
-  geom_point(alpha = 0) +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), 
-    plot.background = element_rect(fill='transparent', color=NA), 
-    legend.background = element_rect(fill='transparent'),
-    legend.box.background = element_rect(fill='transparent'),
-    axis.title.y = element_blank(),  # Remove y-axis title
-    axis.text.y = element_blank(),
-    axis.line.y = element_line(color = "transparent"),
-    axis.ticks.y = element_blank()) +
-  annotate("text", x = 13 + sd(data$Age), y = 18.5, label = "1 SD\n above the mean") +
-  annotate("text", x = 13 - sd(data$Age), y = 18.5, label = "- 1 SD\n below the mean")
-
-
-
-  
-
-# print(sd_plot)
-
-# Print the scatter plot
-
-ggsave("images/sd_plot.png")
-
-```
-
-
-
-```{r echo=FALSE}
-# empty scatterplot
-
-
-empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point(alpha = 0) +  # Adding points to the plot
-  labs(title = "", x = "Age", y = "Height") +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), #transparent panel bg
-    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-    legend.background = element_rect(fill='transparent'), #transparent legend bg
-    legend.box.background = element_rect(fill='transparent') #transparent legend panel
-  )
-
-# Print the scatterplot
-
-print(empty_scatter_plot)
-
-ggsave("images/empty_scatter_plot.png")
-
-```
-
-
-
-```{r echo=FALSE}
-# scatterplot
-
-
-scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point() +  
-  labs(title = "", x = "Age", y = "Height") +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), #transparent panel bg
-    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-    legend.background = element_rect(fill='transparent'), #transparent legend bg
-    legend.box.background = element_rect(fill='transparent') #transparent legend panel
-  )
-
-# Print the scatterplot
-
-print(scatter_plot)
-
-ggsave("images/scatter_plot.png")
-
-```
-
-
-
-```{r echo=FALSE}
-# cor scatterplot
-
-
-scatter_plot_cor <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point() +  
-  stat_cor(aes(label = ..r.label..)) +
-  labs(title = "", x = "Age", y = "Height") +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), #transparent panel bg
-    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-    legend.background = element_rect(fill='transparent'), #transparent legend bg
-    legend.box.background = element_rect(fill='transparent') #transparent legend panel
-  )
-
-# Print the scatterplot
-
-print(scatter_plot_cor)
-
-ggsave("images/scatter_plot_cor.png")
-
-```
-
-
-```{r echo=FALSE}
-# cor scatterplot
-
-
-scatter_plot_reg <- ggplot(data, aes(x = Age, y = Height)) +
-  geom_point() +  
-  stat_smooth(method = "lm",
-            formula = y ~ x,
-            geom = "smooth",
-            se = FALSE,
-            linetype = "dashed",
-            color = "red",
-            linewidth = .5) +
-  stat_regline_equation(label.x = 13, label.y = 17.4) +
-  labs(title = "", x = "Age", y = "Height") +
-  theme_classic() +
-  theme(
-    panel.background = element_rect(fill='transparent'), 
-    plot.background = element_rect(fill='transparent', color=NA), 
-    legend.background = element_rect(fill='transparent'),
-    legend.box.background = element_rect(fill='transparent')) +
-  ylim(17, 20)
-
-# Print the scatterplot
-
-print(scatter_plot_reg)
-
-ggsave("images/scatter_plot_reg.png")
-
 ```
 
 
@@ -344,9 +79,63 @@ ggsave("images/scatter_plot_reg.png")
 :::
 :::
 
-## Experimental Design Concepts
+## Experimental Design Lingo
 
 ![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+In general, an **experiment** is a procedure that researchers use to assess the effect of one variable (IV) on another variable (DV).
+
+::: {layout-ncol="2"}
+
+::: col
+
+</br>
+
+:::{.fragment fragment-index="1"}
+<p style="font-size: 24px;">
+**Independent variable (IV):** In experiments, this is the variable that the researchers manipulate (e.g., randomly assigning participants to 2 different groups). </p>  
+
+<p style="font-size: 24px;"> *synonyms*: Predictor variable, Explanatory variable. </p> 
+:::
+
+</br>
+
+:::{.fragment fragment-index="2"}
+<p style="font-size: 24px;">**Dependent variable (DV):** In experiments, this is the variable of  interest. This variable is expected to change according to the IV. </p> 
+
+<p style="font-size: 24px;"> *synonyms*: Outcome variable, Response variable. </p> 
+:::
+
+:::
+
+
+:::col
+
+</br>
+
+:::{.fragment fragment-index="3"}
+<p style="font-size: 24px;"> **Control group or control condition:** Baseline group. All other experimental groups are usually compared to this group. </p> 
+
+<p style="font-size: 24px;"> *synonyms*: Comparison group, Placebo condition. </p> 
+:::
+
+</br>
+
+:::{.fragment fragment-index="4"}
+<p style="font-size: 24px;"> **Variable types:** </p>
+
+<p style="font-size: 24px;"> *Continuous variables*: Essentially numbers (e.g., 5.4). </p>
+
+<p style="font-size: 24px;"> *Discrete variables*: Gender, experimental condition (e.g., control VS treatment), Hair color, etc...</p>
+
+
+<p style="font-size: 18px;"> *Ordinal variables* will not come up in this lab </p>
+:::
+
+:::
+:::
+
+
 
 
 
@@ -362,10 +151,10 @@ ggsave("images/scatter_plot_reg.png")
 <center>
 
 <p style="font-size: 30px;">
-Log into your CogLab account and click on “complete lab”
+Log into your CogLab account and click on “**complete lab**”
 </p>
 
- **&darr;** 
+**&darr;** 
 
 <p style="font-size: 30px;">
 Then, select “**24.Memory Span**”
@@ -374,13 +163,13 @@ Then, select “**24.Memory Span**”
 **&darr;**
 
 <p style="font-size: 30px;">
-Please, *Do not* read the “background” or the “instructions”. Click [here]() for the experiment instructions.
+Please, *Do not* read the “background” or the “instructions”. Click [here](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Coglab%20Experiments%20instructions/Coglab-Experiments-Instructions.html){preview-link="true"} for the experiment instructions
 </p>
 
 **&darr;**
 
 <p style="font-size: 30px;">
-After you are done, you are free to scroll to the top and read the “background” section. 
+After you are done, you are free to scroll to the top and read the “background” section
 </p>
 
 </center>
@@ -393,6 +182,60 @@ After you are done, you are free to scroll to the top and read the “background
 
 :::
 :::
+
+
+## About Memory Span
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+
+<p style="font-size: 30px;"> The term **Memory span** refers to the number of things one can remember after being shown a list of objects. On average, people can remember $7\pm 2$ **items**.</p>
+
+
+:::{.fragment fragment-index="1"}
+<center> <p style="font-size: 30px; padding-top: 25px; padding-bottom: 25px;"> **What impacts memory span?** </p> </center>
+:::
+
+::: {layout-ncol="3"}
+
+
+:::col
+
+:::{.fragment fragment-index="2"}
+<center> <p style="font-size: 20px;"> **Type of items:** A list of similar items (all numbers) is easier to remember than a list of unrelated items (some numbers, some colors, etc...) </p> </center>
+
+![](images/Spiderman_meme.png)
+:::
+:::
+
+
+
+:::col
+
+:::{.fragment fragment-index="3"}
+<center> <p style="font-size: 20px;"> **Phonological Similarity:** Memory span is lower when items in a sequence sound similar to other items in the sequence. For example, it is easier to correctly recall *K R X L Y F* than *C P D V G T*. </p> </center>
+
+![](images/Soundwave.png){.absolute top=130 right=-10 width="420" height="290"}
+</br>
+</br>
+
+:::
+:::
+
+:::col
+
+:::{.fragment fragment-index="4"}
+<center> <p style="font-size: 20px;"> **Item length:** people can remember about as many words as they can say in two seconds (Baddeley, Thomson, & Buchanan, 1975). So, lists with shorter words are easier to remember than lists with longer words. </p> </center>
+
+
+![](images/Ruler_kids.png)
+
+:::
+:::
+
+:::
+
+
 
 
 
@@ -434,15 +277,14 @@ After you are done, you are free to scroll to the top and read the “background
 
 ![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
 
+<p style = "font-size:26px;"> Although basic, the mean and standard deviation (*SD*) are very important concepts. Let us assume that we recorded the age of 6 people: </p>
 
 ::: {layout-ncol="2"}
 
 ::: col
 
-<p style = "font-size:26px;"> Although basic, the mean and standard deviation (*SD*) are very important concepts. Let us assume that we recorded the age of 6 people: </p>
-
 :::{.fragment fragment-index="1"}
-<center> <p style = "font-size:26px;"> *Age* </p> </center>
+<center> <p style = "font-size:26px;"> **AGE** </p> </center>
 
 <center> <p style = "font-size:22px;">  11, 12, 13, 13, 14 ,15 </p> </center>
 :::
@@ -481,11 +323,8 @@ $SD_{Age} = \frac{\sqrt{\sum(Mean_{Age} - Age_i)^2}}{N_{Age}- 1} = 1.41$
 
 :::col
 
-</br>
-</br>
 
 ::: r-stack
-
 
 ::: {.fragment .fade-in-then-semi-out fragment-index="1"}
 ```{r, echo=FALSE}
@@ -527,17 +366,15 @@ print(
 :::
 
 
-
 ## Correlation and Regression
 
 ![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
 
+<p style = "font-size:24px;"> It turns out that one cannot calculate many statistics with just one variable 🤷 Let's also assume that, aside from people's age, we also measured their *height*: </p>
 
 ::: {layout-ncol="2"}
 
 ::: col
-
-<p style = "font-size:24px;"> It turns out that one cannot calculate many statistics with just one variable 🤷 Let's also assume that, aside from people's age, we also measured their *height*: </p>
 
 ::: {.fragment fragment-index="1"}
 <p style = "font-size:22px;"> **Age:** 11, 12, 13, 13, 14 ,15 </p> 
@@ -557,8 +394,6 @@ print(
 
 :::col
 
-</br>
-</br>
 
 ::: r-stack
 
@@ -631,12 +466,159 @@ print(
 :::
 
 ::: {.fragment fragment-index="7"}
-<p style = "font-size:18px;"> **NOTE**: Correlation and regression carry very similar information. For instance, the correlation coefficient and the line slope are equivalent, $R = b\times \frac{SD_{Age}}{SD_{Height}} = 0.8 \times \frac{1.4}{1.17} 	\approx .97$ </p>
+<p style = "font-size:18px; position:absolute; top: 600px;"> **NOTE**: Correlation and regression carry very similar information. For instance, the correlation coefficient and the line slope are equivalent, $R = b\times \frac{SD_{Age}}{SD_{Height}} = 0.8 \times \frac{1.4}{1.17} 	\approx .97$ </p>
 :::
 
-# T-tests
+## T-tests
 
-T-tests 
 
-# ANOVA
 
+<p style = "font-size:24px;"> Personally, I think that **t-tests** are often taught in a way that causes some confusion. [Normally, we teach that one should run a t-test when we want to *compare the means of 2 groups*. That is true, but slightly misleading.]{.fragment fragment-index="1"}</p>
+
+::: {.fragment fragment-index="2"}
+<center> <p style = "font-size:22px;"> Let us assume that we measured the age of two groups of people ([Group 1]{style="color: red;"}, [group 2]{style="color: blue;"}) </p> </center>
+
+<center> <p style = "font-size:22px; padding-top: 25px" > **AGE**  </p> </center>
+
+<center> <p style = "font-size:22px;" > [14, 15, 15, 16]{style="color: red;"}, [30, 31, 31, 32]{style="color: blue;"}  </p> </center>
+:::
+
+::: {layout-ncol="2"}
+
+
+:::col
+
+::: {.fragment fragment-index="3"}
+<p style = "font-size:22px; padding-top: 35px" >   if we input the values above in our trusty [t-test calculator](https://www.graphpad.com/quickcalcs/ttest1/){preview-link="true"}, we will find that the two group means are highly significantly different, $\Delta M$ = 16, *t*(6) = 27.71, *p* < **.001**. </p>
+:::
+
+::: {.fragment fragment-index="4"}
+<p style = "font-size:22px; padding-top: 35px;"> In other words, we are extremely confident that the **16** mean difference in Age between the two groups did not happen by chance (i.e., it is significantly different from 0) . </p>
+:::
+
+::: {.fragment fragment-index="5"}
+<center> <p style = "font-size:24px; padding-top: 25px;"> And this is your vanilla t-test, but there is more that statisticians don't want you to know...😶 </p> </center>
+:::
+
+:::
+
+
+:::col
+
+::: {.fragment fragment-index="3"}
+```{r, echo=FALSE}
+print(
+  image_read("images/barplot.png"),
+  info = FALSE
+)
+
+```
+:::
+
+:::
+:::
+
+
+## T-test but it's Actually a Regression 🤯
+
+
+::: {layout-ncol="2"}
+
+
+:::col
+
+::: {.fragment fragment-index="1"}
+<p style = "font-size:22px; padding-top: 35px" > Bar plots are one of the most common ways of displaying mean differences between groups, you can also use **scatter plots** by assigning each group a number (usually 0 and 1). </p>
+:::
+
+::: {.fragment fragment-index="3"}
+<p style = "font-size:22px; padding-top: 35px;"> Although this is a bit of a strange looking scatter plot, you can still draw a *regression line* through the points! </p>
+:::
+
+::: {.fragment fragment-index="5"}
+<p style = "font-size:24px; padding-top: 22px;"> The *slope* of the regression line is **16**, which is exactly the mean difference between the two groups! Additionally, the *intercept* of the line is exactly the mean of [Group 1]{style="color: red;"} (labeled as "0"). </p>
+:::
+
+::: {.fragment fragment-index="6"}
+<p style = "font-size:24px; padding-top: 22px;"> The results that appear in t-tests come from testing whether the regression slope is significantly different from 0. In papers, you would see this reported as *b* = 16, <u> *t*(6) = 27.71, *p* < **.001** </u> (the exact same result of the t-test on the previous slide!). </p>
+:::
+
+:::
+
+
+:::col
+
+</br>
+
+::: r-stack
+
+
+::: {.fragment .fade-in-then-out fragment-index="1"}
+```{r, echo=FALSE}
+print(
+  image_read("images/barplot.png"),
+  info = FALSE
+)
+
+```
+:::
+
+
+::: {.fragment fragment-index="2"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatterplot_t_test.png"),
+  info = FALSE
+)
+
+```
+:::
+
+::: {.fragment fragment-index="4"}
+```{r, echo=FALSE}
+print(
+  image_read("images/scatterplot_t_test_regression.png"),
+  info = FALSE
+)
+
+```
+:::
+
+:::
+
+::: {.fragment fragment-index="7"}
+<center> <p style = "font-size:30px; color: red;"> In other words, There is *no difference* between a t-test and a regression. </p> </center>
+:::
+
+:::
+:::
+
+
+
+## ANOVAs
+
+
+## p-values? 😕
+
+
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)

@@ -1,0 +1,356 @@
+
+library(spData)
+library(sf)
+library(ggplot2)
+library(magick)
+library(geomtextpath)
+library(extrafont)
+library(ggpubr)
+
+# data
+
+data <- data.frame( Age = c(11, 12, 13, 13, 14, 15),
+                    Height = c(17, 18, 19, 19, 20, 20))
+
+######### empty plot ########
+
+empty_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point(alpha = 0) +
+   labs(title = "", x = "Age", y = "Height") +
+   geom_point(alpha = 0) +
+   theme_classic() +
+   # age 11
+   geom_segment(aes(x = 11, 
+                    y = 17, 
+                    xend = 11, 
+                    yend = 17.2),
+                color = "blue",
+                linetype = "dotdash",
+                alpha = 1) +
+   # age 12
+   geom_segment(aes(x = 12, 
+                    y = 17, 
+                    xend = 12, 
+                    yend = 17.2),
+                color = "blue",
+                linetype = "dotdash",
+                alpha = 1) +
+   # age 13
+   geom_segment(aes(x = 13, 
+                    y = 17, 
+                    xend = 13, 
+                    yend = 17.4),
+                color = "blue",
+                linetype = "dotdash",
+                alpha = 1) +
+   # age 14
+   geom_segment(aes(x = 14, 
+                    y = 17, 
+                    xend = 14, 
+                    yend = 17.2),
+                color = "blue",
+                linetype = "dotdash",
+                alpha = 1) +
+   # age 15
+   geom_segment(aes(x = 15, 
+                    y = 17, 
+                    xend = 15, 
+                    yend = 17.2),
+                color = "blue",
+                linetype = "dotdash",
+                alpha = 1) +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent'),
+      axis.title.y = element_blank(),  # Remove y-axis title
+      axis.text.y = element_blank(),
+      axis.line.y = element_line(color = "transparent"),
+      axis.ticks.y = element_blank())
+
+
+#print(empty_plot)
+
+# Print the scatter plot
+
+ggsave("images/empty_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+
+
+######## mean plot #######
+
+mean_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point(alpha = 0) +
+   labs(title = "", x = "Age", y = "Height") +
+   geom_vline(xintercept = mean(data$Age),
+              linetype = "dotted",
+              color = "red") +
+   geom_point(alpha = 0) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent'),
+      axis.title.y = element_blank(),  # Remove y-axis title
+      axis.text.y = element_blank(),
+      axis.line.y = element_line(color = "transparent"),
+      axis.ticks.y = element_blank(),
+      text = element_text(family = "A")) +
+   annotate("text", x = 13.3, y = 19, label = "Mean Age")
+
+
+
+# print(mean_plot)
+
+# Print the scatter plot
+
+ggsave("images/mean_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+######## sd plot  ########
+
+sd_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point(alpha = 0) +
+   labs(title = "", x = "Age", y = "Height") +
+   geom_vline(xintercept = mean(data$Age),
+              linetype = "dotted",
+              color = "red",
+              alpha = .5) +
+   geom_segment(aes(x = 13 - sd(Age), 
+                    y = 18 , 
+                    xend = 13 + sd(Age), 
+                    yend = 18),
+                color = "maroon",
+                linetype = "dashed",
+                arrow = arrow( ends = "both"),
+                alpha = 1) +
+   geom_point(alpha = 0) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent'),
+      axis.title.y = element_blank(),  # Remove y-axis title
+      axis.text.y = element_blank(),
+      axis.line.y = element_line(color = "transparent"),
+      axis.ticks.y = element_blank()) +
+   annotate("text", x = 13 + sd(data$Age), y = 18.5, label = "1 SD\n above the mean") +
+   annotate("text", x = 13 - sd(data$Age), y = 18.5, label = "- 1 SD\n below the mean")
+
+
+
+
+
+# print(sd_plot)
+
+# Print the scatter plot
+
+ggsave("images/sd_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+######## empty scatterplot ########
+
+
+empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point(alpha = 0) +  # Adding points to the plot
+   labs(title = "", x = "Age", y = "Height") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), #transparent panel bg
+      plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+      legend.background = element_rect(fill='transparent'), #transparent legend bg
+      legend.box.background = element_rect(fill='transparent') #transparent legend panel
+   )
+
+# Print the scatterplot
+
+#print(empty_scatter_plot)
+
+ggsave("images/empty_scatter_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+######## scatterplot #######
+
+
+scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point() +  
+   labs(title = "", x = "Age", y = "Height") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), #transparent panel bg
+      plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+      legend.background = element_rect(fill='transparent'), #transparent legend bg
+      legend.box.background = element_rect(fill='transparent') #transparent legend panel
+   )
+
+# Print the scatterplot
+
+#print(scatter_plot)
+
+ggsave("images/scatter_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+####### cor scatterplot #######
+
+scatter_plot_cor <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point() +  
+   stat_cor(aes(label = ..r.label..)) +
+   labs(title = "", x = "Age", y = "Height") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), #transparent panel bg
+      plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+      legend.background = element_rect(fill='transparent'), #transparent legend bg
+      legend.box.background = element_rect(fill='transparent') #transparent legend panel
+   )
+
+# Print the scatterplot
+
+#print(scatter_plot_cor)
+
+ggsave("images/scatter_plot_cor.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+####### regression scatterplot #######
+
+
+scatter_plot_reg <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point() +  
+   stat_smooth(method = "lm",
+               formula = y ~ x,
+               geom = "smooth",
+               se = FALSE,
+               linetype = "dashed",
+               color = "red",
+               linewidth = .5) +
+   stat_regline_equation(label.x = 13, label.y = 17.4) +
+   labs(title = "", x = "Age", y = "Height") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent')) +
+   ylim(17, 20)
+
+# Print the scatterplot
+
+#print(scatter_plot_reg)
+
+ggsave("images/scatter_plot_reg.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+##### Barplot t test ######
+
+age_t_test <- c(14, 15, 15, 16, 30, 31, 31, 32)
+
+data <- data.frame(
+   groups = c("Group1", "Group2"),
+   means = c( 15, 31),
+   SEs = c(sd(age_t_test[1:4])/2, sd(age_t_test[5:8])/2))
+
+bar_colors <- c("red", "blue")
+
+# Create the bar plot
+
+barplot <- ggplot(data, aes(x = groups, 
+                            y = means, 
+                            fill = groups)) +
+   geom_bar(stat = "identity", 
+            position = "dodge", 
+            show.legend = FALSE,
+            width = 0.2,
+            colour="black",
+            alpha = .7) +
+   geom_errorbar(aes(ymin = means - SEs, ymax = means + SEs), position = position_dodge(width = 0.9), width = 0.05) +
+   labs(x = "Groups",
+        y = "Mean Age") +
+   scale_fill_manual(values = c("red", "blue")) + 
+   theme_classic()+
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent'))+
+   scale_y_continuous(expand=c(0,0))
+
+# Print the plot
+#print(barplot)
+
+ggsave("images/barplot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+
+##### Scatterplot t-test ######
+
+
+data <- data.frame(
+   Age = c(14, 15, 15, 16, 30, 31, 31, 32),
+   Group = c(0, 0, 0, 0, 1, 1, 1, 1), 
+   label = c("Group 1", "Group 1", "Group 1", "Group 1", 
+             "Group 2", "Group 2", "Group 2", "Group 2")
+)
+
+
+scatterplot_t_test <- ggplot(data, aes(x = Group, y = Age)) +
+   geom_point(aes(color = label), 
+              show.legend = FALSE) +  
+   labs(title = "", x = "Groups", y = "Age") +
+   scale_color_manual(values = c("red","blue"))+
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
+   ) +
+   annotate("text", x = 0.05, y = 17, label = "Group 1") +
+   annotate("text", x = 1, y = 33, label = "Group 2")
+
+#print(scatterplot_t_test)
+
+ggsave("images/scatterplot_t_test.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+##### Scatterplot t-test regression ######
+
+scatterplot_t_test_regression <- ggplot(data, aes(x = Group, y = Age)) +
+                                 geom_point() +  
+                                 stat_smooth(method = "lm",
+                                             formula = y ~ x,
+                                             geom = "smooth",
+                                             se = FALSE,
+                                             linetype = "dashed",
+                                             color = "red",
+                                             linewidth = .5) +
+                                  stat_regline_equation(label.x = 13, label.y = 17.4) +
+                                  labs(title = "", x = "Age", y = "Height") +
+                                  theme_classic() +
+                                  theme(
+                                        panel.background = element_rect(fill='transparent'), 
+                                        plot.background = element_rect(fill='transparent', color=NA), 
+                                        legend.background = element_rect(fill='transparent'),
+                                        legend.box.background = element_rect(fill='transparent')) +
+                                  ylim(17, 20)
+
+
+#print(scatterplot_t_test_regression)
+
+ggsave("images/scatterplot_t_test_regression.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
