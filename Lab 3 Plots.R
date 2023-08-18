@@ -359,3 +359,173 @@ ggsave("images/scatterplot_t_test_regression.png",
 
 #summary(lm(Age ~ Group, data = data))
 
+
+#### p-values plot #####
+
+
+# Z-test function
+
+z_test <- function(s_mean, pop_mean, pop_sd, N)
+{
+   pnorm((s_mean - pop_mean)/(pop_sd/sqrt(N)), 
+         mean = 0 ,
+         sd = 1)
+}
+
+sample_size <- c(1:3000)
+sd_pop <- 3
+mean_pop <- 5
+mean_1 <- 5.1
+mean_2 <- 5.2
+mean_3 <- 5.3
+   
+
+data <- data.frame(Sample_size = rep(sample_size, 
+                                     3),
+                   p_values = c(z_test(mean_pop, mean_1, sd_pop, N = sample_size),
+                                z_test(mean_pop, mean_2, sd_pop, N = sample_size),
+                                z_test(mean_pop, mean_3, sd_pop, N = sample_size)),
+                   Difference = rep(c("Difference = .1", 
+                                      "Difference = .2",
+                                      "Difference = .3"), 
+                           each = length(sample_size)))
+
+
+# no lines
+
+p_plot_empty <- ggplot(data, aes(x = Sample_size, y = p_values, color = Difference)) +
+   geom_line(show.legend = FALSE,
+             alpha = 0) +  # Use geom_line() for a line plot or geom_point() for points
+   labs(title = "How many People for Significance?",
+        x = "Sample size",
+        y = "p-value") +
+   geom_hline(yintercept = .05, 
+              linetype = "dashed",
+              color = "red") +
+   scale_color_manual(values = c("blue",
+                                 "orange",
+                                 "brown")) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent', color = NA), 
+      plot.background = element_rect(fill='transparent', color = NA), 
+      legend.background = element_rect(fill='transparent', color = NA),
+      legend.box.background = element_rect(fill='transparent', color = NA),
+      legend.position = c(.75, .75),
+      plot.title = element_text(hjust = 0.5)) +
+   annotate("text", x = 1000, y = 0.08, label = "p < .05")+
+   ylim(0, .5) 
+
+
+# Print the plot
+print(p_plot_empty)
+
+
+ggsave("images/p_plot_empty.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+# one line
+
+p_plot_1l <- ggplot(data[1:3000,], aes(x = Sample_size, y = p_values, color = Difference)) +
+   geom_line() +  # Use geom_line() for a line plot or geom_point() for points
+   labs(title = "How many People for Significance?",
+        x = "Sample size",
+        y = "p-value") +
+   geom_hline(yintercept = .05, 
+              linetype = "dashed",
+              color = "red") +
+   scale_color_manual(values = c("blue")) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent', color = NA), 
+      plot.background = element_rect(fill='transparent', color = NA), 
+      legend.background = element_rect(fill='transparent', color = NA),
+      legend.box.background = element_rect(fill='transparent', color = NA),
+      legend.position = c(.75, .75),
+      plot.title = element_text(hjust = 0.5)) +
+   annotate("text", x = 1000, y = 0.08, label = "p < .05")+
+   ylim(0, .5)
+
+# Print the plot
+print(p_plot_1l)
+
+
+ggsave("images/p_plot_1l.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+
+# two lines 
+
+
+p_plot_2l <- ggplot(data[1:6000,], aes(x = Sample_size, y = p_values, color = Difference)) +
+   geom_line() +  # Use geom_line() for a line plot or geom_point() for points
+   labs(title = "How many People for Significance?",
+        x = "Sample size",
+        y = "p-value") +
+   geom_hline(yintercept = .05, 
+              linetype = "dashed",
+              color = "red") +
+   scale_color_manual(values = c("blue",
+                                 "orange")) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent', color = NA), 
+      plot.background = element_rect(fill='transparent', color = NA), 
+      legend.background = element_rect(fill='transparent', color = NA),
+      legend.box.background = element_rect(fill='transparent', color = NA),
+      legend.position = c(.75, .75),
+      plot.title = element_text(hjust = 0.5)) +
+   annotate("text", x = 1000, y = 0.08, label = "p < .05")+
+   ylim(0, .5) 
+
+
+# Print the plot
+print(p_plot_2l)
+
+
+ggsave("images/p_plot_2l.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+# full plot
+
+   p_plot_full <- ggplot(data, aes(x = Sample_size, y = p_values, color = Difference)) +
+      geom_line() +  # Use geom_line() for a line plot or geom_point() for points
+      labs(title = "How many People for Significance?",
+           x = "Sample size",
+           y = "p-value") +
+      geom_hline(yintercept = .05, 
+                 linetype = "dashed",
+                 color = "red") +
+      scale_color_manual(values = c("blue",
+                                    "orange",
+                                    "brown")) +
+      theme_classic() +
+      theme(
+         panel.background = element_rect(fill='transparent', color = NA), 
+         plot.background = element_rect(fill='transparent', color = NA), 
+         legend.background = element_rect(fill='transparent', color = NA),
+         legend.box.background = element_rect(fill='transparent', color = NA),
+         legend.position = c(.75, .75),
+         plot.title = element_text(hjust = 0.5)) +
+      annotate("text", x = 1000, y = 0.08, label = "p < .05")+
+      ylim(0, .5)
+   
+   
+   
+# Print the plot
+print(p_plot_full)
+
+
+ggsave("images/p_plot_full.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+
+

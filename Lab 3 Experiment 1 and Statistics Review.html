@@ -786,6 +786,69 @@ In other words, There is <em>no difference</em> between a t-test and a regressio
 </section>
 <section id="p-values" class="slide level2">
 <h2>p-values? 😕</h2>
+<p style="font-size:24px;">
+<em>P</em>-values are another often misunderstood, and frankly overemphasized, concept. The <strong>Correct interpretation of p-values</strong> is as follows:
+</p>
+<div class="fragment" data-fragment-index="1">
+<center>
+<p style="font-size:26px;">
+Assuming that my hypothesis is wrong (Null hypothesis), if I were to <em>sample</em> the same number of observations from the population an <u> <em>infinite</em> number of times </u>, what is the probability that I will observe the same results.
+</p>
+</center>
+</div>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="2">
+<p style="font-size:22px; padding-top: 25px">
+The main problem of <em>p-values</em> by themselves is that they carry no information about how different or how big the effect of the IV on the DV is. They main thing that influences <em>p</em>-values is <strong>sample size</strong>!
+</p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<p style="font-size:20px;">
+Let’s assume that we know that the average depression score in the population is <strong>5</strong> (<strong><em>SD</em> = 3</strong>). Now, let’s say that we tried 3 different depression treatments for 3 different groups and found that, after treatment, these groups scores in depression respectively were: <span style="color: blue;">4.9</span>, <span style="color: orange;">4.8</span>, <span style="color: brown;">4.7</span>.
+</p>
+</div>
+<div class="fragment fade-in" data-fragment-index="8">
+<p style="font-size:22px;">
+In this case, even with a difference as small as .3, the <em>p</em>-value will turn out significant with a sample size of around 270 people. <span style="color: red;">Given the standard deviation of 3, a mean difference of .3 is laughable in practice</span>
+</p>
+</div>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="r-stack">
+<div class="fragment fade-in-then-out" data-fragment-index="4">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="5">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="6">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="7">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-18-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section></section>
 <section id="any-questions" class="title-slide slide level1 center">
 <h1>Any Questions? 🤔</h1>

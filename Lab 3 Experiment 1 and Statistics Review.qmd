@@ -366,6 +366,9 @@ print(
 :::
 
 
+
+
+
 ## Correlation and Regression
 
 ![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
@@ -599,6 +602,89 @@ print(
 
 
 ## p-values? 😕
+
+<p style = "font-size:24px;"> *P*-values are another often misunderstood, and frankly overemphasized, concept. The **Correct interpretation of p-values** is as follows: </p>
+
+::: {.fragment fragment-index="1"}
+<center> <p style = "font-size:26px;"> Assuming that my hypothesis is wrong (Null hypothesis), if I were to *sample* the same number of observations from the population an <u> *infinite* number of times </u>, what is the probability that I will observe the same results. </p> </center>
+:::
+
+
+::: {layout-ncol="2"}
+
+
+:::col
+
+::: {.fragment fragment-index="2"}
+<p style = "font-size:22px; padding-top: 25px" > The main problem of *p-values* by themselves is that they carry no information about how different or how big the effect of the IV on the DV is. They main thing that influences *p*-values is **sample size**! </p>
+:::
+
+::: {.fragment fragment-index="3"}
+<p style = "font-size:20px;"> Let's assume that we know that the average depression score in the population is **5** (***SD* = 3**). Now, let's say that we tried 3 different depression treatments for 3 different groups and found that, after treatment, these groups scores in depression respectively were: [4.9]{style="color: blue;"}, [4.8]{style="color: orange;"}, [4.7]{style="color: brown;"}. </p> 
+:::
+
+
+::: {.fragment .fade-in fragment-index="8"}
+<p style = "font-size:22px;"> In this case, even with a difference as small as .3, the *p*-value will turn out significant with a sample size of around 270 people. [Given the standard deviation of 3, a mean difference of .3  is laughable in practice]{style="color: red;"} </p> 
+:::
+
+:::
+
+
+:::col
+
+
+::: r-stack
+
+
+::: {.fragment .fade-in-then-out fragment-index="4"}
+```{r, echo=FALSE}
+print(
+  image_read("images/p_plot_empty.png"),
+  info = FALSE
+)
+
+```
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="5"}
+```{r, echo=FALSE}
+print(
+  image_read("images/p_plot_1l.png"),
+  info = FALSE
+)
+
+```
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="6"}
+```{r, echo=FALSE}
+print(
+  image_read("images/p_plot_2l.png"),
+  info = FALSE
+)
+
+```
+:::
+
+
+::: {.fragment .fade-in fragment-index="7"}
+```{r, echo=FALSE}
+print(
+  image_read("images/p_plot_full.png"),
+  info = FALSE
+)
+
+```
+:::
+
+
+
+:::
+
+:::
+:::
+
 
 
 
