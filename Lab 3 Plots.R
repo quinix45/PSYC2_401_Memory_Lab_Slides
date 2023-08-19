@@ -1,4 +1,7 @@
 
+# lot's of GGplotting follows...
+
+
 library(spData)
 library(sf)
 library(ggplot2)
@@ -358,6 +361,269 @@ ggsave("images/scatterplot_t_test_regression.png",
 # t-test results corresponds to significance of regression coefficients significance
 
 #summary(lm(Age ~ Group, data = data))
+
+
+
+
+#######Scatter plot One-way ANOVA######
+
+data <- data.frame(
+   Age = c(14, 15, 15, 16, 
+           30, 31, 31, 32, 
+           32, 33, 33, 34),
+   
+   Group = c(0, 0, 0, 0, 
+             1, 1, 1, 1, 
+             2, 2, 2, 2), 
+   
+   label = c("Group 1", "Group 1", "Group 1", "Group 1", 
+             "Group 2", "Group 2", "Group 2", "Group 2",
+             "Group 3", "Group 3", "Group 3", "Group 3")
+)
+
+
+
+# scatter plot ANOVA
+
+scatterplot_ANOVA <- ggplot(data, aes(x = Group, y = Age)) +
+   geom_point(aes(color = label), 
+              show.legend = FALSE) +  
+   labs(title = "", x = "Groups", y = "Age") +
+   scale_color_manual(values = c("red","blue", "orange"))+
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
+   ) +
+   annotate("text", x = 0.05, y = 17, label = "Group 1") +
+   annotate("text", x = 1, y = 33, label = "Group 2") +
+   annotate("text", x = 2, y = 35, label = "Group 3") 
+
+print(scatterplot_ANOVA)
+
+ggsave("images/scatterplot_ANOVA.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+
+# scatter plot ANOVA reg line
+
+
+scatterplot_ANOVA_reg <- ggplot(data, aes(x = Group, y = Age)) +
+   geom_point(aes(color = label), 
+              show.legend = FALSE,
+              alpha = 0) +  
+   geom_segment(x = 0,
+                xend = 1,
+                y = 15,
+                yend = 31,
+                color = "red",
+                linetype = "dashed") +
+   geom_segment(x = 1,
+                xend = 2,
+                y = 31,
+                yend = 33,
+                color = "red",
+                linetype = "dashed") +
+   labs(title = "", x = "Groups", y = "Age") +
+   scale_color_manual(values = c("red","blue", "orange"))+
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent')) + 
+   ylim(14, 35)
+
+print(scatterplot_ANOVA_reg)
+
+ggsave("images/scatterplot_ANOVA_reg.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+###### Two-Way ANOVA ######
+
+
+# main effect of gender
+
+data <- data.frame(Weight = c(60, 62, 75, 76, 
+                              71, 72, 76, 77), 
+                   Gender = c(0, 0, 0, 0,
+                              1, 1, 1, 1),
+                   Diet = c("A", "A", "B", "B", 
+                            "A", "A", "B", "B"))
+
+scatterplot_2_ANOVA_1 <- ggplot(data, aes(x = Gender, y = Weight)) +
+   geom_point(show.legend = FALSE) +  
+   geom_segment(x = 0,
+                xend = 1,
+                y = mean(data$Weight[1:4]),
+                yend = mean(data$Weight[5:8]),
+                color = "red",
+                linetype = "dashed") +
+   geom_point(aes(x=0, y = mean(Weight[1:4])), 
+              colour="blue",
+              shape=18,
+              size =3) +
+   geom_point(aes(x=1, y=mean(Weight[5:8])), 
+              colour="orange",
+              shape=18,
+              size =3) +
+   labs(title = "", x = "Gender", y = "Weight") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
+   ) +
+   scale_x_continuous(breaks = c( 0, 1),
+                      labels = c("Female",
+                                 "Male"),
+                      limits = c(-.05,1.05)) +
+   annotate("text", x = 0, y = mean(data$Weight[1:4]) -1 , 
+            label = "Mean \n Female Weight",
+            size = 3) +
+   annotate("text", x = .9, y = mean(data$Weight[5:8]) +1, 
+            label = "Mean \n Male Weight",
+            size = 3) 
+
+
+print(scatterplot_2_ANOVA_1)
+
+ggsave("images/scatterplot_2_ANOVA_1.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+# main effect of Diet
+
+
+scatterplot_2_ANOVA_2 <- ggplot(data, aes(x = Gender, 
+                                          y = Weight,
+                                          color = Diet)) +
+   geom_point(show.legend = FALSE,
+              ) +
+   scale_color_manual(values = c("magenta",
+                                 "brown"))+
+   geom_segment(x = .5,
+                xend = .5,
+                y = mean(data$Weight[c(1,2,5,6)]),
+                yend = mean(data$Weight[c(3,4,7,8)]),
+                color = "red",
+                linetype = "dashed") +
+   geom_point(aes(x=0.5, y = mean(Weight[c(1,2,5,6)])), 
+              colour="magenta",
+              shape=18,
+              size =3) +
+   geom_point(aes(x=.5, y = mean(Weight[c(3,4,7,8)])), 
+              colour="brown",
+              shape=18,
+              size =3) +
+   labs(title = "", 
+        x = "Gender", 
+        y = "Weight") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
+   ) +
+   scale_x_continuous(breaks = c( 0, 1),
+                      labels = c("Female",
+                                 "Male"),
+                      limits = c(-.05,1.05)) +
+   annotate("text", x = .65, y = mean(data$Weight[c(1,2,5,6)]), 
+             label = "Mean \n Diet A Weight",
+             size = 3) +
+    annotate("text", x = .35, y = mean(data$Weight[c(3,4,7,8)]) , 
+             label = "Mean \n Diet B Weight",
+             size = 3) 
+
+
+print(scatterplot_2_ANOVA_2)
+
+ggsave("images/scatterplot_2_ANOVA_2.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+# Interaction effect
+
+
+scatterplot_2_ANOVA_3 <- ggplot(data, aes(x = Gender, 
+                                          y = Weight,
+                                          color = Diet)) +
+   geom_point(show.legend = FALSE,
+   ) +
+   scale_color_manual(values = c("magenta",
+                                 "brown"))+
+   geom_segment(y = mean(data$Weight[c(3,4)]),
+                yend = mean(data$Weight[c(7,8)]),
+                x = 0 ,
+                xend = 1,
+                color = "red",
+                linetype = "dashed") +
+   geom_segment(y = mean(data$Weight[c(1,2)]),
+                yend = mean(data$Weight[c(5,6)]),
+                x = 0 ,
+                xend = 1,
+                color = "red",
+                linetype = "dashed") +
+   geom_point(aes(x=0, y = mean(Weight[c(1,2)])), 
+              colour="magenta",
+              shape=18,
+              size =2) +
+   geom_point(aes(x=1, y = mean(Weight[c(5,6)])), 
+              colour="magenta",
+              shape=18,
+              size =2) +
+   geom_point(aes(x=0, y = mean(Weight[c(3,4)])), 
+              colour="brown",
+              shape=18,
+              size =2) +
+   geom_point(aes(x=1, y = mean(Weight[c(7,8)])), 
+              colour="brown",
+              shape=18,
+              size =2) +
+   labs(title = "", 
+        x = "Gender", 
+        y = "Weight") +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'), 
+      legend.box.background = element_rect(fill='transparent') 
+   ) +
+   scale_x_continuous(breaks = c( 0, 1),
+                      labels = c("Female",
+                                 "Male"),
+                      limits = c(-.05,1.05)) +
+   annotate("text", x = 0, y = mean(data$Weight[c(1,2)]) + 3, 
+            label = "Mean Weight \n Diet A X Females",
+            size = 2) +
+   annotate("text", x = 1, y = mean(data$Weight[c(5,6)]) - 2, 
+            label = "Mean Weight \n Diet A X Males",
+            size = 2) +
+   annotate("text", x = 0, y = mean(data$Weight[c(3,4)]) - 2, 
+            label = "Mean Weight \n Diet B X Females",
+            size = 2) +
+   annotate("text", x = 1, y = mean(data$Weight[c(7,8)]) - 2, 
+            label = "Mean Weight \n Diet B X Males",
+            size = 2) 
+
+
+print(scatterplot_2_ANOVA_3)
+
+
+ggsave("images/scatterplot_2_ANOVA_3.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
 
 
 #### p-values plot #####

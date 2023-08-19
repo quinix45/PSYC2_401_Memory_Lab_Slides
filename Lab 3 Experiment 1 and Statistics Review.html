@@ -781,18 +781,202 @@ In other words, There is <em>no difference</em> between a t-test and a regressio
 </div>
 </div>
 </section>
-<section id="anovas" class="slide level2">
-<h2>ANOVAs</h2>
+<section id="one-way-anovas" class="slide level2">
+<h2>One-Way ANOVAs</h2>
+<p style="font-size:24px;">
+Although scary sounding, a <strong>one-way ANOVA</strong> is simply a direct extension of t-test! The only difference is that it deals with the case in which there are <em>more than 2 groups</em>.
+</p>
+<div class="fragment" data-fragment-index="1">
+<center>
+<p style="font-size:22px; padding-top:25px;">
+<strong>AGE</strong>
+</p>
+</center>
+<center>
+<p style="font-size:22px;">
+<span style="color: red;">14, 15, 15, 16</span>, <span style="color: blue;">30, 31, 31, 32</span>, <span style="color: orange;">32, 33, 33, 34</span>
+</p>
+</center>
+</div>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="2">
+<p style="font-size:22px;">
+Once again, one-way ANOVA is also a glorified regression, and the visualization is very similar to that of a t-test. The equivalence to regression takes a bit longer to show, so I will omit it for the sake of time.
+</p>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p style="font-size:22px;">
+The main difference with t-tests is that one-way ANOVAs produces an <em>F</em> statistics instead of a <em>t</em> statistic. If we input the data in a <a href="https://www.statskingdom.com/180Anova1way.html" data-preview-link="true">one-way ANOVA calculator</a>, the result is <em>F</em>(2,9) = 583.99, <em>p</em> &lt;.001.
+</p>
+</div>
+<div class="fragment" data-fragment-index="5">
+<p style="font-size:22px;">
+The interpretation of a <em>significant</em> one-way ANOVA is that we are confident that the mean of the DV (<strong>Age</strong> here) changes depending on the IV (<strong>Group</strong> here). If one so wishes, it is also possible to run multiple t-tests to see which two group means are significantly different from each other (known as <em>post hoc</em>, or <em>pairwise comparison</em>).
+</p>
+</div>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="r-stack">
+<div class="fragment fade-in-then-semi-out" data-fragment-index="2">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="3">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="two-way-anovas" class="slide level2">
+<h2>Two-Way ANOVAs</h2>
+<p style="font-size:24px;">
+Finally, a <strong>two-way ANOVA</strong> (yes, also a glorified regression) is used by people when there are categorical 2 IVs (usually two grouping variables).
+</p>
+<div class="fragment" data-fragment-index="1">
+<p style="font-size:22px;">
+Let’s say that we randomly sample 4 males and 4 females all weighting 80 kilos. Further, we assign diet A to 2 random male/females and diet B to the remaining people. After 3 months we measure the weight of all the participants:
+</p>
+</div>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="2">
+<center>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    font-size:20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+
+  
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+<table>
+<tbody><tr>
+<th style="border: 0px solid black; background-color: transparent;">
+</th>
+<th>
+Diet A
+</th>
+<th>
+Diet B
+</th>
+</tr>
+<tr>
+<td style="background-color: #f2f2f2;">
+<strong>Female</strong>
+</td>
+<td>
+60, 62
+</td>
+<td>
+75, 76
+</td>
+</tr>
+<tr>
+<td style="background-color: #f2f2f2;">
+<strong>Male</strong>
+</td>
+<td>
+71, 72
+</td>
+<td>
+76, 77
+</td>
+</tr>
+
+</tbody></table>
+</center>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p style="font-size:22px;">
+the <a href="https://www.statskingdom.com/two-way-anova-calculator.html" data-preview-link="true">two-way ANOVA calculator</a> gives the 3 following results:
+</p>
+</div>
+<ul style="font-size:22px;">
+<div class="fragment" data-fragment-index="5">
+<li>
+<strong>Main effect of Gender:</strong> Weight after 3 months changes significantly depending on <em>gender</em>, <em>F</em>(1, 4) = 75.57, <em>p</em>&lt;.001.
+</li>
+</div>
+<div class="fragment" data-fragment-index="6">
+<li>
+<strong>Main effect of Diet:</strong> Weight after 3 months changes significantly depending on the <em>type of diet</em> that participants are assigned to, <em>F</em>(1, 4) = 217.29, <em>p</em>&lt;.001.
+</li>
+</div>
+<div class="fragment" data-fragment-index="7">
+<li>
+<strong>Interaction effect of Gender</strong><span class="math inline">\(\times\)</span><strong>Diet:</strong> The effect of the <em>type of diet</em> on weight after 3 months, <strong>changes significantly</strong> <u>depending on what gender participants are</u>, <em>F</em>(1, 4) = 51.57, <em>p</em> = 002.
+</li>
+</div>
+</ul>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="3">
+<p style="font-size:20px;">
+The results that Two-way ANOVA provides are the <strong>two main effects of the IVs</strong>, which are the same as running two separate one-way ANOVAs, and an <span style="color: red;"><strong>interaction effect</strong></span>.
+</p>
+</div>
+<div class="r-stack">
+<div class="fragment fade-in-then-out" data-fragment-index="5">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" style="width:95.0%"></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="6">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-18-1.png" style="width:95.0%"></p>
+</div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="7">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-19-1.png" style="width:95.0%"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="p-values" class="slide level2">
 <h2>p-values? 😕</h2>
 <p style="font-size:24px;">
-<em>P</em>-values are another often misunderstood, and frankly overemphasized, concept. The <strong>Correct interpretation of p-values</strong> is as follows:
+<em>P</em>-values are another often misunderstood, and frankly overemphasized, concept. We are taught that a <em>p-value</em> smaller than .05 (5% probability) is <em>significant</em>. The <strong>appropriate interpretation of p-values</strong> is as follows:
 </p>
 <div class="fragment" data-fragment-index="1">
 <center>
 <p style="font-size:26px;">
-Assuming that my hypothesis is wrong (Null hypothesis), if I were to <em>sample</em> the same number of observations from the population an <u> <em>infinite</em> number of times </u>, what is the probability that I will observe the same results.
+Assuming that my hypothesis is wrong (Null hypothesis), if I were to <em>sample</em> the same number of observations from the population an <u> <em>infinite</em> number of times </u>, what is the probability that I will observe the same results. (note that you <em>can</em> calculate a <em>p</em>-value for just about every statistic)
 </p>
 </center>
 </div>
@@ -811,7 +995,7 @@ Let’s assume that we know that the average depression score in the population 
 </div>
 <div class="fragment fade-in" data-fragment-index="8">
 <p style="font-size:22px;">
-In this case, even with a difference as small as .3, the <em>p</em>-value will turn out significant with a sample size of around 270 people. <span style="color: red;">Given the standard deviation of 3, a mean difference of .3 is laughable in practice</span>
+In this case, even with a difference as small as .3, the <em>p</em>-value will turn out significant with a sample size of around 270 people. <span style="color: red;">Given the standard deviation of 3, a mean difference of .3 is laughable in practice!</span>
 </p>
 </div>
 </div>
@@ -820,28 +1004,28 @@ In this case, even with a difference as small as .3, the <em>p</em>-value will t
 <div class="fragment fade-in-then-out" data-fragment-index="4">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-20-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="5">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-21-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="6">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-22-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in" data-fragment-index="7">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-18-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-23-1.png" width="1050"></p>
 </div>
 </div>
 </div>
