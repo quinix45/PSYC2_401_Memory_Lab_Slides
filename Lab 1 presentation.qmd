@@ -205,19 +205,21 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research experience*, as such, we will mostly focus on the following aspects of research:
 
-::: {.fragment .fade-in-then-semi-out}
+</br>
+
+::: {.fragment}
 -   **Data collection:** Classical experiments in the field of memory research.
 :::
 
-::: {.fragment .fade-in-then-semi-out}
+::: {.fragment}
 -   **Method:** Identifying variables being measured and experimental design.
 :::
 
-::: {.fragment .fade-in-then-semi-out}
--   **Results:** Choosing the appropriat data analysis procedure.\
+::: {.fragment}
+-   **Results:** Choosing the appropriate data analysis procedure.\
 :::
 
-::: {.fragment .fade-in-then-semi-out}
+::: {.fragment}
 -   **Discussion:** Interpreting and evaluating results.
 :::
 
@@ -267,58 +269,90 @@ We will use the 3 following software for this lab:
 
 ### Lab Reports (140~pts~)
 
-<p style = "font-size:28px;">There will be **4 lab reports** throughout the semester. Each lab report will focus on a different Coglab experiment.</p>
+<p style = "font-size:28px;">There will be **4 lab reports** throughout the semester. Each lab report will focus on a different Coglab experiment. Each lab report will progressively include more section, with only the 4~th~ lab report actually being a *full* lab report:</p>
 
-<p style = "font-size:28px;">Each lab report will progressively include more section, with only the 4~th~ lab report actually being a *full* lab report:</p>
+
+<ul style = "font-size: 30px;">
 
 :::{.fragment .fade-in fragment-index="1"}
+<li> **Lab Report 1.** Title page, Abstract, Introduction, References (**20~pts~**) </li>
+:::
 
-- <p style = "font-size:28px;"> **Lab Report 1.** Title page, Abstract, Introduction, References (**20~pts~**) </p>
+:::{.fragment .fade-in fragment-index="2"}
+<li> **Lab Report 2.** Title page, Abstract, Introduction, Method, references (**30~pts~**) </li>
+:::
 
-- <p style = "font-size:28px;"> **Lab Report 2.** Title page, Abstract, Introduction, Method, references (**30~pts~**) </p>
+:::{.fragment .fade-in fragment-index="3"}
+<li> **Lab Report 3.** Title page, Abstract, Introduction, Method, Results, References (**40~pts~**) </li>
+:::
 
-- <p style = "font-size:28px;"> **Lab Report 3.** Title page, Abstract, Introduction, Method, Results, References (**40~pts~**) </p>
+:::{.fragment .fade-in fragment-index="4"}
+<li>**Lab Report 4.** Title page, Abstract, Introduction, Method, Results, Discussion, References (**50~pts~**) </li>
+:::
 
-- <p style = "font-size:28px;"> **Lab Report 4.** Title page, Abstract, Introduction, Method, Results, Discussion, References (**50~pts~**) </p>
+:::{.fragment .fade-in fragment-index="5"}
+<li>**Lab Report 5.** Optional lab report that can be completed to substitute any previous lab report. </li>
+:::
+
+</ul>
+
+
+### Presentation (80~pts~) 
+
+<p style = "font-size:28px;"> Every student will choose an article from a list of articles and present for 10-15 minutes. The presentation should cover the major points of the article and will follow this grading rubric (more on the presentation duringnext lab): </p>
+
+
+:::{.fragment fragment-index="6"}
+
+::: {layout-ncol="3"}
+
+:::col
+<center> <p style = "font-size:26px;"> Introduction **(15~pts~)** </p> </center>
+:::
+
+:::col
+<center> <p style = "font-size:26px;">  Results **(20~pts~)** </p> </center>
+:::
+
+:::col
+<center> <p style = "font-size:26px;"> Method **(20~pts~)** </p> </center>
+:::
 
 :::
 
-### Presentation (60~pts~) 
+::: {layout-ncol="2"}
 
-<p style = "font-size:28px;"> Every student will choose an article from a list of articles and present for 10-15 minutes. </p>
+:::col
+<center> <p style = "font-size:26px;"> Discussion **(15~pts~)** </p> </center>
+:::
 
-<p style = "font-size:28px;"> The presentation should cover the major points of the article and will follow this grading rubric (more on the presentation during next lab): </p>
-
-
-:::{.fragment fragment-index="2"}
-
-<p style = "font-size:22px;"> Introduction **(10~pts~)** </p>
-<p style = "font-size:22px;">  Results **(15~pts~)** </p>
-<p style = "font-size:22px;"> Method **(15~pts~)**   </p>
-<p style = "font-size:22px;"> Discussion **(10~pts~)** </p>
-<p style = "font-size:22px;"> Delivery **(10~pts~)** </p>
+:::col
+<center> <p style = "font-size:26px;"> Delivery **(10~pts~)** </p> </center>
+:::
 
 :::
 
-:::{.fragment fragment-index="3"}
+:::
+
+:::{.fragment fragment-index="7"}
 
 <p style="text-align: center; font-size:28px; text-decoration: underline; text-decoration-color: red;"> We will choose presentation articles at the beginning of the next lab, So, by next lab, try to look over the articles and identify some you would like to present. </p>
 
 :::
 
-### Participation (60~pts~) {.smaller}
+### Participation (80~pts~) {.smaller}
 
 :::{layout-ncol="2"}
 
 ::: col
 <p style = "font-size:22px; "> During the lab following each Coglab experiment, we will collectively identify the experimental design, conduct data analysis in SPSS, and discuss the results. </p>
 
-:::{.fragment .fade-in fragment-index="4"}
+:::{.fragment .fade-in fragment-index="8"}
 <p style = "font-size:18px; text-align: center; border-width:3px; border-style:solid; border-color:#6971E0; padding: .5em;"> **The idea is to work as a big research team, so everyone should participate.** </p>
 :::
 
 
-::: {.fragment .fade-in fragment-index="5"}
+::: {.fragment .fade-in fragment-index="9"}
 <p style = "font-size:22px;">  **Attendance** is important both for class participation and for running Coglab experiments. 2 excused/unexcused absences are allowed:</p>
 
 
@@ -425,7 +459,7 @@ Sometimes, you need to cite multiple sources to back up one of your statements. 
 > Several studies have replicated these results (**B**rown, 2009**;** **P**orter, 2004**;** **S**mith, 2015, 2017).
 :::
 
-<br /> <br />
+</br> 
 
 :::{.fragment}
 
@@ -488,7 +522,7 @@ By far, the most common type of sources are *journal articles*. The general form
 
 Abbreviations are usually employed for words that are repeated multiple times throughout a manuscript (e.g., "APA" in these slides). 
 
-<br/>
+</br>
 
 :::{.fragment}
 The only rule to remember is to introduce the abbreviation the *1~st~ time the full word is presented*, and then *only* use the abbreviation for the rest of the paper:
