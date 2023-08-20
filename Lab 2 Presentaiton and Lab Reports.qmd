@@ -466,14 +466,14 @@ function GFG_Fun_2() {
 :::col
 <center> <a href="#/introduction">**Introduction:**</a>
 </br>
-The student presents the topic and background literature in enough detail. The *rationale* as to why the researcher are conducting the *experiment* is *clearly laid out*. (**10~pts~**) </center>
+The student presents the topic and background literature in enough detail. The *rationale* as to why the researcher are conducting the *experiment* is *clearly laid out*. (**15~pts~**) </center>
 :::
 :::
 :::{.fragment}
 :::col
 <center> <a href="#/method">**Method:**</a> 
 </br>
-The *experimental design*, the *variables being measured*, and the *way in which the variables are measured* are presented in a clear but succinct way. (**15~pts~**)
+The *experimental design*, the *variables being measured*, and the *way in which the variables are measured* are presented in a clear but succinct way. (**20~pts~**)
 </center>
 :::
 :::
@@ -481,7 +481,7 @@ The *experimental design*, the *variables being measured*, and the *way in which
 :::col
 <center> <a href="#/results">**Results:**</a> 
 </br>
-The student understands the *results* and the *statistics* involved with the results and is able to clearly convey this information to the audience.  (**15~pts~**)
+The student understands the *results* and the *statistics* involved with the results and is able to clearly convey this information to the audience.  (**20~pts~**)
 </center>
 :::
 :::
@@ -494,7 +494,7 @@ The student understands the *results* and the *statistics* involved with the res
 :::col
 <center> <a href="#/discussion">**Discussion:**</a> 
 </br>
-The results are quickly summarized, and the main discussion points (i.e., possible explanation of results, implications, limitations) are identified and presented.  (**10~pts~**)
+The results are quickly summarized, and the main discussion points (i.e., possible explanation of results, implications, limitations) are identified and presented.  (**15~pts~**)
 </center>
 :::
 :::
