@@ -519,13 +519,10 @@ The student delivers the presentation in an engaging way, without using any note
 In this part of the presentation, you should focus on the following points of your article:
 
 :::{.fragment}
-
 - **Background about the topic:** What is the topic of the article? What research has been done on it? 
-
 :::
 
 :::{.fragment}
-
 - **Gaps in the literature:** What research is missing? What questions *has not* been explored? 
 :::
 
@@ -1330,7 +1327,7 @@ The introduction serves many purpose. A good introduction should hit all of the 
 
 :::{.fragment fragment-index="2"}
 
-<li>  **Background literature:** What research has been done on topic?  </li>
+<li>  **Background literature:** What research has been done on topic? DO NOT mention statistics or methods from other papers; rather, try to seamlessly incorporate findings to support your argument. </li>
 
 :::
 
