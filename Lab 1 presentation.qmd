@@ -299,7 +299,7 @@ We will use the 3 following software for this lab:
 
 ### Presentation (80~pts~) 
 
-<p style = "font-size:28px;"> Every student will choose an article from a list of articles and present for 10-15 minutes. The presentation should cover the major points of the article and will follow this grading rubric (more on the presentation duringnext lab): </p>
+<p style = "font-size:28px;"> Every student will choose an article from a list of articles and present for 10-15 minutes. The presentation should cover the major points of the article and will follow this grading rubric (more on the presentation during next lab): </p>
 
 
 :::{.fragment fragment-index="6"}
