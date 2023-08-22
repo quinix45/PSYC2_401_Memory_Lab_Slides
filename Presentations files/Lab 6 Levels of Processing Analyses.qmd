@@ -1,0 +1,71 @@
+---
+title: "Lab 6: Levels of Processing Analyses"
+title-slide-attributes:
+  
+  data-background-image: images/Edge_1.png,
+                         images/Edge_1_inverted.png
+                         
+  data-background-size: 13%,
+                        13%
+                        
+  data-background-position: 0% 0%,
+                            100% 100%
+  
+  data-background-opacity: 100%
+  
+  #data-visibility: uncounted
+  
+author: "Fabio Setti"
+date: "PSYC 2401 Lab <br> Fall 2023"
+format:
+   revealjs:
+      footer: "Lab 6: Levels of Processing Analyses"
+      chalkboard: true
+      theme: Memory_lab_theme.scss
+      navigation-mode: linear
+      controls: false
+      slide-number: c 
+      width: 1280
+      height: 720
+      transition-speed: slow
+      #parallax-background-image: images/Brain_lightbulb_L.jpg
+      #logo: images/Brain_lightbulb_L.jpg
+
+editor: source
+---
+
+# {transition="zoom" data-menu-title="Levels of Processing Analyses"}
+
+::: {layout-ncol="2"}
+
+::: col
+
+
+</br>
+
+<p style=" 
+
+  font-size: 2.2em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.7em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Levels of Processing Analyses 
+  
+</p>
+
+
+:::
+
+
+:::col
+
+![](images/Analysis_2.png)
+
+:::
+
+:::
