@@ -5,7 +5,7 @@ A repository for my Memory lab slides. The slides are created in the **reveal.js
 Here are the links to the slides so far (use full screen for appropriate aspect ratio):
 
 <table style="border:none;">
-<td>
+<td>   
   
 - [Lab 1: Introduction and APA Style Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%201%20presentation.html#/title-slide)
 
@@ -22,7 +22,7 @@ Here are the links to the slides so far (use full screen for appropriate aspect 
 
 
 <td>
-
+  
 - [Lab 7: Encoding Specificity Experiment (incomplete)](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%207%20Encoding%20Specificity%20Experiment.html#/title-slide)
 
 - [Lab 8: Encoding Specificity Analyses (incomplete)](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%208%20Encoding%20Specificity%20Analyses.html#/title-slide)
