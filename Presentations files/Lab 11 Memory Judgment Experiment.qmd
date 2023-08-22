@@ -1,0 +1,115 @@
+---
+title: "Lab 11: Memory Judgment Experiment"
+title-slide-attributes:
+  
+  data-background-image: images/Edge_1.png,
+                         images/Edge_1_inverted.png
+                         
+  data-background-size: 13%,
+                        13%
+                        
+  data-background-position: 0% 0%,
+                            100% 100%
+  
+  data-background-opacity: 100%
+  
+  #data-visibility: uncounted
+  
+author: "Fabio Setti"
+date: "PSYC 2401 Lab <br> Fall 2023"
+format:
+   revealjs:
+      footer: "Lab 11: Memory Judgment Experiment"
+      chalkboard: true
+      theme: Memory_lab_theme.scss
+      navigation-mode: linear
+      controls: false
+      slide-number: c 
+      width: 1280
+      height: 720
+      transition-speed: slow
+      #parallax-background-image: images/Brain_lightbulb_L.jpg
+      #logo: images/Brain_lightbulb_L.jpg
+
+editor: source
+---
+
+
+# {transition="zoom" data-menu-title="Memory Judgment Experiment"}
+
+::: {layout-ncol="2"}
+
+::: col
+
+</br>
+
+<p style=" 
+
+  font-size: 2.2em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.7em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Memory Judgment Experiment
+  
+</p>
+
+
+:::
+
+
+:::col
+![](images/Experiment_kids.png)
+
+:::
+:::
+
+## Experiment Instructions
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<center>
+
+<p style="font-size: 30px;">
+Log into your CogLab account and click on “**complete lab**”
+</p>
+
+**&darr;** 
+
+<p style="font-size: 30px;">
+Then, select “**35. Memory Judgment**”
+</p>
+
+**&darr;**
+
+<p style="font-size: 30px;">
+Please, *Do not* read the “background” or the “instructions”. Click [here](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Coglab%20Experiments%20instructions/Coglab-Experiments-Instructions.html){preview-link="true"} for the experiment instructions
+</p>
+
+**&darr;**
+
+<p style="font-size: 30px;">
+After you are done, you are free to scroll to the top and read the “background” section
+</p>
+
+</center>
+
+:::
+
+
+:::col
+![](images/Memory_head.png)
+
+:::
+:::
+
+
