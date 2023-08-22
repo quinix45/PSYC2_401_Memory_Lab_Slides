@@ -34,7 +34,7 @@ format:
 editor: source
 ---
 
-# {transition="zoom" data-menu-title="Lab Experiment Analyses"}
+# {transition="zoom" data-menu-title="Memory Span Analyses"}
 
 ::: {layout-ncol="2"}
 
@@ -328,7 +328,7 @@ editor: source
 </br>
 
 :::{.fragment}
-<li> Where the hypotheses **supported**? </li> 
+<li> Were the hypotheses **supported**? </li> 
 :::
 
 </br>

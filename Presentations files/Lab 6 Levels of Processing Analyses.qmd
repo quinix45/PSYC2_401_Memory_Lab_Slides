@@ -69,3 +69,322 @@ editor: source
 :::
 
 :::
+
+## Today's hypotheses
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+::: col
+<p style="font-size:26px;"> Last time we completed lab **29.Levels of processing**. The hypotheses related to this lab that we will test today are: </p>
+
+
+<ul style ="font-size:24px; padding-top: 15px;">
+
+:::{.fragment}
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+:::
+
+:::{.fragment}
+<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+:::
+
+
+:::{.fragment}
+<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+:::
+
+</ul>
+
+
+:::{.fragment}
+<p style="font-size:26px; padding-top: 10px;">  Please, download the [Levels_of_Processing_data.sav]{style="color: red;"} file from blackboard and open it with SPSS. </p>
+:::
+
+:::
+
+:::col
+
+![](images/Hypotheses.png)
+
+:::
+
+:::
+
+## Your Turn: Introduction
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<p style="font-size:32px;"> As always, start by identifying what variables you are dealing with: </p>
+
+
+<ul style ="font-size:30px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What is the **Independent variable**(IV)?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What is the **Dependent variable**(DV)? </li> 
+:::
+
+</ul>
+
+:::{.fragment}
+<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
+:::
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+
+
+
+<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+
+
+<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Method 
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> **Participants:** What are the demographics of the participants?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Materials:**  How were the variables measured? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Procedure:** How did the experiment work? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+
+<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+
+<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+## Your Turn: Results
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+
+::: {layout-ncol="2"}
+
+:::col
+
+<p style="font-size:38px;"> Analysis time! </p>
+
+
+
+<ul style ="font-size:35px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What are the **descriptive statistics** of our variables (Mean, SD)? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What **analyses** should we run to test our hypotheses? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What are the **results**? </li> 
+:::
+
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+
+<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+
+<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Discussion
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> Briefly **summarize** the results. </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Were the hypotheses **supported**? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Are there any **limitations** that should be mentioned? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+
+<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+
+<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)

@@ -69,3 +69,304 @@ editor: source
 :::
 
 :::
+
+## Today's hypotheses
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+::: col
+<p style="font-size:28px;"> Last time we completed lab **35.Memory Judgment**. We still have only one hypothesis, but it actually takes a few analyses to test it: </p>
+
+
+<ul style ="font-size:24px; padding-top: 15px;">
+
+:::{.fragment}
+<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+:::
+
+</ul>
+
+:::{.fragment}
+<p style="font-size:26px; padding-top: 25px;"> This hypothesis actually has multiple parts to it. The issue I suggest we tackle first is to think about what **"overestimate"** means in the context of the experiment and from a statistical perspective.</p>
+:::
+
+:::{.fragment}
+<p style="font-size:26px; padding-top: 25px;">  Please, download the [Memory_Judgment_data.sav]{style="color: red;"} file from blackboard and open it with SPSS.</p>
+:::
+
+:::
+
+:::col
+
+![](images/Hypotheses.png)
+
+:::
+
+:::
+
+## Your Turn: Introduction
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<p style="font-size:32px;"> As always, start by identifying what variables you are dealing with: </p>
+
+
+<ul style ="font-size:30px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What is the **Independent variable**(IV)?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What is the **Dependent variable**(DV)? </li> 
+:::
+
+</ul>
+
+:::{.fragment}
+<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
+:::
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+</br>
+
+<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Method 
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> **Participants:** What are the demographics of the participants?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Materials:**  How were the variables measured? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Procedure:** How did the experiment work? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+</br>
+
+<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+
+
+</ul>
+
+
+:::
+
+:::
+
+
+## Your Turn: Results
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+
+::: {layout-ncol="2"}
+
+:::col
+
+<p style="font-size:38px;"> Analysis time! </p>
+
+
+
+<ul style ="font-size:35px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What are the **descriptive statistics** of our variables (Mean, SD)? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What **analyses** should we run to test our hypothesis? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What are the **results**? </li> 
+:::
+
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+</br>
+
+<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Discussion
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> Briefly **summarize** the results. </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Was the hypothesis **supported**? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Are there any **limitations** that should be mentioned? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+</br>
+
+<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)
