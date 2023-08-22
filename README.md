@@ -4,11 +4,13 @@ A repository for my Memory lab slides. The slides are created in the **reveal.js
 
 Here are the links to the slides so far (use full screen for appropriate aspect ratio):
 
-- [Lab 1: Introduction and APA Style Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Lab%201%20presentation.html#/title-slide)
+- [Lab 1: Introduction and APA Style Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%201%20presentation.html#/title-slide)
 
-- [Lab 2: Presentation and Lab Reports](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Lab%202%20Presentaiton%20and%20Lab%20Reports.html#/title-slide)
+- [Lab 2: Presentation and Lab Reports](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%202%20Presentaiton%20and%20Lab%20Reports.html#/title-slide)
 
-- [Lab 3: Memory Span Experiment and Statistics Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Lab%203%20Experiment%201%20and%20Statistics%20Review.html#/title-slide)
+- [Lab 3: Memory Span Experiment and Statistics Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%203%20Experiment%201%20and%20Statistics%20Review.html#/title-slide)
+
+- [Lab 4: Memory Span Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%204%20Memory%20Span%20Analyses.html#/title-slide)
 
 
 As a side note, there are a lot of formatting tricks that I have learned as I created these slides. Since there aren't many online resources on how to create slides with reveal.js in Quarto, I hope that those interested in using this framework will find my code helpful 🤗
