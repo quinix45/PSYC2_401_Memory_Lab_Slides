@@ -1428,7 +1428,7 @@ In the results section, you should present the statistics that test your hypothe
 :::
 
 :::{.fragment}
-<li>  Depending on what analyses you are running, there will be different APA guidelines for reporting results. Either refer to your PSYC 2000 lab slide or consult [this document](https://psych.uw.edu/storage/writing_center/stats.pdf){target="blank"}. </li>
+<li>  Depending on what analyses you are running, there will be different APA guidelines for reporting results. Either refer to your PSYC 2000 lab slides or consult [this document](https://psych.uw.edu/storage/writing_center/stats.pdf){target="blank"}. </li>
 :::
 
 </ul>

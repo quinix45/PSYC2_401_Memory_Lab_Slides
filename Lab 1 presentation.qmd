@@ -133,7 +133,7 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 <!-- # {background-image="images/Syllabus-2.jpg" background-opacity=".7"} -->
 
 
-# {transition="zoom"}
+# {transition="zoom" data-menu-title="Syllabus"}
 
 
 ::: {layout-ncol="2"}

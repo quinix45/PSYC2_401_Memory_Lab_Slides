@@ -34,6 +34,346 @@ format:
 editor: source
 ---
 
+# {transition="zoom" data-menu-title="Lab Experiment Analyses"}
+
+::: {layout-ncol="2"}
+
+::: col
+
+
+</br>
+
+<p style=" 
+
+  font-size: 2.2em;
+  font-weight:	800;
+  font-family: sans-serif;
+  smargin: 0 0 20px 0;
+  color: #6971E0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.7em;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-shadow: none; "> Memory Span Analyses 
+  
+</p>
+
+
+:::
+
+
+:::col
+
+![](images/Analysis_2.png)
+
+:::
+
+:::
+
+
+## Today's hypotheses
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+::: col
+<p style="font-size:28px;"> Last time we completed lab **24.Memory Span**. The hypotheses related to this lab that we will test today are: </p>
+
+
+<ul style ="font-size:24px; padding-top: 15px;">
+
+:::{.fragment}
+<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
+:::
+
+:::{.fragment}
+<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
+:::
+
+
+:::{.fragment}
+<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
+:::
+
+</ul>
+
+
+:::{.fragment}
+<p style="font-size:28px; padding-top: 25px;">  Please, download the [Memory_span_data.sav]{style="color: red;"} file from blackboard and open it with SPSS. Looking at what data is available to you should help you to get your bearings!</p>
+:::
+
+:::
+
+:::col
+
+![](images/Hypotheses.png)
+
+:::
+
+:::
+
+## Your Turn: Introduction
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<p style="font-size:32px;">   In research, it is always good practice to start by identifying what variables you are dealing with: </p>
+
+
+<ul style ="font-size:30px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What is the **Independent variable**(IV)?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What is the **Dependent variable**(DV)? </li> 
+:::
+
+</ul>
+
+:::{.fragment}
+<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
+:::
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
+
+
+<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
+
+
+<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Method 
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> **Participants:** What are the demographics of the participants?  </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Materials:**  How were the variables measured? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> **Procedure:** How did the experiment work? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
+
+
+<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
+
+
+<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+## Your Turn: Results
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+
+::: {layout-ncol="2"}
+
+:::col
+
+<p style="font-size:38px;"> Analysis time! </p>
+
+
+
+<ul style ="font-size:35px; padding-top: 45px;">
+
+:::{.fragment}
+<li> What are the **descriptive statistics** of our variables (Mean, SD)? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What **analyses** should we run to test our hypotheses? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> What are the **results**? </li> 
+:::
+
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
+
+
+<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
+
+
+<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+## Your Turn: Discussion
+
+![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+:::col
+
+
+</br>
+
+<ul style ="font-size:35px; padding-top: 25px;">
+
+:::{.fragment}
+<li> Briefly **summarize** the results. </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Where the hypotheses **supported**? </li> 
+:::
+
+</br>
+
+:::{.fragment}
+<li> Are there any **limitations** that should be mentioned? </li> 
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+
+</br>
+</br>
+
+![](images/Whiteboard.png)
+
+
+
+<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
+  right: 210px; width: 370px;">
+
+<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
+
+
+<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
+
+
+<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
+
+</ul>
+
+
+:::
+
+:::
+
+
+
+
+
 
 
 # Any Questions? 🤔

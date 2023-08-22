@@ -869,8 +869,6 @@ print(
 :::
 
 
-
-
 # Any Questions? 🤔
 
 ::: {.column width="10%"}
