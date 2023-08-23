@@ -112,4 +112,38 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 :::
 
+## The Modal Model of Memory
 
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+<center>
+
+![](images/Modal Model.png)
+
+</center>
+
+
+![](images/Brain_thinking.png){.absolute bottom=50 left=-30 width="180" height="200"}
+
+
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)
