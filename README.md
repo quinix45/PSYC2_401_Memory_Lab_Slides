@@ -15,7 +15,7 @@ Here are the links to the slides so far (use full screen for appropriate aspect 
 
 - [Lab 4: Memory Span Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%204%20Memory%20Span%20Analyses.html#/title-slide)
 
-- [Lab 5: Levels of Processing Experiment (incomplete)](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%205%20Levels%20of%20Processing%20Experiment.html#/title-slide)
+- [Lab 5: Levels of Processing Experiment](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%205%20Levels%20of%20Processing%20Experiment.html#/title-slide)
 
 - [Lab 6: Levels of Processing Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%206%20Levels%20of%20Processing%20Analyses.html#/title-slide)
 </td>

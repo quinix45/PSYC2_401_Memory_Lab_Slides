@@ -126,6 +126,105 @@ After you are done, you are free to scroll to the top and read the “background
 ![](images/Brain_thinking.png){.absolute bottom=50 left=-30 width="180" height="200"}
 
 
+## Limitations of The Modal Model
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+::: {layout-ncol="2"}
+
+::: col
+
+<p style="font-size: 28px;"> The modal model of memory was one of the first attempts to formalize the structure of memory, and at such it is a bit too simplistic. Some limitations include: </p>
+
+<ul style ="font-size:25px; padding-top: 15px;">
+
+:::{.fragment}
+<li> The modal model assumes that short term memory (STM) is essential for transferring information into long term memory (LTM); however, it has been shown that some patients with STM issues have no LTM problems (Shallice & Warrington, 1970). </li> 
+:::
+
+:::{.fragment}
+<li> The modal model assumes that holding items in STM (i.e., rehearsal) would guarantee transition into LTM/learning. </li>
+:::
+
+:::{.fragment}
+<li> The modal model does not take into account how the *type of item* that enters STM may affect transition into LTM. This last point is the main tenet of the **levels of Processing** principle (Craik and Lockhart, 1972) </li> 
+:::
+
+</ul>
+
+
+:::
+
+
+:::col
+
+</br>
+</br>
+</br>
+
+![](images/Modal Model.png)
+
+:::
+
+:::
+
+
+## The Levels of Processing Principle
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+:::{.fragment fragment-index="1"}
+![](images/Goldfish_fishbowl.png){.absolute top=150 right=150px width="170" height="140"}
+:::
+
+:::{.fragment fragment-index="2"}
+![](images/Scuba_diver.png){.absolute top=350 right=150px width="250" height="140"}
+:::
+
+:::{.fragment fragment-index="3"}
+![](images/Submarine.png){.absolute top=550 right=150px width="170" height="140"}
+:::
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+<p style="font-size: 28px;"> Rather than rehearsal, the *levels of processing* principle puts emphasis on the way in which items are process in STM: </p>
+
+<ul style ="font-size:25px; padding-top: 15px;">
+
+:::{.fragment fragment-index="1"}
+<li> **Shallow**: Usually simply *visual* processing (i.e., *what does this word look like? Is it capitalized or lower case?*) </li> 
+:::
+
+:::{.fragment fragment-index="2"}
+<li> **Intermediate**: For example, *phonological* processing (i.e., *does this words rhyme with this other word?*). </li>
+:::
+
+:::{.fragment fragment-index="3"}
+<li> **Deep**: For example, *semantic* processing, which involves attaching a deeper meaning to the word to be remembered (i.e., *is PEN a writing implement?*) </li> 
+:::
+
+</ul>
+
+
+:::{.fragment fragment-index="4"}
+<p style="font-size: 28px;">  According to the levels of processing principle, items that are *deeply* processes in STM will be more likely to be transferred to LTM. </p>
+:::
+
+:::
+
+
+:::col
+
+
+
+
+:::
+
+:::
+
 
 # Any Questions? 🤔
 
