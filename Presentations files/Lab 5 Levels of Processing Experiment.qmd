@@ -147,7 +147,7 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 
 :::{.fragment}
-<li> The modal model does not take into account how the *type of item* that enters STM may affect transition into LTM. This last point is the main tenet of the **levels of Processing** principle (Craik and Lockhart, 1972) </li> 
+<li> The modal model does not take into account *how* the *type of item* that enters STM *is processed* may affect transition into LTM. This last point is the main tenet of the **levels of Processing** principle (Craik and Lockhart, 1972) </li> 
 :::
 
 </ul>
@@ -218,8 +218,7 @@ After you are done, you are free to scroll to the top and read the “background
 
 :::col
 
-
-
+<!-- empty column for absoute position images -->
 
 :::
 

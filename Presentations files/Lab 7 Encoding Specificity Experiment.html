@@ -331,6 +331,8 @@
   <p class="date">PSYC 2401 Lab <br> Fall 2023</p>
 </section>
 
+
+
 <section>
 <section id="section" class="title-slide slide level1 center" data-transition="zoom" data-menu-title="Encoding Specificity Experiment">
 <h1></h1>
@@ -384,10 +386,71 @@ After you are done, you are free to scroll to the top and read the “background
 </div>
 </div>
 </div>
-<div class="footer footer-default">
+</section>
+<section id="encoding-specificity" class="slide level2">
+<h2>Encoding Specificity</h2>
+<p style="font-size: 30px;">
+The principle of <strong>encoding specificity</strong> posits that a really important factor for recalling something is the presence of same/similar <em>cues</em> both at the <em>encoding</em> stage and <em>retrieval stage</em>. This effect is also sometimes referred to as “context-dependent memory”.
+</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="1">
+<p style="font-size: 26px;">
+A classical example of this principle in the encoding specificity literature comes from Godden and Baddeley (1975):
+</p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p style="font-size: 24px; padding-top: 25px;">
+In this experiment, participants were asked <em>either</em> asked to learn a set of water under water or on land, and then asked to recall the learnt words <em>both</em> under water and on land.
+</p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<p style="font-size: 24px; padding-top: 25px;">
+It was found that participants exhibited significantly better recall when the retrieval condition matched the encoding condition (i.e Water/water did better than water/land).
+</p>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p style="font-size: 18px; padding-top: 10px;">
+As a side note, a recent attempt to replicated this study was not successful (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8568063/" target="_blank">Murre, 2021</a>) 😢
+</p>
+</div>
+</div>
+<div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="fragment" data-fragment-index="3">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-7-Encoding-Specificity-Experiment_files/figure-revealjs/unnamed-chunk-2-1.png" width="1050"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="other-examples" class="slide level2">
+<h2>Other Examples</h2>
+</section></section>
+<section id="any-questions" class="title-slide slide level1 center">
+<h1>Any Questions? 🤔</h1>
+<div class="column" style="width:10%;">
+<!-- empty column to create gap -->
+</div>
+<div class="column" style="width:70%;">
+<p><img data-src="images/Question.png"></p>
+</div>
+<div class="column" style="width:10%;">
+<!-- empty column to create gap -->
+</div>
+</section>
+
+<section id="and-class-is-over" class="title-slide slide level1 center">
+<h1>…And Class is over!🙃</h1>
+
+<img data-src="images/Students_happy.png" class="r-stretch"><div class="footer footer-default">
 <p>Lab 7: Encoding Specificity Experiment</p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -601,6 +664,48 @@ After you are done, you are free to scroll to the top and read the “background
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

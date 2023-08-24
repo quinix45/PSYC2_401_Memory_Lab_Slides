@@ -34,6 +34,17 @@ format:
 editor: source
 ---
 
+# Load Magick {visibility="hidden"}
+
+```{r echo=FALSE}
+
+# for loading png images of plots 
+
+library(magick)
+
+ 
+```
+
 
 # {transition="zoom" data-menu-title="Encoding Specificity Experiment"}
 
@@ -111,5 +122,72 @@ After you are done, you are free to scroll to the top and read the “background
 
 :::
 :::
+
+
+## Encoding Specificity
+
+<p style="font-size: 30px;"> The principle of **encoding specificity** posits that a really important factor for recalling something is the presence of same/similar *cues* both at the *encoding* stage and *retrieval stage*. This effect is also sometimes referred to as "context-dependent memory". </p>
+
+::: {layout-ncol="2"}
+
+::: col
+
+::: {.fragment fragment-index="1"}
+<p style="font-size: 26px;">  A classical example of this principle in the encoding specificity literature comes from Godden and Baddeley (1975):</p>
+:::
+
+::: {.fragment fragment-index="2"}
+<p style="font-size: 24px; padding-top: 25px;"> In this experiment, participants were asked *either* asked to learn a set of water under water or on land, and then asked to recall the learnt words *both* under water and on land. </p>
+:::
+
+::: {.fragment fragment-index="3"}
+<p style="font-size: 24px; padding-top: 25px;"> It was found that participants exhibited significantly better recall when the retrieval condition matched the encoding condition (i.e Water/water did better than water/land). </p>
+:::
+
+::: {.fragment fragment-index="4"}
+<p style="font-size: 18px; padding-top: 10px;"> As a side note, a recent attempt to replicated this study was not successful ([Murre, 2021](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8568063/){target="_blank"}) 😢 </p>
+:::
+
+:::
+
+
+:::col
+
+::: {.fragment fragment-index="3"}
+```{r, echo=FALSE}
+print(
+  image_read("images/encoding_plot.png"),
+  info = FALSE
+)
+```
+:::
+
+:::
+
+:::
+
+
+## Other Examples 
+
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+![](images/Students_happy.png)
 
 
