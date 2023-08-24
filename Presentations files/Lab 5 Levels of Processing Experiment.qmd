@@ -123,7 +123,7 @@ After you are done, you are free to scroll to the top and read the “background
 </center>
 
 
-![](images/Brain_thinking.png){.absolute bottom=50 left=-30 width="180" height="200"}
+![](images/Brain_thinking.png){.absolute bottom=50 left=-30 width="200" height="200"}
 
 
 ## Limitations of The Modal Model
@@ -244,4 +244,8 @@ After you are done, you are free to scroll to the top and read the “background
 
 # ...And Class is over!🙃 
 
+<center>
+
 ![](images/Students_happy.png)
+
+</center>

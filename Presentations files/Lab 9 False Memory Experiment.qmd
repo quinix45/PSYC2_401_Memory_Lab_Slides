@@ -113,3 +113,29 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 
 
+# Any Questions? 🤔
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="70%"}
+
+![](images/Question.png)
+
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+# ...And Class is over!🙃 
+
+<center>
+
+![](images/Students_happy.png)
+
+</center>
+
+

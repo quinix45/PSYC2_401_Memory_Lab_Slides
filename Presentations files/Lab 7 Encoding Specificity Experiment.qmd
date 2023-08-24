@@ -124,9 +124,25 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 
 
-## Encoding Specificity
+## Encoding Specificity 
 
-<p style="font-size: 30px;"> The principle of **encoding specificity** posits that a really important factor for recalling something is the presence of same/similar *cues* both at the *encoding* stage and *retrieval stage*. This effect is also sometimes referred to as "context-dependent memory". </p>
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+<p style="font-size: 30px;"> The principle of **encoding specificity** posits that a really important factor for recalling something is the presence of same/similar *cues*\* both at the *encoding* stage and *retrieval stage*. This effect is also sometimes referred to as "context-dependent memory". </p>
+
+
+<p style ="font-size:16px; padding-top: 15px; position: absolute;  top: 180px; right: 0px; width: 370px;"> **\*Cue:** objects or events, usually present during encoding, that help trigger a memory. </p> 
+
+
+![](images/Encoding Specificity.png){.absolute top=250 right=350 width=900 height=380}
+
+![](images/Brain_thinking_R.png){.absolute top=350 right=30 width="200" height="200"}
+
+
+
+## Encoding Specificity in Action?
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
 
 ::: {layout-ncol="2"}
 
@@ -141,11 +157,11 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 
 ::: {.fragment fragment-index="3"}
-<p style="font-size: 24px; padding-top: 25px;"> It was found that participants exhibited significantly better recall when the retrieval condition matched the encoding condition (i.e Water/water did better than water/land). </p>
+<p style="font-size: 24px; padding-top: 25px;"> It was found that participants exhibited significantly better recall when the retrieval condition matched the encoding condition (e.g., water/water did better than water/land). </p>
 :::
 
 ::: {.fragment fragment-index="4"}
-<p style="font-size: 18px; padding-top: 10px;"> As a side note, a recent attempt to replicated this study was not successful ([Murre, 2021](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8568063/){target="_blank"}) 😢 </p>
+<p style="font-size: 26px; padding-top: 10px;"> Unfortunately, a recent attempt to replicated this study was not successful ([Murre, 2021](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8568063/){target="_blank"}) 😢 </p>
 :::
 
 :::
@@ -154,20 +170,22 @@ After you are done, you are free to scroll to the top and read the “background
 :::col
 
 ::: {.fragment fragment-index="3"}
+
+</br>
+
 ```{r, echo=FALSE}
 print(
   image_read("images/encoding_plot.png"),
   info = FALSE
 )
 ```
-:::
 
 :::
 
 :::
 
+:::
 
-## Other Examples 
 
 # Any Questions? 🤔
 
@@ -188,6 +206,10 @@ print(
 
 # ...And Class is over!🙃 
 
+<center>
+
 ![](images/Students_happy.png)
+
+</center>
 
 

@@ -395,4 +395,8 @@ editor: source
 
 # ...And Class is over!🙃 
 
+<center>
+
 ![](images/Students_happy.png)
+
+</center>
