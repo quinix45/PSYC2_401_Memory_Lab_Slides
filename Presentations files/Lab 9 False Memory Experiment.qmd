@@ -112,6 +112,126 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 :::
 
+## False Memory
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+<p style="font-size: 30px;"> False memory refers to the distorted recollection of an event that happened in the past, or the recollection of an event that never happened. </p>
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+:::{.fragment}
+<p style="font-size: 25px; padding-top: 25px;">**Some causes of False Memory:**</p>
+:::
+
+<ul style ="font-size:23px; padding-top: 15px;">
+
+:::{.fragment}
+<li> **Interference:** A new event interferes with the memory of a previous event. For example, novel negative information about a person may cause negative false memories abuot our previous interactions with that person (*retroactive interference*). </li> 
+:::
+
+:::{.fragment}
+
+<li> **Leading Questions:** Question that either contain or attempt to elicit incorrect information about a past events have been known to cause false memories. For example, "Did you see **that** person?" (potentially leading) VS "Did you see **any** person?" (not leading). </li>
+
+:::
+
+:::{.fragment}
+
+<li> **Obsessive-Compulsive Disorder (OCD):** Some individuals suffering from OCD may experience doubts about previous events and convince themselves that they have committed some sort of mistake. </li> 
+
+:::
+
+</ul>
+
+:::
+
+
+:::col
+
+</br>
+
+<center>
+
+![](images/False_memory.png)
+
+</center>
+
+:::
+
+:::
+
+
+## The Mandela Effect
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+<p style="font-size: 28px;"> The **Mandela effect** is a phenomenon whereby multiple people consistently exhibit false memories about a famous person or a popular culture icon. A nice recent study that investigated this phenomenon is [Prasad and Bainbridge (2022)](https://journals.sagepub.com/doi/10.1177/09567976221108944){target="blank}; here are some ot the stimuli used in this study:</p>
+
+::: {.fragment fragment-index="1"}
+<center> <p style="font-size: 30px;"> **Which one is the original?** </p> </center>
+:::
+
+<!-- Pikachus -->
+
+::: {.fragment fragment-index="2"}
+![](images/Pika_Manipulation1.png){.absolute top=260 left=0 width="200" height="200"}
+
+
+
+![](images/Pika_Original.png){.absolute top=260 left=200 width="200" height="200"}
+
+
+
+![](images/Pika_Manipulation2.png){.absolute top=260 left=400 width="200" height="200"}
+:::
+
+<!-- Monopoly -->
+
+::: {.fragment fragment-index="3"}
+![](images/Mono_Original.png){.absolute top=260 left=700 width="200" height="200"}
+
+
+
+![](images/Mono_Manipulation2.png){.absolute top=260 left=900 width="200" height="200"}
+
+
+
+![](images/Mono_Manipulation1.png){.absolute top=260 left=1100 width="200" height="200"}
+:::
+
+<!-- Fruit of the Loom -->
+
+::: {.fragment fragment-index="4"}
+![](images/Fruit_Original.png){.absolute top=490 left=0 width="200" height="200"}
+
+
+
+![](images/Fruit_Manipulation1.png){.absolute top=490 left=200 width="200" height="200"}
+
+
+
+![](images/Fruit_Manipulation2.png){.absolute top=490 left=400 width="200" height="200"}
+:::
+
+
+<!-- C-3PO -->
+
+::: {.fragment fragment-index="5"}
+![](images/C3P0_Manipulation2.png){.absolute top=490 left=700 width="200" height="200"}
+
+
+
+![](images/C3P0_Original.png){.absolute top=490 left=900 width="200" height="200"}
+
+
+
+![](images/C3P0_Manipulation1.png){.absolute top=490 left=1100 width="200" height="200"}
+:::
+
 
 # Any Questions? 🤔
 

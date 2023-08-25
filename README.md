@@ -27,7 +27,7 @@ Here are the links to the slides so far (use full screen for appropriate aspect 
 
 - [Lab 8: Encoding Specificity Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%208%20Encoding%20Specificity%20Analyses.html#/title-slide)
 
-- [Lab 9: False Memory Experiment (incomplete)](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%209%20False%20Memory%20Experiment.html#/title-slide)
+- [Lab 9: False Memory Experiment](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%209%20False%20Memory%20Experiment.html#/title-slide)
 
 - [Lab 10: False Memory Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%2010%20False%20Memory%20Analyses.html#/title-slide)
 
