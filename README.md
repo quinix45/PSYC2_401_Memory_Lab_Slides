@@ -5,6 +5,8 @@ A repository for my Memory lab slides. The slides are created in the **reveal.js
 Here are the links to the slides (use full screen for appropriate aspect ratio):
 
 <table style="border:0px;">
+
+<td style="border:0px;">
   
 - [Lab 1: Introduction and APA Style Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%201%20presentation.html#/title-slide)
 
@@ -18,7 +20,6 @@ Here are the links to the slides (use full screen for appropriate aspect ratio):
 
 - [Lab 6: Levels of Processing Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%206%20Levels%20of%20Processing%20Analyses.html#/title-slide)
 </td>
-
 
 <td style="border:0px;">
   
