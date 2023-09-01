@@ -1,11 +1,10 @@
 # PSYC 2401: Memory Lab Slides
 
-A repository for my Memory lab slides. The slides are created in the **reveal.js** frameworks by using the **Quarto** extension in **Rstudio**!
+A repository for my Memory lab slides. The slides are created in the **reveal.js** frameworks by using the **Quarto** extension in **Rstudio**! Earlier slides have more content, whereas later slides are mostly used to support in class activities. 
 
 Here are the links to the slides (use full screen for appropriate aspect ratio):
 
 <table style="border:0px;">
-<td style="border:0px;">   
   
 - [Lab 1: Introduction and APA Style Review](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%201%20presentation.html#/title-slide)
 

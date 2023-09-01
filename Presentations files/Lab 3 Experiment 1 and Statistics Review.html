@@ -548,13 +548,14 @@ Although basic, the mean and standard deviation (<em>SD</em>) are very important
 <span class="math inline">\(SD_{Age} = \frac{\sqrt{\sum(Mean_{Age} - Age_i)^2}}{N_{Age}- 1} = 1.41\)</span>
 </li>
 </div>
-</ul>
 <p><br></p>
 <div class="fragment" data-fragment-index="4">
-<p style="font-size:26px;">
-The <em>mean</em> is a measure of central tendency, and the <em>SD</em> measures how spread out the data is.
-</p>
+<li>
+<span class="math inline">\(SE_{Age} = \frac{SD_{Age}}{\sqrt{N_{Age}}} = 0.58\)</span>
+</li>
 </div>
+</ul>
+<p><br></p>
 </div>
 <div class="col quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <div class="r-stack">
@@ -572,17 +573,27 @@ The <em>mean</em> is a measure of central tendency, and the <em>SD</em> measures
 </div>
 </div>
 </div>
-<div class="fragment fade-in" data-fragment-index="3">
+<div class="fragment fade-in-then-semi-out" data-fragment-index="3">
 <div class="cell">
 <div class="cell-output-display">
 <p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-4-1.png" width="1050"></p>
 </div>
 </div>
 </div>
+<div class="fragment fade-in" data-fragment-index="4">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-5-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+<p style="font-size:26px;  position: absolute; bottom:20px; left:0px;">
+<span class="fragment fade-in" data-fragment-index="5">The <strong>mean</strong> is a measure of central tendency, and the <strong>standard deviation (SD)</strong> measures how spread out the data is.</span> <span class="fragment fade-in" data-fragment-index="6">The <strong>standard error (SE)</strong> can be interpreted as the degree of confidence one can have that the <em>sample mean</em> is close to the <em>true population mean</em> (lower SE implies higher confidence).</span>
+</p>
 </section>
 <section id="correlation-and-regression" class="slide level2">
 <h2>Correlation and Regression</h2>
@@ -615,42 +626,42 @@ It turns out that one cannot calculate many statistics with just one variable ðŸ
 <div class="fragment fade-in-then-out" data-fragment-index="1">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-5-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-6-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="2">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-6-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-7-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="3">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-7-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-8-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="4">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-8-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-9-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-semi-out" data-fragment-index="5">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-9-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-10-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in" data-fragment-index="6">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-10-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-11-1.png" width="1050"></p>
 </div>
 </div>
 </div>
@@ -711,7 +722,7 @@ And this is your vanilla t-test, but there is more that statisticians donâ€™t wa
 <div class="fragment" data-fragment-index="3">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-11-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-12-1.png" width="1050"></p>
 </div>
 </div>
 </div>
@@ -751,21 +762,21 @@ The results that appear in t-tests come from testing whether the regression slop
 <div class="fragment fade-in-then-out" data-fragment-index="1">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-12-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-13-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment" data-fragment-index="2">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-13-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-14-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment" data-fragment-index="4">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-14-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1050"></p>
 </div>
 </div>
 </div>
@@ -822,14 +833,14 @@ The interpretation of a <em>significant</em> one-way ANOVA is that we are confid
 <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-15-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in" data-fragment-index="3">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-16-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" width="1050"></p>
 </div>
 </div>
 </div>
@@ -945,21 +956,21 @@ The results that Two-way ANOVA provides are the <strong>two main effects of the 
 <div class="fragment fade-in-then-out" data-fragment-index="5">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-17-1.png" style="width:95.0%"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-18-1.png" style="width:95.0%"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="6">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-18-1.png" style="width:95.0%"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-19-1.png" style="width:95.0%"></p>
 </div>
 </div>
 </div>
 <div class="fragment" data-fragment-index="7">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-19-1.png" style="width:95.0%"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-20-1.png" style="width:95.0%"></p>
 </div>
 </div>
 </div>
@@ -1004,28 +1015,28 @@ In this case, even with a difference as small as .3, the <em>p</em>-value will t
 <div class="fragment fade-in-then-out" data-fragment-index="4">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-20-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-21-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="5">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-21-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-22-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in-then-out" data-fragment-index="6">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-22-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-23-1.png" width="1050"></p>
 </div>
 </div>
 </div>
 <div class="fragment fade-in" data-fragment-index="7">
 <div class="cell">
 <div class="cell-output-display">
-<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-23-1.png" width="1050"></p>
+<p><img data-src="Lab-3-Experiment-1-and-Statistics-Review_files/figure-revealjs/unnamed-chunk-24-1.png" width="1050"></p>
 </div>
 </div>
 </div>

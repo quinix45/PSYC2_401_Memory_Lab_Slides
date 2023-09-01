@@ -309,13 +309,17 @@ $SD_{Age} = \frac{\sqrt{\sum(Mean_{Age} - Age_i)^2}}{N_{Age}- 1} = 1.41$
 </li>
 :::
 
-</ul>
-
 </br>
 
 :::{.fragment fragment-index="4"}
-<p style = "font-size:26px;"> The *mean* is a measure of central tendency, and the *SD* measures how spread out the data is. </p>
+<li> 
+$SE_{Age} = \frac{SD_{Age}}{\sqrt{N_{Age}}} = 0.58$ 
+</li>
 :::
+
+</ul>
+
+</br>
 
 
 :::
@@ -346,10 +350,20 @@ print(
 ```
 :::
 
-::: {.fragment .fade-in fragment-index="3"}
+::: {.fragment .fade-in-then-semi-out fragment-index="3"}
 ```{r, echo=FALSE}
 print(
   image_read("images/sd_plot.png"),
+  info = FALSE
+)
+
+```
+:::
+
+::: {.fragment .fade-in fragment-index="4"}
+```{r, echo=FALSE}
+print(
+  image_read("images/se_plot.png"),
   info = FALSE
 )
 
@@ -366,6 +380,7 @@ print(
 :::
 
 
+<p style = "font-size:26px;  position: absolute; bottom:20px; left:0px;"> [The **mean** is a measure of central tendency, and the **standard deviation (SD)** measures how spread out the data is.]{.fragment .fade-in fragment-index="5"} [The **standard error (SE)** can be interpreted as the degree of confidence one can have that the *sample mean* is close to the *true population mean* (lower SE implies higher confidence).]{.fragment .fade-in fragment-index="6"} </p>
 
 
 

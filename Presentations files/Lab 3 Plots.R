@@ -77,7 +77,7 @@ empty_plot <- ggplot(data, aes(x = Age, y = Height)) +
 
 # Print the scatter plot
 
-ggsave("images/empty_plot.png",
+ggsave("presentations files/images/empty_plot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -110,14 +110,13 @@ mean_plot <- ggplot(data, aes(x = Age, y = Height)) +
 
 # print(mean_plot)
 
-# Print the scatter plot
 
-ggsave("images/mean_plot.png",
+ggsave("presentations files/images/mean_plot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
 
-######## sd plot  ########
+######## SD plot  ########
 
 sd_plot <- ggplot(data, aes(x = Age, y = Height)) +
    geom_point(alpha = 0) +
@@ -154,14 +153,52 @@ sd_plot <- ggplot(data, aes(x = Age, y = Height)) +
 
 # print(sd_plot)
 
-# Print the scatter plot
 
-ggsave("images/sd_plot.png",
+ggsave("presentations files/images/sd_plot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
-######## empty scatterplot ########
 
+###### SE Plot ######
+
+se_plot <- ggplot(data, aes(x = Age, y = Height)) +
+   geom_point(alpha = 0) +
+   labs(title = "", x = "Age", y = "Height") +
+   geom_segment(aes(x = 13 - (sd(Age))/sqrt(6), 
+                    y = 18 , 
+                    xend = 13 + (sd(Age))/sqrt(6), 
+                    yend = 18),
+                color = "maroon",
+                linetype = "dashed",
+                arrow = arrow( ends = "both"),
+                alpha = 1) +
+   geom_point(alpha = 0) +
+   theme_classic() +
+   theme(
+      panel.background = element_rect(fill='transparent'), 
+      plot.background = element_rect(fill='transparent', color=NA), 
+      legend.background = element_rect(fill='transparent'),
+      legend.box.background = element_rect(fill='transparent'),
+      axis.title.y = element_blank(),  # Remove y-axis title
+      axis.text.y = element_blank(),
+      axis.line.y = element_line(color = "transparent"),
+      axis.ticks.y = element_blank()) +
+   annotate("text", x = 13 + (sd(data$Age))/sqrt(6), y = 18.5, label = "1 SE\n above the mean") +
+   annotate("text", x = 13 - (sd(data$Age))/sqrt(6), y = 18.5, label = "- 1 SE\n below the mean")
+
+
+
+
+
+print(se_plot)
+
+
+ggsave("presentations files/images/se_plot.png",
+       width = 7, height = 4.5, dpi = 300, units = "in")
+
+
+
+######## empty scatterplot ########
 
 empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
    geom_point(alpha = 0) + 
@@ -178,7 +215,7 @@ empty_scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
 
 #print(empty_scatter_plot)
 
-ggsave("images/empty_scatter_plot.png",
+ggsave("presentations files/images/empty_scatter_plot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 ######## scatterplot #######
@@ -199,7 +236,7 @@ scatter_plot <- ggplot(data, aes(x = Age, y = Height)) +
 
 #print(scatter_plot)
 
-ggsave("images/scatter_plot.png",
+ggsave("presentations files/images/scatter_plot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -221,7 +258,7 @@ scatter_plot_cor <- ggplot(data, aes(x = Age, y = Height)) +
 
 #print(scatter_plot_cor)
 
-ggsave("images/scatter_plot_cor.png",
+ggsave("presentations files/images/scatter_plot_cor.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 ####### regression scatterplot #######
@@ -250,7 +287,7 @@ scatter_plot_reg <- ggplot(data, aes(x = Age, y = Height)) +
 
 #print(scatter_plot_reg)
 
-ggsave("images/scatter_plot_reg.png",
+ggsave("presentations files/images/scatter_plot_reg.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -291,7 +328,7 @@ barplot <- ggplot(data, aes(x = groups,
 # Print the plot
 #print(barplot)
 
-ggsave("images/barplot.png",
+ggsave("presentations files/images/barplot.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -325,7 +362,7 @@ scatterplot_t_test <- ggplot(data, aes(x = Group, y = Age)) +
 
 #print(scatterplot_t_test)
 
-ggsave("images/scatterplot_t_test.png",
+ggsave("presentations files/images/scatterplot_t_test.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -355,7 +392,7 @@ scatterplot_t_test_regression <- ggplot(data, aes(x = Group, y = Age)) +
 
 # print(scatterplot_t_test_regression)
 
-ggsave("images/scatterplot_t_test_regression.png",
+ggsave("presentations files/images/scatterplot_t_test_regression.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 # t-test results corresponds to significance of regression coefficients significance
@@ -403,7 +440,7 @@ scatterplot_ANOVA <- ggplot(data, aes(x = Group, y = Age)) +
 
 print(scatterplot_ANOVA)
 
-ggsave("images/scatterplot_ANOVA.png",
+ggsave("presentations files/images/scatterplot_ANOVA.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -440,7 +477,7 @@ scatterplot_ANOVA_reg <- ggplot(data, aes(x = Group, y = Age)) +
 
 print(scatterplot_ANOVA_reg)
 
-ggsave("images/scatterplot_ANOVA_reg.png",
+ggsave("presentations files/images/scatterplot_ANOVA_reg.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -494,7 +531,7 @@ scatterplot_2_ANOVA_1 <- ggplot(data, aes(x = Gender, y = Weight)) +
 
 print(scatterplot_2_ANOVA_1)
 
-ggsave("images/scatterplot_2_ANOVA_1.png",
+ggsave("presentations files/images/scatterplot_2_ANOVA_1.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -546,7 +583,7 @@ scatterplot_2_ANOVA_2 <- ggplot(data, aes(x = Gender,
 
 print(scatterplot_2_ANOVA_2)
 
-ggsave("images/scatterplot_2_ANOVA_2.png",
+ggsave("presentations files/images/scatterplot_2_ANOVA_2.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -619,7 +656,7 @@ scatterplot_2_ANOVA_3 <- ggplot(data, aes(x = Gender,
 print(scatterplot_2_ANOVA_3)
 
 
-ggsave("images/scatterplot_2_ANOVA_3.png",
+ggsave("presentations files/images/scatterplot_2_ANOVA_3.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -687,7 +724,7 @@ p_plot_empty <- ggplot(data, aes(x = Sample_size, y = p_values, color = Differen
 print(p_plot_empty)
 
 
-ggsave("images/p_plot_empty.png",
+ggsave("presentations files/images/p_plot_empty.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -718,7 +755,7 @@ p_plot_1l <- ggplot(data[1:3000,], aes(x = Sample_size, y = p_values, color = Di
 print(p_plot_1l)
 
 
-ggsave("images/p_plot_1l.png",
+ggsave("presentations files/images/p_plot_1l.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -753,7 +790,7 @@ p_plot_2l <- ggplot(data[1:6000,], aes(x = Sample_size, y = p_values, color = Di
 print(p_plot_2l)
 
 
-ggsave("images/p_plot_2l.png",
+ggsave("presentations files/images/p_plot_2l.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
@@ -788,7 +825,7 @@ ggsave("images/p_plot_2l.png",
 print(p_plot_full)
 
 
-ggsave("images/p_plot_full.png",
+ggsave("presentations files/images/p_plot_full.png",
        width = 7, height = 4.5, dpi = 300, units = "in")
 
 
