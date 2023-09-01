@@ -2,7 +2,7 @@
 
 A repository for my Memory lab slides. The slides are created in the **reveal.js** frameworks by using the **Quarto** extension in **Rstudio**!
 
-Here are the links to the slides so far (use full screen for appropriate aspect ratio):
+Here are the links to the slides (use full screen for appropriate aspect ratio):
 
 <table style="border:0px;">
 <td style="border:0px;">   
@@ -31,7 +31,7 @@ Here are the links to the slides so far (use full screen for appropriate aspect 
 
 - [Lab 10: False Memory Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%2010%20False%20Memory%20Analyses.html#/title-slide)
 
-- [Lab 11: Memory Judgment Experiment (incomplete)](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%2011%20Memory%20Judgment%20Experiment.html#/title-slide)
+- [Lab 11: Memory Judgment Experiment](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%2011%20Memory%20Judgment%20Experiment.html#/title-slide)
 
 - [Lab 12: Memory Judgment Analyses](https://raw.githack.com/quinix45/PSYC_2401_Memory_Lab_Slides/main/Presentations%20files/Lab%2012%20Memory%20Judgment%20Analyses.html#/title-slide)
 </td>

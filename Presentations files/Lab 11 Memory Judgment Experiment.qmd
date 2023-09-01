@@ -112,6 +112,48 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 :::
 
+## Metamemory
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+The main theme behind today's experiment was **metamemory**, a term that refers to people's judgment and beliefs about their own memory performance. 
+
+![](images/Metamemory.png){.absolute bottom=10 left=50 width="470" height="440"}
+
+:::{.fragment}
+
+![](images/Surprised brain.png){.absolute bottom=270 right=350 width="270" height="240"}
+
+<center> <p style=" font-size:30px; position: absolute;
+bottom: 100px; right: 50px; width: 300px;"> Unfortunately, there are many cases in which we are not very good at making accurate judgments about our memory. </p> </center>
+:::
+
+
+## When Memory Judgments Fail
+
+<p style= "font-size:30px;"> One of the most studies factors that affect memory judgment research, also known as judgment of learning (JOL) research, are the *perceptual characteristics of items* ([Luna et al., 2018](https://doi.org/10.1080/17470218.2017.1343362){target="blank"}). This is what today's experiment focused on, where people were expected to overestimate how much font size would help in remembering a word. </p>
+
+:::{.fragment}
+<p style= "font-size:30px; padding-top:30px;"> Other factors that cause inaccurate memory judgments are: </p>
+:::
+
+<ul style ="font-size:30px;">
+
+:::{.fragment}
+<li> **Learning strategy:** People tend to misjudge which learning strategies will result in better learning ([Kornell & Bjork, 2008](https://doi.org/10.1111/j.1467-9280.2008.02127.x){target="blank"}). </li> 
+:::
+
+:::{.fragment}
+<li> **Present VS future performance:** People expect future performance in a task to be similar to present performance, even though, for many tasks, future performance will likely differ ([Kornell & Hausman, 2017](https://doi.org/10.3758/s13421-017-0740-1){target="blank"}) </li>
+:::
+
+:::{.fragment}
+<li> **Time of Judgment:** Memory judgments tend to be more accurate when there is a delay between encoding and the memory judgment ([Kelley et al., 2020](https://doi.org/10.1177/0956797620958004){target="blank"}). </li>
+:::
+
+</ul>
+
+
 
 # Any Questions? 🤔
 
