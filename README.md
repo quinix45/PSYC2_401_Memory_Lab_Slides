@@ -1,6 +1,6 @@
 # PSYC 2401: Memory Lab Slides
 
-A repository for my Memory lab slides. The slides are created in the **reveal.js** frameworks by using the **Quarto** extension in **Rstudio**! Earlier slides have more content, whereas later slides are mostly used to support in class activities. 
+A repository for my Memory lab slides. The slides are created in the **reveal.js** frameworks by using the **Quarto** extension in **Rstudio**! Earlier slides have more content, whereas later slides are mostly used to support in-class activities. 
 
 Here are the links to the slides (use full screen for appropriate aspect ratio):
 
