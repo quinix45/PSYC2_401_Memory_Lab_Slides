@@ -140,7 +140,6 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 ::: col
 
-<br /> <br />
 
 <p style=" 
 
@@ -162,21 +161,27 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 
 :::col
-![](images/Syllabus_2.png)
+
+
 
 :::
+
+
 :::
+
+![](images/Syllabus_2.png){.absolute top=0 right=0 width="650px" height="800px"}
+
 
 ## Lab Information
 
-![](images/Syllabus_2.png){.absolute top=-50 right=-50 width="80" height="80"}
+![](images/Syllabus_2.png){.absolute top=-40 right=-50 width="160" height="80"}
 
 ::: panel-tabset
 ### R01 Section
 
 **Meting time**: Fridays, <ins> 10:00am -- 11:20am <ins>
 
-**Lab Room**: Dealy 326 (Probably)
+**Lab Room**: Dealy 326
 
 **Lab instructor**: Fabio Setti
 
@@ -188,7 +193,7 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 **Meting time**: Fridays, <ins> 1:00pm - 2:20pm <ins>
 
-**Lab Room**: Dealy 326 (Probably)
+**Lab Room**: Dealy 326
 
 **Lab instructor**: Fabio Setti
 
@@ -199,7 +204,7 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 ## Lab Goals {.smaller}
 
-![](images/Syllabus_2.png){.absolute top=-50 right=-50 width="80" height="80"}
+![](images/Syllabus_2.png){.absolute top=-40 right=-50 width="160" height="80"}
 
 ![](images/Analytics_research.png){.absolute top="200" right="20" width="350" height="300"}
 
@@ -233,7 +238,7 @@ The Lab part of PSYC 2401 will attempt to recreate a *comprehensive research exp
 
 ## Lab Materials
 
-![](images/Syllabus_2.png){.absolute top=-50 right=-50 width="80" height="80"}
+![](images/Syllabus_2.png){.absolute top=-40 right=-50 width="160" height="80"}
 
 We will use the 3 following software for this lab:
 
@@ -263,7 +268,7 @@ We will use the 3 following software for this lab:
 
 ## Grading
 
-![](images/Syllabus_2.png){.absolute top=-50 right=-50 width="80" height="80"}
+![](images/Syllabus_2.png){.absolute top=-40 right=-50 width="160" height="80"}
 
 ::: panel-tabset
 
