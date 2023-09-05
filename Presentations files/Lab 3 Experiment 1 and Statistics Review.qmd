@@ -674,7 +674,7 @@ print(
 
 ## Two-Way ANOVAs
 
-<p style = "font-size:24px;"> Finally, a **two-way ANOVA** (yes, also a glorified regression) is used by people when there are categorical 2 IVs (usually two grouping variables). </p>
+<p style = "font-size:24px;"> Finally, a **two-way ANOVA** (yes, also a regression) is generally used when there are categorical 2 IVs (usually two grouping variables). </p>
 
 :::{.fragment fragment-index="1"}
 <p style = "font-size:22px;"> Let's say that we randomly sample 4 males and 4 females all weighting 80 kilos. Further, we assign diet A to 2 random male/females and diet B to the remaining people. After 3 months we measure the weight of all the participants: </p>
@@ -746,7 +746,7 @@ print(
 :::
 
 :::{.fragment fragment-index="7"}
-<li>**Interaction effect of Gender**$\times$**Diet:** The effect of the *type of diet* on weight after 3 months, **changes significantly** <u>depending on what gender participants are</u>, *F*(1, 4) = 51.57, *p* = 002. </li>
+<li>**Interaction effect of Gender**$\times$**Diet:** The effect of the *type of diet* on weight after 3 months, **changes significantly** <u>depending on what gender participants are</u>, *F*(1, 4) = 51.57, *p* = .002. </li>
 :::
 
 </ul>
