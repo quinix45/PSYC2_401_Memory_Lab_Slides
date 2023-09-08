@@ -556,7 +556,7 @@ There are many APA style resources. Some notable ones are...
 :::
 
 :::{.fragment}
-- [APA Publicartion Manual](https://apastyle.apa.org/products/publication-manual-7th-edition){preview-link="true"}: Goes without saying, but contains everything you need to know about APA. 
+- [APA Publication Manual](https://apastyle.apa.org/products/publication-manual-7th-edition){preview-link="true"}: Goes without saying, but contains everything you need to know about APA. 
 :::
 
 :::{.fragment}
