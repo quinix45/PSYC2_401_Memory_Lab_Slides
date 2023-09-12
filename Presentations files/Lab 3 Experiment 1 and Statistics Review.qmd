@@ -275,7 +275,7 @@ After you are done, you are free to scroll to the top and read the “background
 
 ## Mean and Standard Deviation
 
-![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
 
 <p style = "font-size:26px;"> Although basic, the mean and standard deviation (*SD*) are very important concepts. Let us assume that we recorded the age of 6 people: </p>
 
@@ -386,7 +386,7 @@ print(
 
 ## Correlation and Regression
 
-![](images/Statistics_review.png){.absolute top=-50 right=-50 width="130" height="100"}
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
 
 <p style = "font-size:24px;"> It turns out that one cannot calculate many statistics with just one variable 🤷 Let's also assume that, aside from people's age, we also measured their *height*: </p>
 
@@ -489,6 +489,8 @@ print(
 
 ## T-tests
 
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
+
 <p style = "font-size:24px;"> Personally, I think that **t-tests** are often taught in a way that causes some confusion. [Normally, we teach that one should run a t-test when we want to *compare the means of 2 groups*. That is true, but slightly misleading.]{.fragment fragment-index="1"}</p>
 
 ::: {.fragment fragment-index="2"}
@@ -536,6 +538,8 @@ print(
 
 
 ## T-test but it's Actually a Regression 🤯
+
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
 
 
 ::: {layout-ncol="2"}
@@ -611,6 +615,8 @@ print(
 
 ## One-Way ANOVAs 
 
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
+
 <p style = "font-size:24px;"> Although scary sounding, a **one-way ANOVA** is simply a direct extension of t-test! The only difference is that it deals with the case in which there are *more than 2 groups*. </p>
 
 ::: {.fragment fragment-index="1"}
@@ -673,6 +679,8 @@ print(
 
 
 ## Two-Way ANOVAs
+
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
 
 <p style = "font-size:24px;"> Finally, a **two-way ANOVA** (yes, also a regression) is generally used when there are 2 categorical IVs (usually two grouping variables). </p>
 
@@ -800,6 +808,8 @@ print(
 
 
 ## p-values? 😕
+
+![](images/Statistics_review.png){.absolute top=-40 right=-50 width="110" height="80"}
 
 <p style = "font-size:24px;"> *P*-values are another often misunderstood, and frankly overemphasized, concept. We are taught that a *p-value* smaller than .05 (5% probability) is *significant*. The **appropriate interpretation of p-values** is as follows: </p>
 
