@@ -609,7 +609,7 @@ The discussion is usually where the researchers briefly summarize the results an
 :::
 
 :::{.fragment}
-<li> **Interpretation and Implications:** Where the main hypotheses supported? Why were certain results observed? 
+<li> **Interpretation and Implications:** Were the main hypotheses supported? Why were certain results observed? 
 What are the practical implications of the results? </li>
 :::
 
@@ -1420,7 +1420,7 @@ In the results section, you should present the statistics that test your hypothe
 :::
 
 :::{.fragment}
-<li>  Rember to include descriptive statistics (mean and standard deviaiton) of your variables at the beginning of your result section. </li>
+<li>  Remember to include descriptive statistics (mean and standard deviation) of your variables at the beginning of your result section. </li>
 :::
 
 :::{.fragment}
