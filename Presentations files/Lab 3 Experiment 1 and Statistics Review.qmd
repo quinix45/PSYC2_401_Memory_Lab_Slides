@@ -16,7 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
-date: "PSYC 2401 Lab <br> Fall 2023"
+date: "PSYC 2401 Lab"
 format:
    revealjs:
       footer: "Lab 3: Memory Span Experiment and Statistics Review"
@@ -730,8 +730,8 @@ print(
   </tr>
   <tr>
     <td style = "background-color: #f2f2f2;"> **Male** </td>
-    <td>  71, 72 </td>
-    <td>  76, 77 </td>
+    <td>  74, 75 </td>
+    <td>  74, 77 </td>
   </tr>
 </table>
 
@@ -746,15 +746,16 @@ print(
 
 
 :::{.fragment fragment-index="5"}
-<li> **Main effect of Gender:** Weight after 3 months changes significantly depending on *gender*, *F*(1, 4) = 75.57, *p*<.001. </li>
+<li>**Main effect of Diet:** Weight after 3 months changes significantly depending on the *type of diet* that participants are assigned to, *F*(1, 4) = 64.07, *p*=.001. </li>
+
 :::
 
 :::{.fragment fragment-index="6"}
-<li>**Main effect of Diet:** Weight after 3 months changes significantly depending on the *type of diet* that participants are assigned to, *F*(1, 4) = 217.29, *p*<.001. </li>
+<li> **Main effect of Gender:** Weight after 3 months changes significantly depending on *gender*, *F*(1, 4) = 48.6, *p* = .002. </li>
 :::
 
 :::{.fragment fragment-index="7"}
-<li>**Interaction effect of Gender**$\times$**Diet:** The effect of the *type of diet* on weight after 3 months, **changes significantly** <u>depending on what gender participants are</u>, *F*(1, 4) = 51.57, *p* = .002. </li>
+<li>**Interaction effect of Gender**$\times$**Diet:** The effect of the *type of diet* on weight after 3 months, **changes significantly** <u>depending on what gender participants are</u>, *F*(1, 4) = 48.6, *p* = .002. </li>
 :::
 
 </ul>

@@ -488,28 +488,28 @@ ggsave("presentations files/images/scatterplot_ANOVA_reg.png",
 
 data <- data.frame(Weight = c(60, 62, 75, 76, 
                               71, 72, 76, 77), 
-                   Gender = c(0, 0, 0, 0,
-                              1, 1, 1, 1),
-                   Diet = c("A", "A", "B", "B", 
-                            "A", "A", "B", "B"))
+                   Gender = c("F", "F", "F", "F",
+                              "M", "M", "M", "M"),
+                   Diet = c(0, 0, 1, 1, 
+                            0, 0, 1, 1))
 
-scatterplot_2_ANOVA_1 <- ggplot(data, aes(x = Gender, y = Weight)) +
+scatterplot_2_ANOVA_1 <- ggplot(data, aes(x = Diet, y = Weight)) +
    geom_point(show.legend = FALSE) +  
    geom_segment(x = 0,
                 xend = 1,
-                y = mean(data$Weight[1:4]),
-                yend = mean(data$Weight[5:8]),
+                y = mean(data$Weight[c(1,2,5,6)]),
+                yend = mean(data$Weight[c(3,4,7,8)]),
                 color = "red",
                 linetype = "dashed") +
-   geom_point(aes(x=0, y = mean(Weight[1:4])), 
+   geom_point(aes(x=0, y = mean(Weight[c(1,2,5,6)])), 
               colour="blue",
               shape=18,
               size =3) +
-   geom_point(aes(x=1, y=mean(Weight[5:8])), 
+   geom_point(aes(x=1, y=mean(Weight[c(3,4,7,8)])), 
               colour="orange",
               shape=18,
               size =3) +
-   labs(title = "", x = "Gender", y = "Weight") +
+   labs(title = "", x = "Diet", y = "Weight") +
    theme_classic() +
    theme(
       panel.background = element_rect(fill='transparent'), 
@@ -518,14 +518,14 @@ scatterplot_2_ANOVA_1 <- ggplot(data, aes(x = Gender, y = Weight)) +
       legend.box.background = element_rect(fill='transparent') 
    ) +
    scale_x_continuous(breaks = c( 0, 1),
-                      labels = c("Female",
-                                 "Male"),
+                      labels = c("Diet A",
+                                 "Diet A"),
                       limits = c(-.05,1.05)) +
-   annotate("text", x = 0, y = mean(data$Weight[1:4]) -1 , 
-            label = "Mean \n Female Weight",
+   annotate("text", x = 0, y = mean(data$Weight[c(1,2,5,6)]) -1 , 
+            label = "Mean \n Diet A Weight",
             size = 3) +
-   annotate("text", x = .9, y = mean(data$Weight[5:8]) +1, 
-            label = "Mean \n Male Weight",
+   annotate("text", x = .93, y = mean(data$Weight[c(3,4,7,8)]) +.5, 
+            label = "Mean \n Diet B Weight",
             size = 3) 
 
 
