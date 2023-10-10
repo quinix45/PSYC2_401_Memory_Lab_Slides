@@ -83,16 +83,16 @@ editor: source
 <ul style ="font-size:24px; padding-top: 15px;">
 
 :::{.fragment}
-<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on recall accuracy in phase 2. </li> 
 :::
 
 :::{.fragment}
-<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+<li> **Hypothesis 2:** Recall accuracy for *visually encoded words* will be significantly *worse* than recall accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
 :::
 
 
 :::{.fragment}
-<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+<li> **Hypothesis 3:** Recall accuracy for *phonologically encoded* words will be significantly *worse* than recall accuracy in phase 2 for *semantically encoded words*. </li> 
 :::
 
 </ul>
@@ -160,14 +160,14 @@ editor: source
   right: 210px; width: 370px;">
 
 
-<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on recall accuracy in phase 2. </li> 
 
 
 
-<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+<li> **Hypothesis 2:** Recall accuracy for *visually encoded words* will be significantly *worse* than recall accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
 
 
-<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+<li> **Hypothesis 3:** Recall accuracy for *phonologically encoded* words will be significantly *worse* than recall accuracy in phase 2 for *semantically encoded words*. </li> 
 
 
 </ul>
@@ -226,11 +226,11 @@ editor: source
 <ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
   right: 210px; width: 370px;">
 
-<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on recall accuracy in phase 2. </li> 
 
-<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+<li> **Hypothesis 2:** Recall accuracy for *visually encoded words* will be significantly *worse* than recall accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
 
-<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+<li> **Hypothesis 3:** Recall accuracy for *phonologically encoded* words will be significantly *worse* than recall accuracy in phase 2 for *semantically encoded words*. </li> 
 
 </ul>
 
@@ -290,11 +290,11 @@ editor: source
 <ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
   right: 210px; width: 370px;">
 
-<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on recall accuracy in phase 2. </li> 
 
-<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+<li> **Hypothesis 2:** Recall accuracy for *visually encoded words* will be significantly *worse* than recall accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
 
-<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+<li> **Hypothesis 3:** Recall accuracy for *phonologically encoded* words will be significantly *worse* than recall accuracy in phase 2 for *semantically encoded words*. </li> 
 
 </ul>
 
@@ -353,11 +353,11 @@ editor: source
 <ul style ="font-size:15px; padding-top: 15px; position: absolute;  top: 130px;
   right: 210px; width: 370px;">
 
-<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on word recognition accuracy in phase 2. </li> 
+<li> **Hypothesis 1:** The type of processing level (*visual*, *phonological*, *semantic*) will have a significant effect on recall accuracy in phase 2. </li> 
 
-<li> **Hypothesis 2:** Recognition accuracy for *visually encoded words* will be significantly *worse* than recognition accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
+<li> **Hypothesis 2:** Recall accuracy for *visually encoded words* will be significantly *worse* than recall accuracy in phase 2 for *phonologically encoded words* and *semantically encoded words*. </li>
 
-<li> **Hypothesis 3:** Recognition accuracy for *phonologically encoded* words will be significantly *worse* than recognition accuracy in phase 2 for *semantically encoded words*. </li> 
+<li> **Hypothesis 3:** Recall accuracy for *phonologically encoded* words will be significantly *worse* than recall accuracy in phase 2 for *semantically encoded words*. </li> 
 
 </ul>
 
