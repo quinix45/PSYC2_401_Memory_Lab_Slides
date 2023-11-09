@@ -83,7 +83,9 @@ editor: source
 <ul style ="font-size:24px; padding-top: 15px;">
 
 :::{.fragment}
-<li> **Hypothesis 1:** In phase 2, participants will select a *similar* percentage of items on the *list presented in phase 1* and *semantically related lures*. </li> 
+<li> **Hypothesis 1:** In phase 2, participants will select a *higher* percentage of *semantically related lures* (i.e., critical lures) compared to *semantically unrelated lures* (i.e., unrelated lures). </li> 
+
+<li> **Hypothesis 2:** In phase 2, participants will select a *higher* percentage of items on the *list presented in phase 1* compared to *semantically related lures*. </li> 
 :::
 
 </ul>
@@ -130,10 +132,6 @@ editor: source
 
 </ul>
 
-:::{.fragment}
-<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
-:::
-
 :::
 
 
@@ -152,11 +150,9 @@ editor: source
   
   
 </br>
-</br>
+<li> **Hypothesis 1:** In phase 2, participants will select a *higher* percentage of *semantically related lures* (i.e., critical lures) compared to *semantically unrelated lures* (i.e., unrelated lures). </li> 
 
-
-<li> **Hypothesis 1:** In phase 2, participants will select a *similar* percentage of items on the *list presented in phase 1* and *semantically related lures*. </li> 
-
+<li> **Hypothesis 2:** In phase 2, participants will select a *higher* percentage of items on the *list presented in phase 1* compared to *semantically related lures*. </li> 
 </ul>
 
 
@@ -214,11 +210,9 @@ editor: source
   right: 210px; width: 370px;">
 
 </br>
-</br>
+<li> **Hypothesis 1:** In phase 2, participants will select a *higher* percentage of *semantically related lures* (i.e., critical lures) compared to *semantically unrelated lures* (i.e., unrelated lures). </li> 
 
-
-<li> **Hypothesis 1:** In phase 2, participants will select a *similar* percentage of items on the *list presented in phase 1* and *semantically related lures*. </li> 
-
+<li> **Hypothesis 2:** In phase 2, participants will select a *higher* percentage of items on the *list presented in phase 1* compared to *semantically related lures*. </li> 
 </ul>
 
 
@@ -277,11 +271,9 @@ editor: source
 <ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px; right: 210px; width: 370px;">
 
 </br>
-</br>
+<li> **Hypothesis 1:** In phase 2, participants will select a *higher* percentage of *semantically related lures* (i.e., critical lures) compared to *semantically unrelated lures* (i.e., unrelated lures). </li> 
 
-
-<li> **Hypothesis 1:** In phase 2, participants will select a *similar* percentage of items on the *list presented in phase 1* and *semantically related lures*. </li> 
-
+<li> **Hypothesis 2:** In phase 2, participants will select a *higher* percentage of items on the *list presented in phase 1* compared to *semantically related lures*. </li> 
 </ul>
 
 
@@ -340,11 +332,9 @@ editor: source
   right: 210px; width: 370px;">
 
 </br>
-</br>
+<li> **Hypothesis 1:** In phase 2, participants will select a *higher* percentage of *semantically related lures* (i.e., critical lures) compared to *semantically unrelated lures* (i.e., unrelated lures). </li> 
 
-
-<li> **Hypothesis 1:** In phase 2, participants will select a *similar* percentage of items on the *list presented in phase 1* and *semantically related lures*. </li> 
-
+<li> **Hypothesis 2:** In phase 2, participants will select a *higher* percentage of items on the *list presented in phase 1* compared to *semantically related lures*. </li> 
 </ul>
 
 
