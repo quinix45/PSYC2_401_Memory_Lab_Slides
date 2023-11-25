@@ -77,23 +77,31 @@ editor: source
 ::: {layout-ncol="2"}
 
 ::: col
-<p style="font-size:28px;"> Last time we completed lab **35.Memory Judgment**. We still have only one hypothesis, but it actually takes a few analyses to test it: </p>
+<p style="font-size:23px;"> Last time we completed lab **35.Memory Judgment**. We still have only one hypothesis, but it actually takes a few analyses to test it: </p>
 
 
-<ul style ="font-size:24px; padding-top: 15px;">
+
+
+
+<ul style ="font-size:22px; padding-top: 15px;">
 
 :::{.fragment}
-<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+
+Based on the notion that people are not accurate at judging what will affect memory we hypothesize that,
+
+<li> **Hypothesis 1a:** participants will *overestimate* the effect that *word size* will have on recognition accuracy.  </li> 
+
+<li> **Hypothesis 1b:** participants will  *underestimate* the effect of *number of times* a word is presented will have on recognition accuracy.  </li> 
 :::
 
 </ul>
 
 :::{.fragment}
-<p style="font-size:26px; padding-top: 25px;"> This hypothesis actually has multiple parts to it. The issue I suggest we tackle first is to think about what **"overestimate"** means in the context of the experiment and from a statistical perspective.</p>
+<p style="font-size:26px; padding-top: 23px;"> To test these hypotheses, it is important to think about what **"overestimate"** and **"underestimate"** mean in the context of this experiment and from a statistical perspective.</p>
 :::
 
 :::{.fragment}
-<p style="font-size:26px; padding-top: 25px;">  Please, download the [Memory_Judgment_data.sav]{style="color: red;"} file from blackboard and open it with SPSS.</p>
+<p style="font-size:26px; padding-top: 23px;">  Please, download the [Memory_Judgment_data.sav]{style="color: red;"} file from blackboard and open it with SPSS.</p>
 :::
 
 :::
@@ -133,9 +141,6 @@ editor: source
 
 </ul>
 
-:::{.fragment}
-<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
-:::
 
 :::
 
@@ -155,7 +160,9 @@ editor: source
 
 </br>
 
-<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+<li> **Hypothesis 1a:** participants will *overestimate* the effect that *word size* will have on recognition accuracy .  </li> 
+
+<li> **Hypothesis 1b:** participants will  *underestimate* the effect of *number of times* a word is presented will have on recognition accuracy.  </li> 
 
 </ul>
 
@@ -215,7 +222,9 @@ editor: source
 
 </br>
 
-<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+<li> **Hypothesis 1a:** participants will *overestimate* the effect that *word size* will have on recognition accuracy .  </li> 
+
+<li> **Hypothesis 1b:** participants will  *underestimate* the effect of *number of times* a word is presented will have on recognition accuracy.  </li> 
 
 
 </ul>
@@ -275,10 +284,12 @@ editor: source
 
 <ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
   right: 210px; width: 370px;">
+  
+</br>  
 
-</br>
+<li> **Hypothesis 1a:** participants will *overestimate* the effect that *word size* will have on recognition accuracy .  </li> 
 
-<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+<li> **Hypothesis 1b:** participants will  *underestimate* the effect of *number of times* a word is presented will have on recognition accuracy.  </li> 
 
 
 </ul>
@@ -337,10 +348,12 @@ editor: source
 
 <ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
   right: 210px; width: 370px;">
-
+  
 </br>
 
-<li> **Hypothesis 1:** Based on the notion that people are not accurate at judging what will affect memory, we hypothesize that participants will *overestimate* the effect that *word size* will have on recall compared to *number of times that a word is presented*.  </li> 
+<li> **Hypothesis 1a:** participants will *overestimate* the effect that *word size* will have on recognition accuracy .  </li> 
+
+<li> **Hypothesis 1b:** participants will  *underestimate* the effect of *number of times* a word is presented will have on recognition accuracy.  </li> 
 
 </ul>
 
