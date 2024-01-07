@@ -169,7 +169,7 @@ After you are done, you are free to scroll to the top and read the “background
 ![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
 
 
-<p style="font-size: 30px;"> The **Deese–Roediger–McDermott (DRM; [Rodiger & McDermott, 1995](https://psych.hanover.edu/classes/cognition/Papers/RoedigerMcDermott%201996%20DRM%20False.pdf)) paradigm ** is one of the most popular experimental procedures to generate false memories.</p>
+<p style="font-size: 30px;"> The **Deese–Roediger–McDermott (DRM; [Rodiger & McDermott, 1995](https://psych.hanover.edu/classes/cognition/Papers/RoedigerMcDermott%201996%20DRM%20False.pdf)) paradigm ** is one of the most popular experimental procedures used to generate false memories.</p>
 
 ::: {layout-ncol="2"}
 
