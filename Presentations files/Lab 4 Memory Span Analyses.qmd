@@ -113,70 +113,6 @@ editor: source
 
 :::
 
-## Your Turn: Introduction
-
-![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
-
-::: {layout-ncol="2"}
-
-:::col
-
-</br>
-
-<p style="font-size:32px;">   In research, it is always good practice to start by identifying what variables you are dealing with: </p>
-
-
-<ul style ="font-size:30px; padding-top: 45px;">
-
-:::{.fragment}
-<li> What is the **Independent variable**(IV)?  </li> 
-:::
-
-</br>
-
-:::{.fragment}
-<li> What is the **Dependent variable**(DV)? </li> 
-:::
-
-</ul>
-
-:::{.fragment}
-<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
-:::
-
-:::
-
-
-:::col
-
-
-</br>
-</br>
-
-![](images/Whiteboard.png)
-
-
-
-<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
-  right: 210px; width: 370px;">
-
-<li> **Hypothesis 1:** The type of stimulus (*digit*, *letter*, *word*) will have a significant effect on memory span. </li> 
-
-
-<li> **Hypothesis 2:** Memory span for *digits* will be significantly higher than memory span for *words*. </li> 
-
-
-<li> **Hypothesis 3:** Memory span for *digits* and *letters* will not be significantly different. Similarly, memory span for *letters* and *words* will not be significantly different.  </li> 
-
-</ul>
-
-
-:::
-
-:::
-
-
-
 
 ## Your Turn: Method 
 
@@ -197,7 +133,7 @@ editor: source
 </br>
 
 :::{.fragment}
-<li> **Materials:**  How were the variables measured? </li> 
+<li> **Materials:**  How were the variables measured? What are the IVs and DVs? </li> 
 :::
 
 </br>

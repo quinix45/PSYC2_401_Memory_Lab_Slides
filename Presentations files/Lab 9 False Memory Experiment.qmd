@@ -127,7 +127,7 @@ After you are done, you are free to scroll to the top and read the “background
 <p style="font-size: 25px; padding-top: 25px;">**Some causes of False Memory:**</p>
 :::
 
-<ul style ="font-size:23px; padding-top: 15px;">
+<ul style ="font-size:21px; padding-top: 15px;">
 
 :::{.fragment}
 <li> **Interference:** A new event interferes with the memory of a previous event. For example, novel negative information about a person may cause negative false memories abuot our previous interactions with that person (*retroactive interference*). </li> 
@@ -141,7 +141,7 @@ After you are done, you are free to scroll to the top and read the “background
 
 :::{.fragment}
 
-<li> **Obsessive-Compulsive Disorder (OCD):** Some individuals suffering from OCD may experience doubts about previous events and convince themselves that they have committed some sort of mistake. </li> 
+<li> **Similarity between events/stimuli:** Probably one of the most common false memory causes is the similarity between stimuli/events. When asked about events that did not happen, which have features of events that did happen, people often report false memories. </li> 
 
 :::
 
@@ -163,6 +163,96 @@ After you are done, you are free to scroll to the top and read the “background
 :::
 
 :::
+
+## The DRM task
+
+![](images/Experiment_kids.png){.absolute top=-50 right=-50 width="120" height="90"}
+
+
+<p style="font-size: 30px;"> The **Deese–Roediger–McDermott (DRM; [Rodiger & McDermott, 1995](https://psych.hanover.edu/classes/cognition/Papers/RoedigerMcDermott%201996%20DRM%20False.pdf)) paradigm ** is one of the most popular experimental procedures to generate false memories.</p>
+
+::: {layout-ncol="2"}
+
+:::col
+
+<center>
+::: {.fragment fragment-index="1"}
+<p style="font-size: 30px;"> **Encoding Phase** </p>
+
+
+![](images/Memorization.png){width="120" height="110"}
+:::
+
+::: {.fragment fragment-index="2"}
+<p style="font-size: 24px;"> Participants are told to learn a set of *semantically related* words. For example: </p>
+:::
+
+
+::: {.fragment fragment-index="3"}
+<p style="font-size: 24px;"> **Mountain, cliff, peak, chasm, etc...**</p>
+:::
+
+</br>
+
+::: {.fragment fragment-index="4"}
+<p style="font-size: 24px;"> usually the list will have 8 or more words. </p>
+:::
+
+
+
+
+</center>
+
+
+:::
+
+
+:::col
+
+<center>
+
+::: {.fragment fragment-index="1"}
+
+<p style="font-size: 30px;"> **Recognition Phase** </p>
+
+![](images/Detective.png){width="120" height="110"}
+
+:::
+
+
+::: {.fragment fragment-index="5"}
+<p style="font-size: 24px;"> Participants are then present another list of words and asked to identify words that were presented in encoding phase: </p>
+:::
+
+
+::: {.fragment fragment-index="6"}
+<p style="font-size: 24px;"> **door**, [**peak**]{style="color: green;"}, **hammer**, [**hill**]{style="color: red;"}, [**cliff**]{style="color: green;"}, [**summit**]{style="color: red;"}, **etc...** </p>
+:::
+
+
+
+::: {.fragment fragment-index="7"}
+<p style="font-size: 24px;"> Where participants will be more likely to incorrectly identify [**semantically related**]{style="color: red;"} words such as *hill* than **semantically unrelated** words such as *door*. </p>
+:::
+
+
+
+</center>
+
+
+:::
+
+
+:::
+
+
+<center>
+
+::: {.fragment fragment-index="8"}
+<p style="font-size: 24px;"> 💡The DRM task is actually what was used in the experiment that you just completed💡 </p>
+:::
+
+</center>
 
 
 ## The Mandela Effect

@@ -103,66 +103,6 @@ editor: source
 
 :::
 
-## Your Turn: Introduction
-
-![](images/Analysis_2.png){.absolute top=-40 right=-50 width="120" height="90"}
-
-::: {layout-ncol="2"}
-
-:::col
-
-</br>
-
-<p style="font-size:32px;"> As always, start by identifying what variables you are dealing with: </p>
-
-
-<ul style ="font-size:30px; padding-top: 45px;">
-
-:::{.fragment}
-<li> What is the **Independent variable**(IV)?  </li> 
-:::
-
-</br>
-
-:::{.fragment}
-<li> What is the **Dependent variable**(DV)? </li> 
-:::
-
-</ul>
-
-:::{.fragment}
-<p style="font-size:32px;"> Remember to clearly state what the IV and the DV are in your introduction. </p>
-:::
-
-:::
-
-
-:::col
-
-
-</br>
-</br>
-
-![](images/Whiteboard.png)
-
-
-
-<ul style ="font-size:16px; padding-top: 15px; position: absolute;  top: 130px;
-  right: 210px; width: 370px;">
-
-</br> </br>
-
-<li> **Hypothesis 1:** Based on the Encoding Specificity Principle, when there is a match between *encoding* and *recognition* conditions, recognition will be better than when conditions are mismatched. </li> 
-
-</ul>
-
-
-:::
-
-:::
-
-
-
 
 ## Your Turn: Method 
 
@@ -183,7 +123,7 @@ editor: source
 </br>
 
 :::{.fragment}
-<li> **Materials:**  How were the variables measured? </li> 
+<li> **Variables:**  How were the variables measured? What are the IVs and DVs? </li> 
 :::
 
 </br>

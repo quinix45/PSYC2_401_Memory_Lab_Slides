@@ -61,7 +61,7 @@ editor: source
 
 :::{.fragment fragment-index="1"}
 
-<p style="font-size: 32px; text-align: center;"> Last time I taught this lab, a good deal of students either asked or suggested to go over what I expect for **presentations** and **lab reports** in more detail...
+<p style="font-size: 32px; text-align: center;"> I find it very useful and important to spend a full lab  explaining what I expect from **presentations** and **lab reports** in more detail...So, today, we are doing just that!
 </p>
 :::
 
@@ -69,7 +69,7 @@ editor: source
 </br>
 
 :::{.fragment fragment-index="2"}
-<center> Today, we are doing just that! </center>
+<center> Whenever working on you presentations or lab reports, *always* refer to these slides </center>
 :::
 
 :::
@@ -1282,7 +1282,7 @@ model of IM for motivation research are discussed. ([Carbonneau et al., 2012, ab
 :::  
   
 :::{.fragment fragment-index="5"}
-<li> <span style="color:brown"> **Results:** </span> A very brief snippet of the results; **in the case of your lab report, include statistics here (e.g., t-tests, ANOVAs)**.  </li>
+<li> <span style="color:brown"> **Results:** </span> A very brief snippet of the results; **in the case of your lab report, include main statistics here (e.g., t-tests, ANOVAs)**.  </li>
 :::  
 
 :::{.fragment fragment-index="6"}
@@ -1339,7 +1339,7 @@ The introduction serves many purpose. A good introduction should hit all of the 
 
 :::{.fragment fragment-index="4"}
 
-<li>  **variables and hypotheses:**  What are the hypotheses (may be 1 or more)? What are the variables of interest? </li>
+<li>  **Hypotheses:**  What are the hypotheses (may be 1 or more)? </li>
 
 :::
 
@@ -1387,7 +1387,7 @@ The Method section is divided in 3 subsections:
 :::
 
 :::{.fragment}
-- **Materials:** Usually, here you mention what questionnaires were used to measure the variables. In the case of the lab reports, mention how the variables were measured (e.g., response times were measured in milliseconds).  
+- **Variables:** In the case of our lab reports, mention *how* the variables were measured (e.g., response times were measured in milliseconds) and which ones are independent variables (IVs) and dependent variables (DVs).  
 :::
 
 :::{.fragment}
