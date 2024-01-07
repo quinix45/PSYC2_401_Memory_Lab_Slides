@@ -133,7 +133,7 @@ editor: source
 </br>
 
 :::{.fragment}
-<li> **Materials:**  How were the variables measured? What are the IVs and DVs? </li> 
+<li> **Variables:**  How were the variables measured? What are the IVs and DVs? </li> 
 :::
 
 </br>
