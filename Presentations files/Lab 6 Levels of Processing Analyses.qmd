@@ -16,7 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
-date: "PSYC 2401 Lab <br> Fall 2023"
+institute: "PSYC 2401 Lab"
 format:
    revealjs:
       footer: "Lab 6: Levels of Processing Analyses"

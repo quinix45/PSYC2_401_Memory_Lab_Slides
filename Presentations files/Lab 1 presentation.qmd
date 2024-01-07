@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Introduction and APA Style Review "
+title: "Lab 1: Introduction and APA Style Review"
 title-slide-attributes:
   
   data-background-image: images/Edge_1.png,
@@ -16,7 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
-date: "PSYC 2401 Lab <br> Fall 2023"
+institute: "PSYC 2401 Lab"
 format:
    revealjs:
       footer: "Lab 1: Introduction and APA Style Review"

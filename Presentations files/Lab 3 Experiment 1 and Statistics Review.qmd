@@ -16,7 +16,7 @@ title-slide-attributes:
   #data-visibility: uncounted
   
 author: "Fabio Setti"
-date: "PSYC 2401 Lab"
+institute: "PSYC 2401 Lab"
 format:
    revealjs:
       footer: "Lab 3: Memory Span Experiment and Statistics Review"
