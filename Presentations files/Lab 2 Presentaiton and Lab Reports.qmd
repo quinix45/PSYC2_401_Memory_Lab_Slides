@@ -142,22 +142,7 @@ editor: source
 ### R01 Section
 
 <script>
-  let arr = ["Annie B.", 
-             "Vlera B.",
-             "Tenzing C.", 
-             "Pia D.",
-             "Thalia G.",
-             "Marjorie M.",
-             "Taylor G.",
-             "Yu Jin I.",
-             "Jacklyn J.",
-             "Caroline L.",
-             "Elisabeth M.",
-             "Gabriela O.",
-             "Mary S.",
-             "Sara S.",
-             "Katherine S.",
-             "Gabby T."];
+  let arr = ["Need names of new students"];
  
 function GFG_Fun() {
 
@@ -298,20 +283,15 @@ function GFG_Fun() {
 
 <script>
 
-  let arr2 = ["Teagan A.", 
-              "Mary Ann A.",
-              "Devin C.", 
-              "Rachel C.",
-              "Emma G.",
-              "Brianna G.",
-              "Sade H.",
-              "Alison N.",
-              "Sofia N.",
-              "Anastasia P.",
-              "Brooke R.",
-              "Noran S.",
-              "Worokiya T.",
-              "Sarah Z."];
+  let arr2 = ["Nishi A.", 
+              "Allin A.",
+              "Kirollos A.", 
+              "Litzy C.",
+              "David F.",
+              "Madelyn K.",
+              "Gregory L.",
+              "Liza R.",
+              "Julia V."];
  
 function GFG_Fun_2() {
 
