@@ -179,19 +179,12 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 ::: panel-tabset
 ### R01 Section
 
-**Meting time**: Fridays, <ins> 10:00am -- 11:20am <ins>
 
-**Lab Room**: Dealy 326
-
-**Lab instructor**: Fabio Setti
-
--   Email: fsetti\@fordham.edu
--   Office: [zoom](https://fordham.zoom.us/j/3973118536)
--   Office hours: [When to meet (TBD)](https://www.when2meet.com/?20669934-YsXJj){preview-link="true"}
+*needs updating. If you would like to use this slide, email me with your lab info*
 
 ### R02 Section
 
-**Meting time**: Fridays, <ins> 1:00pm - 2:20pm <ins>
+**Meting time**: Fridays, <ins> 8:30am - 9:50am <ins>
 
 **Lab Room**: Dealy 326
 
@@ -199,7 +192,7 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 -   Email: fsetti\@fordham.edu
 -   Office: [zoom](https://fordham.zoom.us/j/3973118536)
--   Office hours: [When to meet (TBD)](https://www.when2meet.com/?20669934-YsXJj){preview-link="true"}
+-   Office hours: [When to meet (TBD)](https://www.when2meet.com/?23102127-jy1rO){preview-link="true"}
 :::
 
 ## Lab Goals {.smaller}
