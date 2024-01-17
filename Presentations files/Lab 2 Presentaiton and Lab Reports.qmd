@@ -283,11 +283,13 @@ function GFG_Fun() {
 
 <script>
 
-  let arr2 = ["Nishi A.", 
-              "Allin A.",
-              "Kirollos A.", 
+  let arr2 = ["Nishi A.",
+              "Kirollos A.",
+              "Lauren B.",
               "Litzy C.",
+              "Medeleine E.", 
               "David F.",
+              "Briana G.",
               "Madelyn K.",
               "Gregory L.",
               "Liza R.",
