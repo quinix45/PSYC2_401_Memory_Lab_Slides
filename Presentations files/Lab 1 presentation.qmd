@@ -184,11 +184,11 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 
 ### R02 Section
 
-**Meting time**: Fridays, <ins> 8:30am - 9:50am <ins>
+**Meeting Time**: Fridays, <ins> 8:30am - 9:50am <ins>
 
 **Lab Room**: Dealy 326
 
-**Lab instructor**: Fabio Setti
+**Lab Instructor**: Fabio Setti
 
 -   Email: fsetti\@fordham.edu
 -   Office: [zoom](https://fordham.zoom.us/j/3973118536)
