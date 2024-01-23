@@ -72,10 +72,57 @@ editor: source
 
 ![](images/Introductions.png){.absolute top=-50 right=-50 width="140" height="90"}
 
+
+::: panel-tabset
+
+### R01 Section - Andreas
+
+
+::: {layout-ncol="2"}
+
+::: col
+
+::: {.fragment fragment-index="1"}
+My name is Andreas Bezahler [he/him/his]
+:::
+
+<ul style ="font-size:22px; padding-top: 15px;">
+
+::: {.fragment fragment-index="2"}
+<li style = "padding-top: 15px;"> I am a second year PhD student in the Clinical Psychology Doctoral Program (CPDP) </li> 
+:::
+
+::: {.fragment fragment-index="3"}
+<li style = "padding-top: 15px;"> I received my B.S. in Psychology at the University of Miami (Florida) and worked as a research assistant for two years at McLean Hospital, Harvard Medical School </li>
+:::
+
+::: {.fragment fragment-index="4"}
+<li style = "padding-top: 15px;"> Currently, I am in the Compulsions, Obsessions, and Anxiety (COAP) program at Fordham University, and Dr. Dean McKay is my mentor </li> 
+:::
+
+::: {.fragment fragment-index="5"}
+<li style = "padding-top: 15px;"> We focus on better understanding why OCD develops, how to improve its treatment, and the intersection of marginalized identities and outcomes </li> 
+:::
+
+</ul>
+:::
+
+::: col
+
+![](images/Andreas_intro.png)
+
+:::
+:::
+
+
+
+
+### R02 Section - Fabio 
+
 ::: {layout-ncol="2"}
 ::: col
 ::: {.fragment fragment-index="1"}
-Hi there, I am Fabio, an international student from Italy! 🍕 🤌
+Hi there, I am Fabio (he/him/his), an international student from Italy! 🍕 🤌
 :::
 
 ::: {.fragment fragment-index="2"}
@@ -104,6 +151,9 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 ![](images/Fordham_University_Keating_Hall.jpg){.fragment .fade-in width="500" fragment-index="4"}
 :::
 :::
+:::
+
+
 :::
 
 ## Your Turn! 🤗
@@ -179,8 +229,15 @@ Hi there, I am Fabio, an international student from Italy! 🍕 🤌
 ::: panel-tabset
 ### R01 Section
 
+**Meeting Time**: Thursdays, <ins> 2:30pm - 3:50pm <ins>
 
-*needs updating. If you would like to use this slide, email me with your lab info*
+**Lab Room**: Dealy 326
+
+**Lab Instructor**: Andreas Bezahler
+
+-   Email: abezahler@fordham.edu
+-   Office: [zoom](https://fordham.zoom.us/my/andreasbezahler)
+-   Office hours: By appointment
 
 ### R02 Section
 
