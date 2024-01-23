@@ -109,8 +109,10 @@ My name is Andreas Bezahler [he/him/his]
 
 ::: col
 
-![](images/Andreas_intro.png)
 
+::: {.fragment fragment-index="1"}
+![](images/Andreas_intro.png)
+:::
 :::
 :::
 
