@@ -149,11 +149,11 @@ After you are done, you are free to scroll to the top and read the “background
 ::: col
 
 ::: {.fragment fragment-index="1"}
-<p style="font-size: 26px;">  A classical example of this principle in the encoding specificity literature comes from Godden and Baddeley (1975):</p>
+<p style="font-size: 26px;">  A classical example of this principle in the encoding specificity literature comes from [Godden and Baddeley (1975)](https://psycnet.apa.org/record/1978-22375-001):</p>
 :::
 
 ::: {.fragment fragment-index="2"}
-<p style="font-size: 24px; padding-top: 25px;"> In this experiment, participants were asked *either* asked to learn a set of water under water or on land, and then asked to recall the learnt words *both* under water and on land. </p>
+<p style="font-size: 24px; padding-top: 25px;"> In this experiment, participants were asked to *either* learn a set of words under water or on land, and then asked to recall the learnt words *either* under water and on land. </p>
 :::
 
 ::: {.fragment fragment-index="3"}
