@@ -1389,7 +1389,7 @@ In the results section, you should present the statistics that test your hypothe
 
 
 :::{.fragment}
->A two-way ANOVA was performed to evaluate the effects of gender and college major on students’ Research Methods exam scores. The means and standard deviations for students’ Research Methods exam scores were *M* = 81.6 and *SD* = 10.2 respectively. The results indicated no significant main effect for gender, *F*(1, 54) = 0.09, *p* = .771; a significant main effect for major, *F*(2, 54) = 10.52, *p* < .001; and no significant interaction between gender and major, *F*(2, 54) = 0.23, *p* = .795. (taken from [ezspss.com](https://ezspss.com/how-to-report-a-two-way-anova-from-spss-in-apa-style/){target="blank"})
+>A two-way ANOVA was performed to evaluate the effects of gender and college major on students’ Research Methods exam scores. The means and standard deviations for...(here you need to report the means and standard deviations on the DV for **all the groups** that are being compared). The results indicated no significant main effect for gender, *F*(1, 54) = 0.09, *p* = .771; a significant main effect for major, *F*(2, 54) = 10.52, *p* < .001; and no significant interaction between gender and major, *F*(2, 54) = 0.23, *p* = .795. (taken from [ezspss.com](https://ezspss.com/how-to-report-a-two-way-anova-from-spss-in-apa-style/){target="blank"})
 
 :::
 
@@ -1403,7 +1403,7 @@ In the results section, you should present the statistics that test your hypothe
 :::
 
 :::{.fragment}
-<li>  Remember to include descriptive statistics (mean and standard deviation) of your variables at the beginning of your result section. </li>
+<li>  Remember to include descriptive statistics (mean and standard deviation) for the DV of your groups at the beginning of your result section. </li>
 :::
 
 :::{.fragment}
